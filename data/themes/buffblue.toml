@@ -1,0 +1,21 @@
+# Theme metadata
+name = "Buff and Blue"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#002f86"
+primary_light = "#d6ba8b"
+primary_dark = "#002f86"
+
+# Menu
+menu_primary = "#d6ba8b"
+menu_text = "#002f86"
+menu_text_active = "#127dd8"
+menu_title = "#000"
+
+# Backgrounds
+background = "#fff"
+home_section_odd = "rgb(255,255,255)"
+home_section_even = "rgba(0,0,0,.05)"

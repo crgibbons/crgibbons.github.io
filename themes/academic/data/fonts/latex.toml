@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Latex"
+
+# Optional Google font URL
+# google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono"
+
+# Font families
+heading_font = "Computer Modern"
+body_font = "Computer Modern"
+nav_font = "Computer Modern"
+mono_font = "Computer Modern"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

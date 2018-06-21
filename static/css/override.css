@@ -1,0 +1,20 @@
+@import url(../ComputerModern/Serif/cmun-serif.css);
+
+/*html {
+  font-family: "Computer Modern Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}*/
+
+body {
+  font-size: 16px;
+/*  line-height: 1.846;
+  color: #666666;*/
+  background-color: #ffffff;
+  background-image: Config/cupola.gif;
+  background-repeat: repeat;}
+
+/*a {
+	color: #127DD6;
+}*/
+

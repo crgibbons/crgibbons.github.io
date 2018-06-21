@@ -266,7 +266,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "cv"
     icon_pack = "ai"
-    link = "static/files/CV.pdf"
+    link = "files/CV.pdf"
 
 
 # Navigation Links

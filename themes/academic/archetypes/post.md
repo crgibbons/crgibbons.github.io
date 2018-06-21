@@ -1,12 +1,12 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
-draft = false
+title = "How to study for Linear Algebra exams"
+date = 2018-06-21T00:00:00
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
+tags = ["proofs", "studying", "linear algebra"]
+categories = ["teaching"]
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

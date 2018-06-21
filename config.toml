@@ -56,15 +56,13 @@ enableGitInfo = false
   # Your details.
   name = "Courtney Gibbons"
   role = "Assistant Professor of Mathematics"
-  short_office = "109 CJ Hall"
-  full_phone = "(315) 859-4886"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Hamilton College", url = "" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "crgibbon@hamilton.edu"
   address = "109 Christian A. Johnson, Hamilton College, 198 College Hill Road, Clinton, NY 13323 "
   office_hours = "MW 2-4pm and TF 1-2pm, or by appointment"
@@ -108,7 +106,7 @@ enableGitInfo = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "3:04pm"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -151,7 +149,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["latex"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -183,6 +181,11 @@ enableGitInfo = false
     'Book',  # 5
     'Book section'  # 6
   ]
+
+  # Extra featurette bits?
+  [params.extra]
+    short_office = "109 CJ Hall"
+    full_phone = "(315) 859-4886"
 
   # Configuration of talk pages.
   [params.talks]
@@ -245,15 +248,25 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "//github.com/crgibbons"
 
-  [[params.social]]
-    icon = "orcid"
-    icon_pack = "ai"
-    link = "https://orcid.org/0000-0002-9016-7597"
+  # [[params.social]]
+  #  icon = "orcid"
+  #  icon_pack = "ai"
+  #  link = "https://orcid.org/0000-0002-9016-7597"
+
+  # [[params.social]]
+  #  icon = "youtube"
+  #  icon_pack = "fa"
+  #  link = ""
 
   [[params.social]]
-    icon = "youtube"
-    icon_pack = "fa"
-    link = ""
+    icon = "arxiv"
+    icon_pack = "ai"
+    link = "http://arxiv.org/a/gibbons_c_1"
+
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "static/files/CV.pdf"
 
 
 # Navigation Links
@@ -275,29 +288,34 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
-  name = "Research"
+  name = "Papers"
   url = "#publications_selected"
   weight = 3
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching" 
+  name = "Talks"
+  url = "#talks_selected"
   weight = 4
 
 [[menu.main]]
-  name = "Service"
-  url = "#service"
+  name = "Teaching"
+  url = "#teaching" 
   weight = 5
+
+# [[menu.main]]
+# name = "Service"
+#  url = "#service"
+#  weight = 5
 
 [[menu.main]]
   name = "Blog"
   url = "#posts"
   weight = 6
 
-[[menu.main]]
-  name = "CV"
-  url = "files/CV.pdf"
-  weight = 7
+# [[menu.main]]
+#  name = "CV"
+#  url = "files/CV.pdf"
+#  weight = 7
 
 # Taxonomies.
 [taxonomies]

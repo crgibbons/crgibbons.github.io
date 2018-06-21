@@ -20,7 +20,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = "/static/files/research/SIAMAAG17-graphical-models.pdf"
+url_slides = "/files/research/SIAMAAG17-graphical-models.pdf"
 url_video = ""
 url_code = ""
 

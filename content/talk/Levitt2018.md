@@ -20,7 +20,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = "/static/files/research/Gerrymandering.pdf"
+url_slides = "files/research/Gerrymandering.pdf"
 url_video = ""
 url_code = ""
 

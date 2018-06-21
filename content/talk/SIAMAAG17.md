@@ -2,8 +2,8 @@
 date = 2018-06-21T00:00:00  # Schedule page publish date.
 
 title = "Maximum Likelihood Degrees for Discrete Random Models"
-time_start = 2017-08-04T03:30:00
-time_end = 2017-08-04T03:55:00
+time_start = 2017-08-04T15:30:00
+time_end = 2017-08-04T15:55:00
 abstract = "The goal of this talk is to highlight a theorem proved during the Mathematical Research Community: Algebraic Statistics summer program by the Likelihood Geometry group. This group was led by Serkan Hosten and Jose Israel Rodriguez. In the talk, I will focus on the application of the theorem to graphical models."
 abstract_short = ""
 event = "SIAM Applied Algebraic Geometry Meeting: Likelihood Geometry Minisymposium"
@@ -20,7 +20,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = "static/files/research/SIAMAAG17-graphical-models.pdf"
+url_slides = "/static/files/research/SIAMAAG17-graphical-models.pdf"
 url_video = ""
 url_code = ""
 

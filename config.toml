@@ -23,7 +23,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-121170340-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -54,12 +54,12 @@ enableGitInfo = false
   font = "latex"
 
   # Your details.
-  name = "Courtney Gibbons"
+  name = "Courtney R. Gibbons"
   role = "Assistant Professor of Mathematics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Hamilton College", url = "" } ]
+  organizations = [ { name = "Hamilton College", url = "http://www.hamilton.edu" }, { name = "Office Hours: 2-4pm MW, 1-3pm TF" , url="" }, { name = "109 Christian A. Johnson Hall" , url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -302,11 +302,6 @@ enableGitInfo = false
   url = "#teaching" 
   weight = 5
 
-# [[menu.main]]
-# name = "Service"
-#  url = "#service"
-#  weight = 5
-
 [[menu.main]]
   name = "Blog"
   url = "#posts"
@@ -329,6 +324,8 @@ enableGitInfo = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+# Override description?
 
 # Override css
   custom_css = ["override.css"] 

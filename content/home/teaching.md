@@ -11,14 +11,15 @@ title = "Teaching"
 subtitle = "Spring 2018"
 
 # Order that this section will appear in.
-weight = 15
+weight = 55
 
 ### I want something like:
 # course
 # with properties: year, section, days and time 1, days and time 2, ta, syllabus-link, priority
 
-
 +++
+
+Students, please see [Blackboard](http://blackboard.hamilton.edu) for the most up-to-date course information.
 
 | Calculus 2 |  |  |  |
 | --- | --- | --- | --- |

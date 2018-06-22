@@ -60,6 +60,12 @@
         {{ end }}
       </ul>
 
+      {{ with $page.Params.quote }}
+        {{ range .quotes }}
+        <blockquote class="motivation"><span class="quote">{{ .text }}<span> <br /><span class="author">—{{ .author }}</span></blockquote>
+        {{ end }}
+      {{ end }}
+
     </div>
   </div>
   <div class="col-xs-12 col-md-8" itemprop="description">

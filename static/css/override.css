@@ -17,6 +17,21 @@ body {
   background-image: /img/cupola.gif;
   background-repeat: repeat;}
 
+blockquote.motivation {
+	font-size: 1.3em;
+	padding: .5rem 0rem;
+	border: 0;
+	text-align: right;
+}
+
+span.quote {
+	font-style: italic;
+}
+
+span.author {
+	font-style: normal;
+}
+
 /*a {
 	color: #127DD6;
 }*/

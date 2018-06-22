@@ -7,6 +7,11 @@ date = 2018-06-21T00:00:00
 # Order that this section will appear in.
 weight = 5
 
+# Motivational Quote
+[[quote.quotes]]
+    author = "Paulo Coehlo"
+    text = "Whenever we do something that fills us with enthusiasm, we are following our legend."
+
 # List your academic interests.
 [interests]
   interests = [

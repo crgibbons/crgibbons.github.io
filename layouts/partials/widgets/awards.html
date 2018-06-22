@@ -2,7 +2,7 @@
 {{ $page := .page }}
 {{ $autolink := default true $page.Params.autolink }}
 
-<!-- Awards widget -->
+<!-- (old) Awards widget -->
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
@@ -15,4 +15,90 @@
     </div>
   </div>
 
-</div>
+
+<!-- (new) Awards widget -->
+
+<div class="col-xs-12 col-md-8" itemprop="description">
+
+    {{ $page.Content }}
+
+    <div class="row">
+
+      {{ with $page.Params.awards }}
+      <div class="col-sm-12">
+        <h3>Awards and Honors</h3>
+        <ul class="ul-awards fa-ul">
+          {{ range .awards }}
+          <li>
+            <i class="fa-li fa fa-trophy"></i>
+            <div class="description">
+              <p class="award">{{ .name }}</p>
+              <p class="institution">{{ .institution }}{{ with .year }}, {{ . }}{{ end }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+
+      {{ with $page.Params.awards }}
+      <div class="col-sm-5">
+        <h3>Grant Support</h3>
+        <ul class="ul-awards fa-ul">
+          {{ range .grants }}
+          <li>
+            <i class="fa-li fa fa-trophy"></i>
+            <div class="description">
+              <p class="grant">
+              {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+              	{{ .name }}
+          	  {{ if .url }} </a> {{end}} </p>
+              <p class="number">
+              {{ with .numberurl }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+              	 {{ .number }}
+              {{ if .numberurl }}</a> {{ end }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+       </div>
+      {{ end }}
+
+      {{ with $page.Params.awards }}
+      <div class="col-sm-7">
+        <h3>Professional Memberships</h3>
+        <ul class="ul-awards fa-ul">
+          {{ range .societies }}
+          <li>
+            <i class="fa-li fa fa-university"></i>
+            <div class="description">
+              {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+              	{{ .name }}
+          	  {{ if .url }} </a> {{end}} </p>
+              {{ range .roles }}
+              	{{ with .role }}<p class="role">{{ . }}</p>{{ end }}
+              {{ end }}
+            </div>
+          </li>
+          {{ end }}
+          {{ range .honorsocieties }}
+          <li>
+            <i class="fa-li fa fa-key"></i>
+            <div class="description">
+              {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+              	{{ .name }}
+          	  {{ if .url }} </a> {{end}} </p>
+              {{ range .roles }}
+          		{{ with .role }} <p class="role ">{{ . }} </p>{{ end }}
+          	  {{ end }}
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+       </div>
+      {{ end }}
+
+    </div>
+   </div>
+ </div>

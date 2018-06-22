@@ -10,6 +10,11 @@
 	  font-size: .8em;
 }
 
+#awards	{
+	  font-size: .8em;
+}
+
+
 body {
 /*line-height: 1.846;
   color: #666666;*/
@@ -31,6 +36,43 @@ span.quote {
 span.author {
 	font-style: normal;
 }
+
+ul.ul-awards li .description p {
+    margin: 0;
+}
+
+ul.ul-awards li .description p.award {
+    font-size: 0.9rem;
+}
+
+ul.ul-awards li .description p.grant {
+    font-size: 0.9rem;
+}
+
+ul.ul-awards li .description p.society a {
+    font-size: 0.9rem;
+}
+
+ul.ul-awards li .description p.institution {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: rgba(0,0,0,0.6);
+}
+
+ul.ul-awards li .description p.number {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: rgba(0,0,0,0.6);
+}
+
+ul.ul-awards li .description p.role {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: rgba(0,0,0,0.6);
+}
+
+
+
 
 /*a {
 	color: #127DD6;

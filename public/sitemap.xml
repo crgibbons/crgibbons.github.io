@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/post/studying-linear-algebra/</loc>
+      <loc>/Academic-Website/public/post/studying-linear-algebra/</loc>
       <lastmod>2018-06-21T15:37:31-04:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/talk/siamaag17/</loc>
+      <loc>/Academic-Website/public/talk/siamaag17/</loc>
       <lastmod>2018-06-21T17:00:03-04:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/talk/levitt2018/</loc>
+      <loc>/Academic-Website/public/talk/levitt2018/</loc>
       <lastmod>2018-06-21T17:00:03-04:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/publication/ghspaper2018/</loc>
+      <loc>/Academic-Website/public/publication/ghspaper2018/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/publication/reupaper/</loc>
+      <loc>/Academic-Website/public/publication/reupaper/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/publication/maximumlikelihood/</loc>
+      <loc>/Academic-Website/public/publication/maximumlikelihood/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>/Academic-Website/public/post/</loc>
       <lastmod>2018-06-20T21:35:03-04:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>/Academic-Website/public/publication/</loc>
       <lastmod>2018-06-20T21:35:03-04:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>/Academic-Website/public/talk/</loc>
       <lastmod>2018-06-20T21:35:03-04:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/course/deep-learning/</loc>
+      <loc>/Academic-Website/public/course/deep-learning/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/course/example-external-project/</loc>
+      <loc>/Academic-Website/public/course/example-external-project/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>/publication/glaisonpaul/</loc>
+      <loc>/Academic-Website/public/publication/glaisonpaul/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>/publication/granola/</loc>
+      <loc>/Academic-Website/public/publication/granola/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>/publication/msripaper/</loc>
+      <loc>/Academic-Website/public/publication/msripaper/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>/publication/glaison1/</loc>
+      <loc>/Academic-Website/public/publication/glaison1/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>/publication/mrcpaper/</loc>
+      <loc>/Academic-Website/public/publication/mrcpaper/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
     </url>
     
@@ -149,17 +149,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
-      <lastmod>2018-06-21T22:21:11-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/3/</loc>
+      <loc>/Academic-Website/public/publication_types/2/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -169,7 +159,7 @@
     
     <url>
     
-      <loc>/tags/boij-soederberg/</loc>
+      <loc>/Academic-Website/public/publication_types/3/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -179,7 +169,7 @@
     
     <url>
     
-      <loc>/tags/calculus/</loc>
+      <loc>/Academic-Website/public/tags/boij-soederberg/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -189,16 +179,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/course/</loc>
+      <loc>/Academic-Website/public/tags/calculus/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -208,7 +189,26 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>/Academic-Website/public/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/Academic-Website/public/course/</loc>
+      <lastmod>2018-06-21T22:21:11-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/Academic-Website/public/</loc>
       <lastmod>2018-06-22T00:00:58-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -218,7 +218,7 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
+      <loc>/Academic-Website/public/tags/deep-learning/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -228,7 +228,7 @@
     
     <url>
     
-      <loc>/tags/demo/</loc>
+      <loc>/Academic-Website/public/tags/demo/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -238,7 +238,7 @@
     
     <url>
     
-      <loc>/tags/graph-theory/</loc>
+      <loc>/Academic-Website/public/tags/graph-theory/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>/tags/linear-algebra/</loc>
+      <loc>/Academic-Website/public/tags/linear-algebra/</loc>
       <lastmod>2018-06-21T15:37:31-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -258,7 +258,7 @@
     
     <url>
     
-      <loc>/tags/proofs/</loc>
+      <loc>/Academic-Website/public/tags/proofs/</loc>
       <lastmod>2018-06-21T15:37:31-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -268,7 +268,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>/Academic-Website/public/publication_types/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -278,7 +278,7 @@
     
     <url>
     
-      <loc>/tags/studying/</loc>
+      <loc>/Academic-Website/public/tags/studying/</loc>
       <lastmod>2018-06-21T15:37:31-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -288,7 +288,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>/Academic-Website/public/tags/</loc>
       <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -298,18 +298,18 @@
     
     <url>
     
-      <loc>/tags/teaching/</loc>
-      <lastmod>2018-06-21T22:21:11-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/teaching/</loc>
+      <loc>/Academic-Website/public/categories/teaching/</loc>
       <lastmod>2018-06-21T15:37:31-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/Academic-Website/public/tags/teaching/</loc>
+      <lastmod>2018-06-21T22:21:11-04:00</lastmod>
       <priority>0</priority>
     </url>
     

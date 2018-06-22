@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graph Theory on Courtney R. Gibbons</title>
-    <link>/tags/graph-theory/</link>
+    <link>/Academic-Website/public/tags/graph-theory/</link>
     <description>Recent content in Graph Theory on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 07 Jan 2015 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/tags/graph-theory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Academic-Website/public/tags/graph-theory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/</link>
+      <link>/Academic-Website/public/publication/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/glaisonpaul/</guid>
+      <guid>/Academic-Website/public/publication/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/</link>
+      <link>/Academic-Website/public/publication/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/glaison1/</guid>
+      <guid>/Academic-Website/public/publication/glaison1/</guid>
       <description></description>
     </item>
     

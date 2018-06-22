@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boij-Soederberg on Courtney R. Gibbons</title>
-    <link>/tags/boij-soederberg/</link>
+    <link>/Academic-Website/public/tags/boij-soederberg/</link>
     <description>Recent content in Boij-Soederberg on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/boij-soederberg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Academic-Website/public/tags/boij-soederberg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/ghspaper2018/</link>
+      <link>/Academic-Website/public/publication/ghspaper2018/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/ghspaper2018/</guid>
+      <guid>/Academic-Website/public/publication/ghspaper2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/msripaper/</link>
+      <link>/Academic-Website/public/publication/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/msripaper/</guid>
+      <guid>/Academic-Website/public/publication/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/mrcpaper/</link>
+      <link>/Academic-Website/public/publication/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/mrcpaper/</guid>
+      <guid>/Academic-Website/public/publication/mrcpaper/</guid>
       <description></description>
     </item>
     

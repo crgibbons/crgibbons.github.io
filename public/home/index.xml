@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Courtney R. Gibbons</title>
-    <link>/home/</link>
+    <link>/Academic-Website/public/home/</link>
     <description>Recent content in Posts on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Academic-Website/public/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>/Academic-Website/public/home/about/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>/Academic-Website/public/home/about/</guid>
       <description>Biography Professor Courtney Gibbons joined the faculty at Hamilton College in July, 2013 and is currently an assistant professor of mathematics. She studies commutative and homological algebra, and her primary research interest is the study of infinite free resolutions (often through the lens of Boij-Soderberg theory). Gibbons also has a secondary interest in algebraic statistics (particularly maximum likelihood degree of toric varieties arising from statistical models). Since coming to Hamilton College, Professor Gibbons has supervised a handful of commutative algebra undergraduate research projects at Hamilton and the Willamette Valley Mathematics Consortium REU.</description>
     </item>
     
     <item>
       <title>Awards, Grants, and Professional Affiliations</title>
-      <link>/home/awards/</link>
+      <link>/Academic-Website/public/home/awards/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/awards/</guid>
+      <guid>/Academic-Website/public/home/awards/</guid>
       <description> Awards and Fellowships The John R. Hatch Class of 1925 Excellence in Teaching Award, Hamilton College 2015  Project NExT Fellow, Mathematical Association of America 2013 Outstanding Graduate Teaching Assistant, UNL College of Arts and Sciences 2011  Emeritus Faculty Fellow, UNL Department of Mathematics 2010  Graduate Fellowship, UNL College of Arts and Sciences 2009  Outstanding Qualifying Exams, UNL Department of Mathematics 2008  Florian Cajori Prize in Mathematics, The Colorado College 2006  Grant-Supported Activity  Discovery-Based Algebra Activities, Hamilton Class of 1966 Career Development Award Summer 2016  WMC REU Research Mentor, NSF Grant #DMS-1460982 Summer 2015  KUMUNUjr Co-PI, NSF Grant #DMS-1303248 S 2013  Graduate Researcher, NSF Grant #DMS-1103176 S 2012  GAANN Trainee, DOE Grant #200A90002 Summer–F 2010  NebraskaMATH Assistant, NSF Grant #DUE-1035268 Summer 2011, 2012; F 2012  Project Fulcrum Resident Scientist, NSF Grant #DGE-0086358 F 2009–S 2010  MCTP Trainee, NSF Grant #DMS-0838463 Summer 2007–Summer 2008  Professional Memberships and Honor Societies  American Mathematical Society Association for Women in Mathematics Member, Policy and Advocacy Committee Mathematics Association of America  Society for Industrial and Applied Mathematics  National Association of Mathematicians  Golden Key Honor Society Phi Beta Kappa (ΦBK) President, Epsilon Chapter of New York  </description>
     </item>
     
     <item>
       <title>Recent Papers and Preprints</title>
-      <link>/home/publications/</link>
+      <link>/Academic-Website/public/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>/Academic-Website/public/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>/Academic-Website/public/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>/Academic-Website/public/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>/Academic-Website/public/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>/Academic-Website/public/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>/Academic-Website/public/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>/Academic-Website/public/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>/home/courses/</link>
+      <link>/Academic-Website/public/home/courses/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/courses/</guid>
+      <guid>/Academic-Website/public/home/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>/Academic-Website/public/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>/Academic-Website/public/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <link>/Academic-Website/public/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>/Academic-Website/public/home/teaching/</guid>
       <description>Students, please see Blackboard for the most up-to-date course information.
    Calculus 2        Section 02 MWF 10-10:50am 104 Benedict Hall of Langvages    T 12-12:50pm 125 Kirner-Johnson Hall   Section 03 MWF 11-11:50am 104 Benedict Hall of Langvages    T 12-12:50pm 125 Kirner-Johnson Hall       Linear Algebra        Section 01 MWF 9-9:50am 201 Benedict Hall of Langvages    </description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>/Academic-Website/public/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>/Academic-Website/public/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>/Academic-Website/public/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>/Academic-Website/public/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Calendar</title>
-      <link>/home/calendar/</link>
+      <link>/Academic-Website/public/home/calendar/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/home/calendar/</guid>
+      <guid>/Academic-Website/public/home/calendar/</guid>
       <description> </description>
     </item>
     

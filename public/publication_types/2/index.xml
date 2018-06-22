@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Courtney R. Gibbons</title>
-    <link>/publication_types/2/</link>
+    <link>/Academic-Website/public/publication_types/2/</link>
     <description>Recent content in 2 on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Tue, 11 Apr 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Academic-Website/public/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/reupaper/</link>
+      <link>/Academic-Website/public/publication/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/reupaper/</guid>
+      <guid>/Academic-Website/public/publication/reupaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/maximumlikelihood/</link>
+      <link>/Academic-Website/public/publication/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/maximumlikelihood/</guid>
+      <guid>/Academic-Website/public/publication/maximumlikelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/</link>
+      <link>/Academic-Website/public/publication/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/glaisonpaul/</guid>
+      <guid>/Academic-Website/public/publication/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandma makes Granola</title>
-      <link>/publication/granola/</link>
+      <link>/Academic-Website/public/publication/granola/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/granola/</guid>
+      <guid>/Academic-Website/public/publication/granola/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/msripaper/</link>
+      <link>/Academic-Website/public/publication/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/msripaper/</guid>
+      <guid>/Academic-Website/public/publication/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/</link>
+      <link>/Academic-Website/public/publication/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/glaison1/</guid>
+      <guid>/Academic-Website/public/publication/glaison1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/mrcpaper/</link>
+      <link>/Academic-Website/public/publication/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/mrcpaper/</guid>
+      <guid>/Academic-Website/public/publication/mrcpaper/</guid>
       <description></description>
     </item>
     

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Courtney R. Gibbons</title>
-    <link>/tags/</link>
+    <link>/Academic-Website/public/tags/</link>
     <description>Recent content in Tags on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Academic-Website/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Boij-Soederberg</title>
-      <link>/tags/boij-soederberg/</link>
+      <link>/Academic-Website/public/tags/boij-soederberg/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
       
-      <guid>/tags/boij-soederberg/</guid>
+      <guid>/Academic-Website/public/tags/boij-soederberg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Calculus</title>
-      <link>/tags/calculus/</link>
+      <link>/Academic-Website/public/tags/calculus/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/tags/calculus/</guid>
+      <guid>/Academic-Website/public/tags/calculus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep-learning</title>
-      <link>/tags/deep-learning/</link>
+      <link>/Academic-Website/public/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/Academic-Website/public/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>/tags/demo/</link>
+      <link>/Academic-Website/public/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/tags/demo/</guid>
+      <guid>/Academic-Website/public/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph Theory</title>
-      <link>/tags/graph-theory/</link>
+      <link>/Academic-Website/public/tags/graph-theory/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/tags/graph-theory/</guid>
+      <guid>/Academic-Website/public/tags/graph-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linear algebra</title>
-      <link>/tags/linear-algebra/</link>
+      <link>/Academic-Website/public/tags/linear-algebra/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/tags/linear-algebra/</guid>
+      <guid>/Academic-Website/public/tags/linear-algebra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proofs</title>
-      <link>/tags/proofs/</link>
+      <link>/Academic-Website/public/tags/proofs/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/tags/proofs/</guid>
+      <guid>/Academic-Website/public/tags/proofs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studying</title>
-      <link>/tags/studying/</link>
+      <link>/Academic-Website/public/tags/studying/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/tags/studying/</guid>
+      <guid>/Academic-Website/public/tags/studying/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/tags/teaching/</link>
+      <link>/Academic-Website/public/tags/teaching/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/tags/teaching/</guid>
+      <guid>/Academic-Website/public/tags/teaching/</guid>
       <description></description>
     </item>
     

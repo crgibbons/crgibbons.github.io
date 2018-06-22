@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courtney R. Gibbons on Courtney R. Gibbons</title>
-    <link>/</link>
+    <link>/Academic-Website/public/</link>
     <description>Recent content in Courtney R. Gibbons on Courtney R. Gibbons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 21 Jun 2018 00:00:00 -0400</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <atom:link href="/Academic-Website/public/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to study for Linear Algebra exams</title>
-      <link>/post/studying-linear-algebra/</link>
+      <link>/Academic-Website/public/post/studying-linear-algebra/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/post/studying-linear-algebra/</guid>
+      <guid>/Academic-Website/public/post/studying-linear-algebra/</guid>
       <description>&lt;p&gt;For math exams in general, it can be useful to form a study group to talk over problems and solutions before the exams.  It&amp;rsquo;s also useful to retry problems you&amp;rsquo;ve seen on homeworks, quizzes, and writing assignments (without looking at your previous attempt or the graders&amp;rsquo; comments) to figure out what you need to focus on studying.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -68,55 +68,55 @@ and then to write a proof that starts with &amp;ldquo;Proof&amp;rdquo; and ends 
     
     <item>
       <title>Maximum Likelihood Degrees for Discrete Random Models</title>
-      <link>/talk/siamaag17/</link>
+      <link>/Academic-Website/public/talk/siamaag17/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/talk/siamaag17/</guid>
+      <guid>/Academic-Website/public/talk/siamaag17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gerrymandering: The Math Behind the Madness.</title>
-      <link>/talk/levitt2018/</link>
+      <link>/Academic-Website/public/talk/levitt2018/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>/talk/levitt2018/</guid>
+      <guid>/Academic-Website/public/talk/levitt2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/ghspaper2018/</link>
+      <link>/Academic-Website/public/publication/ghspaper2018/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/ghspaper2018/</guid>
+      <guid>/Academic-Website/public/publication/ghspaper2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/reupaper/</link>
+      <link>/Academic-Website/public/publication/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/reupaper/</guid>
+      <guid>/Academic-Website/public/publication/reupaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/maximumlikelihood/</link>
+      <link>/Academic-Website/public/publication/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
       
-      <guid>/publication/maximumlikelihood/</guid>
+      <guid>/Academic-Website/public/publication/maximumlikelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>/course/deep-learning/</link>
+      <link>/Academic-Website/public/course/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/course/deep-learning/</guid>
+      <guid>/Academic-Website/public/course/deep-learning/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -131,55 +131,55 @@ and then to write a proof that starts with &amp;ldquo;Proof&amp;rdquo; and ends 
     
     <item>
       <title>External Project</title>
-      <link>/course/example-external-project/</link>
+      <link>/Academic-Website/public/course/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/course/example-external-project/</guid>
+      <guid>/Academic-Website/public/course/example-external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/</link>
+      <link>/Academic-Website/public/publication/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/glaisonpaul/</guid>
+      <guid>/Academic-Website/public/publication/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandma makes Granola</title>
-      <link>/publication/granola/</link>
+      <link>/Academic-Website/public/publication/granola/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/granola/</guid>
+      <guid>/Academic-Website/public/publication/granola/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/msripaper/</link>
+      <link>/Academic-Website/public/publication/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
       
-      <guid>/publication/msripaper/</guid>
+      <guid>/Academic-Website/public/publication/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/</link>
+      <link>/Academic-Website/public/publication/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/glaison1/</guid>
+      <guid>/Academic-Website/public/publication/glaison1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/mrcpaper/</link>
+      <link>/Academic-Website/public/publication/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
       
-      <guid>/publication/mrcpaper/</guid>
+      <guid>/Academic-Website/public/publication/mrcpaper/</guid>
       <description></description>
     </item>
     

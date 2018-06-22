@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = ""
+baseurl = "/"
 
 # Title of your site
 title = "Courtney R. Gibbons"
@@ -56,10 +56,13 @@ enableGitInfo = true
   # Your details.
   name = "Courtney R. Gibbons"
   role = "Assistant Professor of Mathematics"
+  phoneext = "x4886"
+  shortoffice = "CJ 109"
+  officehours = [ { times = "Mo,We, 14:00-16:00,Tu,Fr 13:00-14:00", shorttimes = "MW 2-4pm, TF 1-2pm"} ]
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Hamilton College", url = "http://www.hamilton.edu" }, { name = "Office Hours in CJ 109" , url="" }, { name = "2-4pm MW, 1-3pm TF" , url = "" } ]
+  organizations = [ { name = "Hamilton College", url = "http://www.hamilton.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.

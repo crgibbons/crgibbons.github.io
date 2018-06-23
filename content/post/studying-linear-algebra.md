@@ -54,5 +54,5 @@ Prof. Gibbons' Linear Algebra exams should take you about 90 minutes to complete
 
 * These questions will require you to form a Proposition (that is, a *universally quantified implication*: 
     * **Proposition.** For all ..., if ..., then ... .
-    and then to write a proof that starts with "Proof" and ends with an end-of-proof symbol like $\qedsymbol$ or QED.  Your first and last sentences should conform to good style (state your assumptions in the first sentences, do the math, and then conclude what the proof technique you're using requires you to conclude).
+    and then to write a proof that starts with "Proof" and ends with an end-of-proof symbol like $\square$ or QED.  Your first and last sentences should conform to good style (state your assumptions in the first sentences, do the math, and then conclude what the proof technique you're using requires you to conclude).
 * One problem will come from a writing assignment or class groupwork, so you will have seen it before.  Another problem will be new, but it will use the same techniques as in class and on writing assignments (like letting $r$ and $s$ be real numbers where $r+s = 1$ in order to come up something new from two existing things, or using the logical equivalence $$p \implies (q \lor r) \equiv (p \land \lnot q) \implies r).$$

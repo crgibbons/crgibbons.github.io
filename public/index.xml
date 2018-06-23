@@ -11,6 +11,58 @@
     <atom:link href="/Academic-Website/public/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Quotes in LaTeX</title>
+      <link>/Academic-Website/public/post/quotes-in-latex/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/Academic-Website/public/post/quotes-in-latex/</guid>
+      <description>&lt;p&gt;If you try to use &lt;code&gt;&amp;quot;...&amp;quot;&lt;/code&gt;  in $\LaTeX$, you&amp;rsquo;ll notice you get wacky quotes. To get quotes to show up properly, use the backtick &lt;code&gt;`&lt;/code&gt;  twice for the start quotes and the apostrophe &lt;code&gt;&#39;&lt;/code&gt; twice for the end quotes, like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;``Aha!&#39;&#39; she remarked. 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Searcing for a LaTeX symbol</title>
+      <link>/Academic-Website/public/post/detexify/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/Academic-Website/public/post/detexify/</guid>
+      <description>&lt;p&gt;Know you want to $\LaTeX$ up a summation symbol, but don&amp;rsquo;t know the command to use?  Don&amp;rsquo;t stress!  Head to &lt;a href=&#34;http://detexify.kirelabs.org/classify.html&#34; target=&#34;_blank&#34;&gt;DeTexify&lt;/a&gt; and draw what you&amp;rsquo;re looking for:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/Academic-Website/public/img/blog/detexify.png&#34; alt=&#34;DeTexify screenshot showing results for a handdrawn Sigma. The fourth result is highlighted&#34; title=&#34;DeTexify screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that there are a few results.  The one we want is the highlighted one, which tells us to use &lt;code&gt;\sum&lt;/code&gt; within math mode.  For example, to produce
+$$\sum_{j = 1}^{n} \mathrm{Col}_j(A)$$ we use the code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$\sum_{j = 1}^{n} \mathrm{Col}_j(A)$        %inline version
+\[                                          
+    \sum_{j = 1}^{n} \mathrm{Col}_j(A)      %display version
+\]                                          
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(we need enclosing &lt;code&gt;$ ... $&lt;/code&gt; or &lt;code&gt;\[ ... \]&lt;/code&gt; because &lt;code&gt;\sum&lt;/code&gt; only works in math mode).&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s say you actually weren&amp;rsquo;t interested in the summation symbol but really wanted to typeset a fancy greek Sigma like in the third result. You&amp;rsquo;ll notice an extra &lt;code&gt;\usepackage&lt;/code&gt; parameter, meaning that this symbol isn&amp;rsquo;t included in $\LaTeX$ by default.  That&amp;rsquo;s okay.  Just add the code   &lt;code&gt;\usepackage{upgreek}&lt;/code&gt;
+to your preamble so that you can use &lt;code&gt;$\Upsigma$&lt;/code&gt; in the body of your $\LaTeX$ document:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;\documentclass{article}
+    \usepackage{amsmath,amssymb,amsthm}  % if you&#39;re using one of my templates, you have these
+    \usepackage{upgreek}                            % you&#39;ll have to add this yourself
+        
+        ...
+        
+\begin{document}
+    Here is my fancy $\Upsigma$!
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a little homework: use DeTexify to figure out what package you need to typeset $\eth$.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to study for Linear Algebra exams</title>
       <link>/Academic-Website/public/post/studying-linear-algebra/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
@@ -59,7 +111,7 @@ and others.  The matrix $\begin{bmatrix} 2&amp;amp; 6 \\ 3 &amp;amp; 1 \end{bmat
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Proposition.&lt;/strong&gt; For all &amp;hellip;, if &amp;hellip;, then &amp;hellip; .
-and then to write a proof that starts with &amp;ldquo;Proof&amp;rdquo; and ends with an end-of-proof symbol like $\qedsymbol$ or QED.  Your first and last sentences should conform to good style (state your assumptions in the first sentences, do the math, and then conclude what the proof technique you&amp;rsquo;re using requires you to conclude).&lt;/li&gt;
+and then to write a proof that starts with &amp;ldquo;Proof&amp;rdquo; and ends with an end-of-proof symbol like $\square$ or QED.  Your first and last sentences should conform to good style (state your assumptions in the first sentences, do the math, and then conclude what the proof technique you&amp;rsquo;re using requires you to conclude).&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;One problem will come from a writing assignment or class groupwork, so you will have seen it before.  Another problem will be new, but it will use the same techniques as in class and on writing assignments (like letting $r$ and $s$ be real numbers where $r+s = 1$ in order to come up something new from two existing things, or using the logical equivalence $$p \implies (q \lor r) \equiv (p \land \lnot q) \implies r).$$&lt;/li&gt;
 &lt;/ul&gt;

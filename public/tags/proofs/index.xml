@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 21 Jun 2018 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jun 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/Academic-Website/public/tags/proofs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quotes in LaTeX</title>
+      <link>/Academic-Website/public/post/quotes-in-latex/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/Academic-Website/public/post/quotes-in-latex/</guid>
+      <description>If you try to use &amp;quot;...&amp;quot; in $\LaTeX$, you&amp;rsquo;ll notice you get wacky quotes. To get quotes to show up properly, use the backtick ` twice for the start quotes and the apostrophe &#39; twice for the end quotes, like so:
+``Aha!&#39;&#39; she remarked.  </description>
+    </item>
+    
+    <item>
+      <title>Searcing for a LaTeX symbol</title>
+      <link>/Academic-Website/public/post/detexify/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/Academic-Website/public/post/detexify/</guid>
+      <description>Know you want to $\LaTeX$ up a summation symbol, but don&amp;rsquo;t know the command to use? Don&amp;rsquo;t stress! Head to DeTexify and draw what you&amp;rsquo;re looking for:
+Notice that there are a few results. The one we want is the highlighted one, which tells us to use \sum within math mode. For example, to produce $$\sum_{j = 1}^{n} \mathrm{Col}_j(A)$$ we use the code
+$\sum_{j = 1}^{n} \mathrm{Col}_j(A)$ %inline version \[ \sum_{j = 1}^{n} \mathrm{Col}_j(A) %display version \]  (we need enclosing $ .</description>
+    </item>
     
     <item>
       <title>How to study for Linear Algebra exams</title>

@@ -58,9 +58,18 @@
     </item>
     
     <item>
+      <title>Latex</title>
+      <link>/Academic-Website/public/tags/latex/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/Academic-Website/public/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linear algebra</title>
       <link>/Academic-Website/public/tags/linear-algebra/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>/Academic-Website/public/tags/linear-algebra/</guid>
       <description></description>
@@ -69,7 +78,7 @@
     <item>
       <title>Proofs</title>
       <link>/Academic-Website/public/tags/proofs/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>/Academic-Website/public/tags/proofs/</guid>
       <description></description>

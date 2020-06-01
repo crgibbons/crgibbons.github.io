@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Academic</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Aug 2017 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
+      <link>/publication/bbgspaper2020/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/bbgspaper2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational combinations of Betti diagrams of complete intersections</title>
+      <link>/publication/reupaper/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/reupaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Maximum Likelihood Degree of Toric Varieties</title>
+      <link>/publication/maximumlikelihood/</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/maximumlikelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Critical pebbling numbers of graphs</title>
+      <link>/publication/glaisonpaul/</link>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/glaisonpaul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grandma makes Granola</title>
+      <link>/publication/granola/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/granola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
+      <link>/publication/msripaper/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/msripaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fixing numbers of graphs and groups</title>
+      <link>/publication/glaison1/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/glaison1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
+      <link>/publication/mrcpaper/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/mrcpaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

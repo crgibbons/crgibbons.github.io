@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Academic</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Syzygy: When Submodules Align</title>
+      <link>/talk/2019-mathfest/</link>
+      <pubDate>Sat, 03 Aug 2019 11:00:00 -0400</pubDate>
+      <guid>/talk/2019-mathfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boij-Soederberg Theory as an Introduction to Research in Commutative Algebra</title>
+      <link>/talk/2019-jmm/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 -0500</pubDate>
+      <guid>/talk/2019-jmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From 0 to Syzygy in 5 minutes</title>
+      <link>/talk/ignite2018/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/ignite2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Googling It: How Google Ranks Search Results</title>
+      <link>/talk/googlingit17/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/googlingit17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximum Likelihood Degrees for Discrete Random Models</title>
+      <link>/talk/siamaag17/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/siamaag17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursive Decompositions of Betti diagrams of complete intersections</title>
+      <link>/talk/2018-rte81/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/2018-rte81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shidoku: A Crash Course on Ideals and Varieties</title>
+      <link>/talk/shidoku/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/shidoku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerrymandering: The Math Behind the Madness.</title>
+      <link>/talk/levitt2018/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>/talk/levitt2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

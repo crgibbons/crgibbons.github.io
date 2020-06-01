@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boij-Soederberg | Academic</title>
+    <link>/tag/boij-soederberg/</link>
+      <atom:link href="/tag/boij-soederberg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Boij-Soederberg</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Aug 2017 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Boij-Soederberg</title>
+      <link>/tag/boij-soederberg/</link>
+    </image>
+    
+    <item>
+      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
+      <link>/publication/bbgspaper2020/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/bbgspaper2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
+      <link>/publication/ghspaper2018/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/ghspaper2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
+      <link>/publication/msripaper/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/msripaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
+      <link>/publication/mrcpaper/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/mrcpaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

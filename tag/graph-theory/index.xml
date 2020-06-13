@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graph Theory | Academic</title>
+    <title>Graph Theory | Dr. Courtney R. Gibbons</title>
     <link>/tag/graph-theory/</link>
       <atom:link href="/tag/graph-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Theory</description>
@@ -14,17 +14,17 @@
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/</link>
+      <link>/publication/glaisonpaul/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/glaisonpaul/</guid>
+      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/</link>
+      <link>/publication/glaison1/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/glaison1/</guid>
+      <guid>/publication/glaison1/glaison1/</guid>
       <description></description>
     </item>
     

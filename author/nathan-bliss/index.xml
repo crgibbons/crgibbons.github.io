@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nathan Bliss | Academic</title>
+    <title>Nathan Bliss | Dr. Courtney R. Gibbons</title>
     <link>/author/nathan-bliss/</link>
       <atom:link href="/author/nathan-bliss/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Bliss</description>
@@ -14,9 +14,9 @@
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/maximumlikelihood/</link>
+      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/maximumlikelihood/</guid>
+      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     

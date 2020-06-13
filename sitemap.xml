@@ -3,8 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/boij-soederberg/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/courtney-gibbons/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2019-08-03T11:00:00-04:00</lastmod>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/notices2020/notices2020/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -48,32 +88,7 @@
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/boij-soederberg/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/branden-stone/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/courtney-gibbons/</loc>
     <lastmod>2017-08-17T00:00:00-04:00</lastmod>
   </url>
   
@@ -88,32 +103,17 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>/publication/bbgspaper2020/bbgspaper2020/</loc>
     <lastmod>2017-08-17T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/bbgspaper2020/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ghspaper2018/</loc>
+    <loc>/publication/ghspaper2018/ghspaper2018/</loc>
     <lastmod>2017-08-17T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/author/robert-huben/</loc>
-    <lastmod>2017-08-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2017-08-17T00:00:00-04:00</lastmod>
   </url>
   
@@ -138,7 +138,7 @@
   </url>
   
   <url>
-    <loc>/publication/reupaper/</loc>
+    <loc>/publication/g-reu-2014/reupaper/</loc>
     <lastmod>2017-04-11T00:00:00-04:00</lastmod>
   </url>
   
@@ -188,13 +188,8 @@
   </url>
   
   <url>
-    <loc>/publication/maximumlikelihood/</loc>
+    <loc>/publication/algstatmrcpaper/maximumlikelihood/</loc>
     <lastmod>2017-03-17T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/_index-2/</loc>
-    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -238,7 +233,7 @@
   </url>
   
   <url>
-    <loc>/publication/glaisonpaul/</loc>
+    <loc>/publication/glaisonpaul/glaisonpaul/</loc>
     <lastmod>2015-01-07T00:00:00-05:00</lastmod>
   </url>
   
@@ -273,7 +268,7 @@
   </url>
   
   <url>
-    <loc>/publication/granola/</loc>
+    <loc>/publication/bedientg/granola/</loc>
     <lastmod>2015-01-01T00:00:00-05:00</lastmod>
   </url>
   
@@ -283,7 +278,7 @@
   </url>
   
   <url>
-    <loc>/publication/msripaper/</loc>
+    <loc>/publication/g-et-al-msri-2012/msripaper/</loc>
     <lastmod>2015-01-01T00:00:00-05:00</lastmod>
   </url>
   
@@ -313,7 +308,7 @@
   </url>
   
   <url>
-    <loc>/publication/glaison1/</loc>
+    <loc>/publication/glaison1/glaison1/</loc>
     <lastmod>2012-10-01T00:00:00-04:00</lastmod>
   </url>
   
@@ -323,7 +318,7 @@
   </url>
   
   <url>
-    <loc>/publication/mrcpaper/</loc>
+    <loc>/publication/bbegpaper2011/mrcpaper/</loc>
     <lastmod>2012-10-01T00:00:00-04:00</lastmod>
   </url>
   

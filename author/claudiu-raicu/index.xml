@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claudiu Raicu | Academic</title>
+    <title>Claudiu Raicu | Dr. Courtney R. Gibbons</title>
     <link>/author/claudiu-raicu/</link>
       <atom:link href="/author/claudiu-raicu/index.xml" rel="self" type="application/rss+xml" />
     <description>Claudiu Raicu</description>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/msripaper/</link>
+      <link>/publication/g-et-al-msri-2012/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/msripaper/</guid>
+      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
       <description></description>
     </item>
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mike Annunziata | Academic</title>
+    <title>Mike Annunziata | Dr. Courtney R. Gibbons</title>
     <link>/author/mike-annunziata/</link>
       <atom:link href="/author/mike-annunziata/index.xml" rel="self" type="application/rss+xml" />
     <description>Mike Annunziata</description>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/reupaper/</link>
+      <link>/publication/g-reu-2014/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/reupaper/</guid>
+      <guid>/publication/g-reu-2014/reupaper/</guid>
       <description></description>
     </item>
     

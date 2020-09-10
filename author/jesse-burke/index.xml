@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesse Burke | Dr. Courtney R. Gibbons</title>
+    <link>/author/jesse-burke/</link>
+      <atom:link href="/author/jesse-burke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jesse Burke</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Oct 2012 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Jesse Burke</title>
+      <link>/author/jesse-burke/</link>
+    </image>
+    
+    <item>
+      <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
+      <link>/publication/bbegpaper2011/mrcpaper/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

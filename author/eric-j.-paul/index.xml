@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric J. Paul | Dr. Courtney R. Gibbons</title>
+    <link>/author/eric-j.-paul/</link>
+      <atom:link href="/author/eric-j.-paul/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eric J. Paul</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jan 2015 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Eric J. Paul</title>
+      <link>/author/eric-j.-paul/</link>
+    </image>
+    
+    <item>
+      <title>Critical pebbling numbers of graphs</title>
+      <link>/publication/glaisonpaul/glaisonpaul/</link>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

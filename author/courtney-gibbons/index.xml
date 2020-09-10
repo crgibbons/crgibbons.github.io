@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courtney Gibbons | Dr. Courtney R. Gibbons</title>
+    <link>/author/courtney-gibbons/</link>
+      <atom:link href="/author/courtney-gibbons/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courtney Gibbons</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Courtney Gibbons</title>
+      <link>/author/courtney-gibbons/</link>
+    </image>
+    
+    <item>
+      <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>
+      <link>/publication/notices2020/notices2020/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 -0400</pubDate>
+      <guid>/publication/notices2020/notices2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
+      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
+      <link>/publication/ghspaper2018/ghspaper2018/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/ghspaper2018/ghspaper2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational combinations of Betti diagrams of complete intersections</title>
+      <link>/publication/g-reu-2014/reupaper/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/g-reu-2014/reupaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Critical pebbling numbers of graphs</title>
+      <link>/publication/glaisonpaul/glaisonpaul/</link>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grandma makes Granola</title>
+      <link>/publication/bedientg/granola/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/bedientg/granola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
+      <link>/publication/g-et-al-msri-2012/msripaper/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fixing numbers of graphs and groups</title>
+      <link>/publication/glaison1/glaison1/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/glaison1/glaison1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
+      <link>/publication/bbegpaper2011/mrcpaper/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

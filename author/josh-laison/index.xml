@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Laison | Dr. Courtney R. Gibbons</title>
+    <link>/author/josh-laison/</link>
+      <atom:link href="/author/josh-laison/index.xml" rel="self" type="application/rss+xml" />
+    <description>Josh Laison</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jan 2015 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Josh Laison</title>
+      <link>/author/josh-laison/</link>
+    </image>
+    
+    <item>
+      <title>Critical pebbling numbers of graphs</title>
+      <link>/publication/glaisonpaul/glaisonpaul/</link>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fixing numbers of graphs and groups</title>
+      <link>/publication/glaison1/glaison1/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
+      <guid>/publication/glaison1/glaison1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

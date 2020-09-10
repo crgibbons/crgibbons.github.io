@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evan D Nash | Dr. Courtney R. Gibbons</title>
+    <link>/author/evan-d-nash/</link>
+      <atom:link href="/author/evan-d-nash/index.xml" rel="self" type="application/rss+xml" />
+    <description>Evan D Nash</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2017 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <title>Evan D Nash</title>
+      <link>/author/evan-d-nash/</link>
+    </image>
+    
+    <item>
+      <title>The Maximum Likelihood Degree of Toric Varieties</title>
+      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
+      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

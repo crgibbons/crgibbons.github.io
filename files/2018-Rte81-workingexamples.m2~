@@ -1,0 +1,1044 @@
+restart
+
+-- Example 1.
+kk = ZZ/8821
+R = kk[x,y,z,w]
+
+postM = R^1/(x^2,y^3,z^5,w^10)
+M = R^1/(x^2,y^3,z^5)
+preM = R^1/(x^2,y^3)
+
+postB = betti res postM
+B = betti res M
+preB = betti res preM
+
+needsPackage "BoijSoederberg"
+
+phase1 := method();
+phase1(List,ZZ) := (degs, deg) -> (
+    B := makeCI(degs);
+    postB := makeCI(append(degs,deg));
+    E := sort apply( pairs eliminateBetti(B), p -> (p_1,p_0));
+    D := decomposeDegrees(B);
+    postD := apply(D, d -> append(d_1,deg+sum(degs)));
+    for i from 0 to length D-2 do (
+    	postB = postB - postB#(E_i_1)/(pureBetti(postD_i))_((E_i)_1_0)*pureBettiDiagram(postD_i) 
+    	);
+    postB
+)
+
+phase1({2,3,4,6},16)    
+    
+eliminationOrder = sort apply( pairs eliminateBetti(B), p -> (p_1,p_0))
+eliminateBetti(preB)
+decomposeDegrees(preB)
+pureBetti({0,2,5,10})
+B - 1/25*pureBettiDiagram({0,2,5,10})
+
+E = sort apply( pairs eliminateBetti(B), p -> (p_1,p_0))
+D = decomposeDegrees(B)
+postD = apply(D, d -> append(d_1,20))
+
+-- decompose postB with the same elimination order as B:
+B' = postB
+for i from 0 to length D-2 list (
+    B' = B' - B'#(E_i_1)/(pureBetti(postD_i))_((E_i)_1_0)*pureBettiDiagram(postD_i) 
+)
+B'
+
+restart
+
+needsPackage "BoijSoederberg"
+
+preB = makeCI({2,3,4,6})
+
+eliminateBetti(preB)
+keys oo
+help eliminateBetti
+
+degreeSeq = apply(decomposeDegrees(preB), pair -> append(pair_1,38)) -- because 2+3+4+6+23 = 38
+pureBettiList = apply(degreeSeq,seq -> pairs(pureBettiDiagram(seq))) // netList
+
+B = makeCI({2,3,4,6,23})
+eliminateBetti(B)
+
+B = makeCI({2,3,4,6,23})
+B1 = B - 1/3485075*pureBettiDiagram(degreeSeq_0)
+B2 = B1 - (2/275)*(1/2395197)*pureBettiDiagram(degreeSeq_1)
+B3 = B2 - (1)*(1/443555)*pureBettiDiagram(degreeSeq_2)
+B4 = B3 - (-2/783)*(1/3793160)*pureBettiDiagram(degreeSeq_3)
+B5 = B4 - (13/42)*(1/447051)*pureBettiDiagram(degreeSeq_4)
+B6 = B5 - (481/868)*(1/3677355 )*pureBettiDiagram(degreeSeq_5 )
+B7 = B6 - (25/77)*(1/594320 )*pureBettiDiagram(degreeSeq_6 )
+B8 = B7 - (657/1496)*(1/1789515 )*pureBettiDiagram(degreeSeq_7 )
+B9 = B8 - (-103/560)*(1/306774 )*pureBettiDiagram(degreeSeq_8 )
+B10 = B9 - (1)*(1/1817920)*pureBettiDiagram(degreeSeq_9 )
+B11 = B10 - (-401/936)*(1/3670800)*pureBettiDiagram(degreeSeq_10 )
+
+{decomposeDegrees(B),decomposeDegrees(preB)} // netList
+(1)*(1/3485075)
+(2/275)*(1/2395197)
+
+{*
+
+Todo: check my recursive r formula?
+
+1      |1335334|*3485075|3459729|1562275|254562 |2275|
+     +-------+-------+-------+-------+-------+----+
+2      |410872 |2091045|*2395197|841225 |127281 |1080|
+      +-------+-------+-------+-------+-------+----+
+3     |74704  |304152 |*443555 |244720 |30856  |243 |
+      +-------+-------+-------+-------+-------+----+
+4      |661664 |2357178|5132565|*3793160|358701 |2592|
+      +-------+-------+-------+-------+-------+----+
+5      |136896 |*447051 |648945 |474145 |136059 |704 |
+      +-------+-------+-------+-------+-------+----+
+6      |436356 |2438460|*3677355|2302990|630819 |3080|
+      +-------+-------+-------+-------+-------+----+
+7      |73899  |353970 |735471 |*594320 |139536 |616 |
+      +-------+-------+-------+-------+-------+----+
+8      |391391 |*1789515|3187041|2860165|1074944|3696|
+      +-------+-------+-------+-------+-------+----+
+9      |12558  |198835 |*306774 |183540 |63232  |189 |
+      +-------+-------+-------+-------+-------+----+
+10      |69368  |823745 |*1817920|1520760|458432 |1215|
+      +-------+-------+-------+-------+-------+----+
+11      |100464 |994175 |3681288|*3670800|885248 |2025|
+      +-------+-------+-------+-------+-------+----+
+      |15456  |142025 |409032 |503424 |221312 |351 |
+      +-------+-------+-------+-------+-------+----+
+
+*}
+preB = makeCI({2,3,4,6})
+eliminateBetti(preB)
+
+degreeSeq = apply(decomposeDegrees(preB), pair -> append(pair_1,45)) -- because 2+3+4+6+30 = 45
+pureBettiList = apply(degreeSeq,seq -> pureBetti(seq)) // netList
+
+B = makeCI({2,3,4,6,157}) -- 157 smallest that works
+
+eliminateBetti(B)
+
+B1 = B - 1/3485075*pureBettiDiagram(degreeSeq_0)
+B2 = B1 - (2/275)*(1/2395197)*pureBettiDiagram(degreeSeq_1)
+B3 = B2 - (1)*(1/443555)*pureBettiDiagram(degreeSeq_2)
+B4 = B3 - (-2/783)*(1/3793160)*pureBettiDiagram(degreeSeq_3)
+B5 = B4 - (13/42)*(1/447051)*pureBettiDiagram(degreeSeq_4)
+B6 = B5 - (481/868)*(1/3677355 )*pureBettiDiagram(degreeSeq_5 )
+B7 = B6 - (25/77)*(1/594320 )*pureBettiDiagram(degreeSeq_6 )
+B8 = B7 - (657/1496)*(1/1789515 )*pureBettiDiagram(degreeSeq_7 )
+B9 = B8 - (-103/560)*(1/306774 )*pureBettiDiagram(degreeSeq_8 )
+B10 = B9 - (1)*(1/1817920)*pureBettiDiagram(degreeSeq_9 )
+B11 = B10 - (-401/936)*(1/3670800)*pureBettiDiagram(degreeSeq_10 )
+
+restart
+
+needsPackage "BoijSoederberg"
+preB = makeCI({2,3,4})
+eliminateBetti(preB)
+
+B = makeCI({2,3,4,6})  -- 6 is too small
+eliminateBetti(B)
+
+B = makeCI({2,3,4,13}) -- 11: doesn't work; 12: works but has mass extinction; 13 works.
+eliminateBetti(B)
+
+eliminateBetti(makeCI({2,3,4,13,942})) -- 942: smallest that works (941 has mass extinction but doesn't work)
+
+
+restart 
+installPackage"BoijSoederberg"
+viewHelp BoijSoederberg
+
+B = makeCI{2,3,4}
+eliminateBetti B
+C = makeCI{2,3,4,12} -- Mass Extention
+eliminateBetti C
+
+B = makeCI{2,3}
+eliminateBetti B
+C = makeCI{2,3,20}
+eliminateBetti C
+
+
+
+
+help decomposeDegrees
+help TableEntries
+
+help eliminateBetti
+help EliminationSequence
+
+K = eliminateBetti(makeCI({2,3,4,6}),EliminationSequence=>true)
+L = eliminateBetti(makeCI({2,3,4,6,157}),EliminationSequence => true)
+
+for i from 0 to length K - 1 list (
+    K_i == L_i
+    )
+
+---- small examples for the paper ----
+loadPackage "BoijSoederberg"
+makeCI({2,3,4,5}) -- not generic?
+makeCI({2,3,5,7}) -- mass elim!
+eliminateBetti(oo)
+tex oo
+
+keys(ooo)
+
+for i from 2 to 10 list (
+    for j from i+1 to i+10 list (
+	for k from j+1 to j+10 list (
+	    eliminateBetti(makeCI{i,j,k})
+	    )
+	)
+    )
+
+makeCI({2,3,4})
+decomposeDegrees(oo,TableEntries => HerzogKuhl)
+
+
+B = makeCI({2,3,4,13})
+eliminateBetti(B)
+
+eliminateBetti(makeCI({2,3,4}))
+
+decomposeDegrees(makeCI({2,3,4}))
+
+decomposeDegrees(makeCI({2,3,4}),TableEntries=>HerzogKuhl)
+decomposeDegrees(makeCI({2,3,4,6}),TableEntries=>HerzogKuhl)
+
+-- No Mass Extinction, but new CI has mass extinction.
+eliminateBetti(makeCI({2,3,4}))
+eliminateBetti(makeCI({2,3,4,7}))
+
+
+loadPackage "BoijSoederberg"
+
+D = makeCI({2,3,4})
+D' = makeCI({2,3,4,7})
+
+eliminateBetti(D)
+
+D1 = makePureBettiDiagram({0,2,5,9,16},TableEntries => HerzogKuhl)
+
+D' = D' - 588*D1
+
+D2 =  makePureBettiDiagram({0,3,5,9,16},TableEntries => HerzogKuhl)
+
+D' = D' - (440*6/55)* D2
+440*6/55
+
+D3 = makePureBettiDiagram({0,3,6,9,16},TableEntries => HerzogKuhl)
+
+D' = D' - (702*35/39) *D3
+702*35/39
+
+D'
+
+D4 = makePureBettiDiagram({0,4,6,9,16},TableEntries => HerzogKuhl)
+
+D'' = D' +(360*1/6)*D4
+360/6
+
+tex(D'')
+
+restart
+
+loadPackage "BoijSoederberg"
+makeCI({2,3,4,7})
+
+eliminateBetti(oo)
+decomposeDegrees(ooo)
+
+eliminateBetti(makeCI({2,3,4}))
+
+
+--- courtney
+restart
+R = ZZ[a_1..a_4]
+--L = {a_2 => a_1, a_3 => a_1}
+--a_2 = sub(a_2,L)
+--a_3 = sub(a_2,L)
+z_1 = a_1*a_2*(a_2+a_3)
+z_2 = a_1*a_2*(a_3-a_1)
+z_3 = 2*a_1*a_2*(a_1+a_3-a_2)
+z_4 = z_2
+z_5 = z_1
+A = a_1 + a_2 + a_3
+---- uncomment next three lines for case below
+--- CASE a_1 < a_2 = a_3
+-- L = {a_3 => a_2}
+-- a_3 = sub(a_3,L)
+--- CASE a_1 = a_2 < a_3
+-- L = {a_2 => a_1}
+-- a_2 = sub(a_2,L)
+
+
+HKdenoms = method();
+HKdenoms(List) := Degs -> (
+    c := #Degs;
+    for i from 0 to c-1 list (
+    	(product(for j from 0 to i-1 list Degs#i-Degs#j) * product(for j from i+1 to c-1 list Degs#j-Degs#i))
+    )
+)
+
+
+d_1 = (0,a_1,a_1+a_2,A)
+d_2 = (0,a_2,a_1+a_2,A)
+d_3 = (0,a_2,a_1+a_3,A)
+d_4 = (0,a_3,a_1+a_3,A)
+d_5 = (0,a_3,a_2+a_3,A)
+
+i_1 = 1, j_1 = a_1
+i_2 = 2, j_2 = a_1 + a_2
+i_3 = 1, j_3 = a_2
+i_4 = 2, j_4 = a_1 + a_3
+i_5 = 3, j_5 = A
+
+--p_1 = a_1*a_2*(a_2+a_3)
+p_1 = (HKdenoms(toList d_1))_(i_1)
+--p_2 = (a_1+a_2)*a_1*a_3
+p_2 = (HKdenoms(toList d_2))_(i_2)
+--p_3 = a_2*(a_1+a_3-a_2)*(a_1+a_3)
+p_3 = (HKdenoms(toList d_3))_(i_3)
+--p_4 = (a_1+a_3)*a_1*a_2
+p_4 = (HKdenoms(toList d_4))_(i_4)
+--p_5 = A*(a_1+a_2)*a_1
+p_5 = (HKdenoms(toList d_5))_3
+
+h_{1,i_2,j_2} = (HKdenoms(toList d_1))_(i_2)
+h_{1,i_3,j_3} = (HKdenoms(toList d_1))_(i_3) -- previously hard coded to 0
+h_{1,i_4,j_4} = (HKdenoms(toList d_1))_(i_4) -- previously hard coded to 0
+h_{1,i_5,j_5} = (HKdenoms(toList d_1))_(i_5) 
+
+h_{2,i_3,j_3} = (HKdenoms(toList d_2))_(i_3)
+h_{2,i_4,j_4} = (HKdenoms(toList d_2))_(i_4) -- previously hard coded to 0 
+h_{2,i_5,j_5} = (HKdenoms(toList d_2))_(i_5)
+
+h_{3,i_4,j_4} = (HKdenoms(toList d_3))_(i_4)
+h_{3,i_5,j_5} = (HKdenoms(toList d_3))_(i_5)
+
+h_{4,i_5,j_5} = (HKdenoms(toList d_4))_(i_5)
+
+p_2/(h_{1,i_2,j_2})
+
+r_1 = (j_1 - A)*p_1
+r_2 = (j_2 - A)*p_2 - r_1*p_2/(h_{1,i_2,j_2})
+r_3 = (j_3 - A)*p_3 - r_2*p_3/(h_{2,i_3,j_3}) - r_1*p_3/(h_{1,i_3,j_3})
+r_4 = (j_4 - A)*p_4 - r_3*p_4/(h_{3,i_4,j_4}) - r_2*p_4/(h_{2,i_4,j_4}) - r_1*p_4/(h_{1,i_4,j_4})
+r_5 = (j_5 - A)*p_5 - p_5*(r_4/h_{4,i_5,j_5}  + r_3/h_{3,i_5,j_5} + r_2/h_{2,i_5,j_5} + r_1/h_{1,i_5,j_5})
+
+factor r_5
+tex(
+factor (r_1/z_1),
+factor (r_2/z_2),
+factor (r_3/z_3),
+factor (r_4/z_4),
+factor (r_5/z_5)
+)
+
+numerator factor r_5
+oo/z_5
+factor oo
+---
+--- saving these values for later:
+s_1 = r_1 + numerator(r_2)
+s_2 = numerator(r_3)
+s_3 = numerator(r_4 + r_5)
+factor s_1
+factor s_2
+factor s_3
+
+--- If you uncomment these while running the a_1 < a_2 < a_3 case (ie, no L = {a_3 => a_2})
+----- they don't reduce down properly for a_1 = a_2. I was surprised. BUT! They shouldn't. 
+----- This is because the eliminator order is messed up for this case. Grr!
+----- ergo: no simple general fla with 5 remainders.  We'll have to do a_1 = a_2 < a_3
+----- by hand.
+-- sub(s_1,{a_3 => a_2}) 
+-- sub(s_2,{a_3 => a_2})
+-- sub(s_3,{a_3 => a_2})
+
+--- ^^^^ these agree now for a_2 = a_3, but I don't know if they reduce down to them ^^^^
+--- the elimination order is messed up for a_1 = a_2 and I haven't done
+----- that yet. -Courtney 6/19    
+
+Phase1 = for k from 1 to 5 list (
+    y_k = a_4*z_k - r_k
+    )
+
+Phase2 = {
+y_6 = 3!*a_1*a_2*a_3*(a_4 - a_3 + a_1),
+y_7 = 3!*a_1*a_2*a_3*(a_4 - a_3 + a_1 -a_2 + a_2)
+}
+
+Phase3 = for k from 1 to 5 list (
+    y_(13-k) = y_k
+    )
+
+AllCoeffs = Phase1|Phase2|Phase3
+
+CCC = apply(AllCoeffs, l -> factor l)
+netList oo
+
+-- Check to see of things add to one. They do!
+CCC = AllCoeffs
+CCC_4
+DDD_4 = (a_2+a_3)*a_2*a_1*(a_1+a_4)
+CCC_5
+DDD_5 = (a_2+a_3)*a_2*(a_1-a_3+a_4)*(a_1+a_4)
+CCC_4/DDD_4 + CCC_5/DDD_5
+CCC_6
+
+CCC
+factor AllCoeffs_5
+tex oo
+
+
+A = a_1*a_2*(a_2+a_3)*a_4 - (- a_1^2*a_2*(a_2-5*a_3))
+A == AllCoeffs_4
+
+-a_1*a_3^2*(a_1+a_2) - (a_1*a_3*(a_1+a_2))/(a_2*a_3*(a_1+a_2))*(-a_1*a_2*(a_2+a_3)^2)
+factor oo
+
+-a_2*(a_1+a_3)^2*(a_1+a_3-a_2) - (a_2*(a_1+a_3)*(a_1+a_3-a_2))/(a_1*a_2*(a_1+a_3))*a_1*a_2*(a_1*a_2+2*a_1*a_3-a_3^2)
+factor oo
+
+-a_1*a_2^2*(a_1+a_3) - (a_1*a_2*(a_1+a_3))/(a_2*(a_1+a_3)*(a_1-a_2+a_3))*(-a_1*a_2*(a_1-a_2+a_3)*(a_1+a_2+4*a_3))
+factor oo
+
+a_1*(a_1+a_2)*(a_1+a_2+a_3)*((a_1*a_2*(a_2+a_3)^2)/(a_3*(a_2+a_3)*(a_1+a_2+a_3))- (a_1*a_2*(a_1*a_2+2*a_1*a_3-a_3^2))/(a_3*(a_1+a_3)*(a_1+a_2+a_3)) + (a_1*a_2*(a_1-a_2+a_3)*(a_1+a_2+4*a_3))/(a_2*(a_1+a_3)*(a_1+a_2+a_3))- (a_1*a_2*(a_1^2+4*a_1*a_3-a_2*a_3))/(a_2*(a_1+a_2)*(a_1+a_2+a_3)))
+factor oo
+
+
+S = R/ideal(a_2-a_3)
+netList apply(5,l->sub(r_(l+1),S))
+use R
+T = R/ideal(a_1-a_3)
+netList apply(5,l-> sub(r_(l+1),T))
+t
+oo_0 == -a_1^2*(a_1+a_3)^2
+
+-- r_2 when a_2 = a_3
+-a_1*a_2^2*(a_1+a_2)*2-(a_1*a_2*(a_1+a_2))/(a_2^2*(a_1+a_2))*(-4*a_1*a_2^3)
+factor oo
+sub(r_4+r_3+r_2,S)
+
+-- r_5 when a_2 = a_3
+(a_1+2*a_2)*(a_1+a_2)*a_1*((4*a_1*a_2^3)/((a_1+2*a_2)*2*a_2*a_1)-(2*a_2^2*a_1*(a_1-a_2))/((a_1+2*a_2)*(a_1+a_2)*a_2))
+factor oo
+use R
+sub(r_2,S)
+
+-- r_2 when a_1 = a_2
+-a_1*a_3*(a_1+a_3)^2 - (a_1*a_3*(a_1+a_3))/(a_1^2*(a_1+a_3))*(-2*a_1^2*a_3^2)
+factor oo
+
+
+-- r_5 when a_1 = a_2
+2*a_1^2*((2*a_1^2*a_3^2)/(a_3*(a_1+a_3))+(a_1*a_3*(a_1^2+2*a_1*a_3-a_3^2)/(a_1*(a_1+a_3)))
+factor oo
+needsPackage"BoijSoederberg"
+B = makeCI{2,4,4,20}
+eliminateBetti oo
+decomposeBetti(B, TableEntries=>HerzogKuhl)
+viewHelp BoijSoederberg
+
+
+--- more courtney monkeying around
+--- a_1 < a_2 = a_3
+restart
+HKdenoms = method();
+HKdenoms(List) := Degs -> (
+    c := #Degs;
+    for i from 0 to c-1 list (
+    	(product(for j from 0 to i-1 list Degs#i-Degs#j) * product(for j from i+1 to c-1 list Degs#j-Degs#i))
+    )
+)
+
+R = ZZ[a_1,a_2,a_4]
+d_1 = (0,a_1,a_1+a_2,a_1+2*a_2)
+d_2 = (0,a_2,a_1+a_2,a_1+2*a_2)
+d_3 = (0,a_2,2*a_2,a_1+2*a_2)
+
+i_1 = 1, j_1 = a_1
+i_2 = 2, j_2 = (a_1+a_2)
+i_3 = 3, j_3 = (a_1+2*a_2)
+
+z_1 = 2*a_2^2*a_1
+z_2 = a_1*a_2*(a_2-a_1) + 2*a_1*a_2*a_1 + a_1*a_2*(a_2-a_1)
+z_3 = a_1*a_2*2*a_2
+
+p_1 = (HKdenoms(toList d_1))_(i_1)
+p_2 = (HKdenoms(toList d_2))_(i_2)
+p_3 = (HKdenoms(toList d_3))_(i_3)
+
+h_{1,i_2,j_2} = (HKdenoms(toList d_1))_(i_2) 
+h_{1,i_3,j_3} = (HKdenoms(toList d_1))_(i_3) 
+h_{2,i_3,j_3} = (HKdenoms(toList d_2))_(i_3) 
+
+A = a_1 + 2*a_2
+
+r_1 = (j_1 - A)*p_1
+r_2 = (j_2 - A)*2*p_2 - r_1*p_2/(h_{1,i_2,j_2})
+r_3 = (j_3 - A)*p_3 - r_2*p_3/(h_{2,i_3,j_3}) - r_1*p_3/(h_{1,i_3,j_3})
+
+
+
+y_1 = z_1*a_4-r_1
+
+for i from 1 to 3 list tex(factor(z_i*a_4-r_i))
+netList oo
+factor oo
+tex (factor(r_1/z_1),factor(r_2/z_2),factor(r_3/z_3))
+tex r_2
+tex r_3
+
+needsPackage "BoijSoederberg"
+B = makeCI{2,4,4,20}
+D = decomposeDegrees(B, TableEntries => HerzogKuhl)
+L = {a_1 => 2, a_2 => 4, a_4 => 20}
+
+A' = sub(A,L)
+z'_1 = sub(z_1,L)
+z'_2 = sub(z_2,L)
+z'_3 = sub(z_3,L)
+r'_1 = sub(r_1,L)
+r'_2 = sub(numerator r_2,L)
+r'_3 = sub(numerator r_3,L)
+
+20*z'_1 - r'_1 == D_0_0
+20*z'_2 - r'_2 == D_1_0
+20*z'_3 - r'_3 == D_2_0
+
+--- comparing r's from both cases
+--- rerun 
+
+--- a_1 = a_2 < a_3
+restart
+HKdenoms = method();
+HKdenoms(List) := Degs -> (
+    c := #Degs;
+    for i from 0 to c-1 list (
+    	(product(for j from 0 to i-1 list Degs#i-Degs#j) * product(for j from i+1 to c-1 list Degs#j-Degs#i))
+    )
+)
+
+R = ZZ[a_1,a_3,a_4]
+d_1 = (0,a_1,2*a_1,2*a_1+a_3)
+d_2 = (0,a_1,a_1+a_3,2*a_1+a_3)
+d_3 = (0,a_3,a_1+a_3,2*a_1+a_3)
+
+i_1 = 2, j_1 = 2*a_1
+i_2 = 1, j_2 = a_1
+i_3 = 3, j_3 = 2*a_1+a_3
+
+z_1 = a_1*a_1*(a_1+a_3)+a_1*a_1*(a_3-a_1)
+z_2 = 2*a_1*a_1*a_3
+z_3 = z_1
+
+p_1 = (HKdenoms(toList d_1))_(i_1)
+p_2 = (HKdenoms(toList d_2))_(i_2)
+p_3 = (HKdenoms(toList d_3))_(i_3)
+
+h_{1,i_2,j_2} = (HKdenoms(toList d_1))_(i_2) 
+h_{1,i_3,j_3} = (HKdenoms(toList d_1))_(i_3) 
+h_{2,i_3,j_3} = (HKdenoms(toList d_2))_(i_3) 
+
+A = 2*a_1 + a_3
+
+r_1 = (j_1 - A)*p_1*1
+r_2 = (j_2 - A)*2*p_2 - r_1*p_2/(h_{1,i_2,j_2})
+r_3 = (j_3 - A)*p_3 - r_2*p_3/(h_{2,i_3,j_3}) - r_1*p_3/(h_{1,i_3,j_3})
+
+for i from 1 to 3 list (tex(factor(z_i*a_4-r_i)))
+netList oo
+
+CHECKITOUT = tex (z_1*a_4 -r_1,z_2*a_4- r_2,z_3*a_4- r_3)
+
+tex(factor(r_1/z_1),factor(r_2/z_2),factor(r_3/z_3))
+
+----- a_1 = a_2 = a_3
+restart
+HKdenoms = method();
+HKdenoms(List) := Degs -> (
+    c := #Degs;
+    for i from 0 to c-1 list (
+    	(product(for j from 0 to i-1 list Degs#i-Degs#j) * product(for j from i+1 to c-1 list Degs#j-Degs#i))
+    )
+)
+
+R = ZZ[a_1,a_4]
+d_1 = (0,a_1,2*a_1,3*a_1)
+
+i_1 = 3, j_1 = 3*a_1
+
+z_1 = a_1*a_1*2*a_1 + 2*a_1^3 + 2*a_1^3
+
+p_1 = (HKdenoms(toList d_1))_(i_1)
+
+
+h_{1,i_2,j_2} = (HKdenoms(toList d_1))_(i_2) 
+h_{1,i_3,j_3} = (HKdenoms(toList d_1))_(i_3) 
+h_{2,i_3,j_3} = (HKdenoms(toList d_2))_(i_3) 
+
+A = 2*a_1 + a_1
+
+r_1 = (j_1 - A)*p_1*1
+
+z_1*a_4
+r_2 = (j_2 - A)*2*p_2 - r_1*p_2/(h_{1,i_2,j_2})
+r_3 = (j_3 - A)*p_3 - r_2*p_3/(h_{2,i_3,j_3}) - r_1*p_3/(h_{1,i_3,j_3})
+
+CHECKITOUT = tex (r_1, r_2, r_3)
+
+-------------- Courtney's additions using the shuffle paper
+
+restart
+R = ZZ[a_1,a_2,a_3,a_4]
+A = a_1+a_2+a_3+a_4
+
+HKdenoms = method();
+HKdenoms(List) := Degs -> (
+    c := #Degs;
+    for i from 0 to c-1 list (
+    	(product(for j from 0 to i-1 list Degs#i-Degs#j) * product(for j from i+1 to c-1 list Degs#j-Degs#i))
+    )
+)
+
+possibleDegreesList = {0,a_1,a_2,a_3,a_4,a_1+a_2,a_1+a_3,
+    a_1+a_4,a_2+a_3,a_2+a_4,a_3+a_4,a_1+a_2+a_3,a_1+a_2+a_4,a_1+a_3+a_4,a_2+a_3+a_4,A}
+
+-- turn this into a method? want to take the hashtable at the end and turn it into a row vector...
+d_1 = (0,a_1,a_1+a_2,a_1+a_2+a_3,A)
+
+makeFracs = method();
+makeFracs(List) := degSeq -> (
+    apply(HKdenoms(degSeq),denom -> 1/denom)
+    )
+fracs_1 = makeFracs(toList d_1) 
+-- old below
+--apply(HKdenoms(toList d_1), denom -> 1/denom)
+makeNonzeroHashes = method();
+makeNonzeroHashes(List) := degSeq -> (
+    packaged := pack(2,mingle(toList degSeq,makeFracs(toList degSeq)));
+    apply(packaged, pair -> pair_0 => pair_1)
+    )
+--test:
+makeNonzeroHashes(toList d_1)
+
+makeZeroHashes = method();
+makeZeroHashes(List) := degSeq -> (
+    zeroDegList := possibleDegreesList;
+    for i from 1 to #degSeq-1 do (
+	zeroDegList = delete(degSeq_i,zeroDegList)
+        );
+    apply(zeroDegList, deg -> deg => 0)
+    )
+--test:
+makeZeroHashes(toList d_1)
+makeHash = method();
+makeHash(List) := degSeq -> (
+    new HashTable from makeNonzeroHashes(degSeq)|makeZeroHashes(degSeq)
+    )
+--test:
+makeHash(toList d_1)
+makeVector = method();
+makeVector(List) := degSeq -> (
+    matrix(pack(1,apply(possibleDegreesList, key -> (makeHash(degSeq))#key)))
+    )
+--test:
+makeVector(toList d_1)
+
+-- todo: run through all the vectors from the shuffle paper (there are 20)
+-- Courtney's agenda for Tuesday June 27
+
+d_1 = (0, a_1, a_1+a_2, a_1+a_2+a_3, A)
+d_2 = (0, a_4, a_1+a_4, a_1+a_2+a_4, A)
+d_3 = (0, a_1, a_1+a_2, a_1+a_2+a_4, A)
+d_4 = (0, a_1, a_1+a_4, a_1+a_2+a_4, A)
+d_5 = (0, a_2, a_1+a_2, a_1+a_2+a_3, A)
+d_6 = (0, a_4, a_2+a_4, a_1+a_2+a_4, A)
+d_7 = (0, a_2, a_1+a_2, a_1+a_2+a_4, A)
+d_8 = (0, a_2, a_2+a_4, a_1+a_2+a_4, A)
+d_9 = (0, a_2, a_2+a_3, a_1+a_2+a_3, A)
+d_10 = (0, a_4, a_2+a_4, a_2+a_3+a_4, A)
+d_11 = (0, a_2, a_2+a_3, a_1+a_2+a_4, A)
+d_12 = (0, a_2, a_2+a_4, a_3+a_3+a_4, A)
+d_13 = (0, a_3, a_1+a_3, a_1+a_2+a_3, A)
+d_14 = (0, a_4, a_3+a_4, a_1+a_3+a_4, A)
+d_15 = (0, a_3, a_1+a_3, a_1+a_3+a_4, A)
+d_16 = (0, a_3, a_3+a_4, a_1+a_3+a_4, A)
+d_17 = (0, a_3, a_2+a_3, a_1+a_2+a_3, A)
+d_18 = (0, a_4, a_3+a_4, a_2+a_3+a_4, A)
+d_19 = (0, a_3, a_2+a_3, a_2+a_3+a_4, A)
+d_20 = (0, a_3, a_3+a_4, a_2+a_3+a_4, A)
+
+for i from 1 to 20 do (
+    d_i = toList d_i
+    )
+
+L = for i from 1 to 20 list (
+    makeVector(d_i)
+    )
+
+X = makeVector(d_1)
+for i from 2 to 20 do (
+    X = X|makeVector(d_i)
+    )
+
+X
+
+e_6 = (0,a_4,a_3+a_4,a_1+a_2+a_4,A)
+e_6 = toList e_6
+X|makeVector(e_6) -- this is the matrix I want to row reduce. HA.
+
+tex oo
+
+HKdenoms(d_3)
+apply(HKdenoms(d_3), deg -> factor(deg))
+
+---- the other option is to take r_i pi(d_i) blah blah blah and try to analyze the output
+e_1 = makeVector(toList d_1)
+e'_1 = makeVector(toList d_2)
+e_2 = makeVector(toList d_5)
+e'_2 = makeVector(toList d_6)
+e_3 = makeVector(toList d_9)
+e'_3 = makeVector(toList d_10)
+e_4 = makeVector(toList d_13)
+e'_4 = makeVector(toList d_14)
+e_5 = makeVector(toList d_17)
+e'_5 = makeVector(toList d_18)
+
+b_1 = makeVector(toList d_3)
+b'_1 = makeVector(toList d_4)
+b_2 = makeVector(toList d_7)
+b'_2 = makeVector(toList d_8)
+b_3 = makeVector(toList d_11)
+b'_3 = makeVector(toList d_12)
+b_4 = makeVector(toList d_15)
+b'_4 = makeVector(toList d_16)
+b_5 = makeVector(toList d_19)
+b'_5 = makeVector(toList d_20)
+
+z_1 = a_1*a_2*(a_2 + a_3)
+z_2 = a_1*a_2*(a_3 - a_1)
+z_3 = 2*a_1*a_2*(a_1 + a_3 - a_2)
+z_4 = z_2
+z_5 = z_1
+
+d_1 = (0,a_1,a_1+a_2,A)
+d_2 = (0,a_2,a_1+a_2,A)
+d_3 = (0,a_2,a_1+a_3,A)
+d_4 = (0,a_3,a_1+a_3,A)
+d_5 = (0,a_3,a_2+a_3,A)
+
+i_1 = 1, j_1 = a_1
+i_2 = 2, j_2 = a_1 + a_2
+i_3 = 1, j_3 = a_2
+i_4 = 2, j_4 = a_1 + a_3
+i_5 = 3, j_5 = A
+
+--p_1 = a_1*a_2*(a_2+a_3)
+p_1 = (HKdenoms(toList d_1))_(i_1)
+--p_2 = (a_1+a_2)*a_1*a_3
+p_2 = (HKdenoms(toList d_2))_(i_2)
+--p_3 = a_2*(a_1+a_3-a_2)*(a_1+a_3)
+p_3 = (HKdenoms(toList d_3))_(i_3)
+--p_4 = (a_1+a_3)*a_1*a_2
+p_4 = (HKdenoms(toList d_4))_(i_4)
+--p_5 = A*(a_1+a_2)*a_1
+p_5 = (HKdenoms(toList d_5))_3
+
+h_{1,i_2,j_2} = (HKdenoms(toList d_1))_(i_2)
+h_{1,i_3,j_3} = (HKdenoms(toList d_1))_(i_3) -- previously hard coded to 0
+h_{1,i_4,j_4} = (HKdenoms(toList d_1))_(i_4) -- previously hard coded to 0
+h_{1,i_5,j_5} = (HKdenoms(toList d_1))_(i_5) 
+
+h_{2,i_3,j_3} = (HKdenoms(toList d_2))_(i_3)
+h_{2,i_4,j_4} = (HKdenoms(toList d_2))_(i_4) -- previously hard coded to 0 
+h_{2,i_5,j_5} = (HKdenoms(toList d_2))_(i_5)
+
+h_{3,i_4,j_4} = (HKdenoms(toList d_3))_(i_4)
+h_{3,i_5,j_5} = (HKdenoms(toList d_3))_(i_5)
+
+h_{4,i_5,j_5} = (HKdenoms(toList d_4))_(i_5)
+
+p_2/(h_{1,i_2,j_2})
+
+r_1 = (j_1 - A)*p_1
+r_2 = (j_2 - A)*p_2 - r_1*p_2/(h_{1,i_2,j_2})
+r_3 = (j_3 - A)*p_3 - r_2*p_3/(h_{2,i_3,j_3}) - r_1*p_3/(h_{1,i_3,j_3})
+r_4 = (j_4 - A)*p_4 - r_3*p_4/(h_{3,i_4,j_4}) - r_2*p_4/(h_{2,i_4,j_4}) - r_1*p_4/(h_{1,i_4,j_4})
+r_5 = (j_5 - A)*p_5 - p_5*(r_4/h_{4,i_5,j_5}  + r_3/h_{3,i_5,j_5} + r_2/h_{2,i_5,j_5} + r_1/h_{1,i_5,j_5})
+r_1 = factor r_1
+r_2 = factor r_2
+r_3 = factor r_3
+r_4 = factor r_4
+r_5 = factor r_5
+
+hotmess = sum apply(toList(1..5), i ->  r_i*(e_i+e'_i) + z_i*a_4*(b_i + b'_i));
+
+
+
+L = flatten entries hotmess;
+apply(L, entry -> factor(entry))
+netList oo
+
+
+loadPackage "BoijSoederberg"
+viewHelp decomposeBetti
+B = mat2betti(matrix{{3,3,0},{0,3,3}})
+decomposeBetti B
+
+R = ZZ/8821[x,y]
+betti 
+(res((R^1/(ideal(x,y))^2))).dd
+    )
+(res((R^1/(ideal(x,y)))^2)).dd
+cokernel matrix{{0,x,-y},{x,-y,0}}
+betti res oo
+
+
+loadPackage "BoijSoederberg"
+eliminateBetti makeCI{4,5,7,9}
+T = sort apply(decomposeDegrees makeCI{4,5,7,9}, l->l_1)
+S = sort apply(decomposeDegrees makeCI{4,5,7,9,400}, l->l_1)
+{S_0,S_1}
+{T_0,T_1}
+
+viewHelp sort
+
+
+restart
+R = QQ[a_1,a_2,a_3,a_4]
+a_1=2
+a_2=3
+a_3=4
+a_4 = 13
+a_1*a_2*(a_2+a_3)*(a_2+a_3+a_4)-a_1*a_2*(a_1*a_2+2*a_1*a_3-a_3^2+a_1*a_4-a_3*a_4)+a_1*a_2*(a_1-a_2+a_3)*(a_1+a_2+4*a_3+2*a_4)-a_1*a_2*(a_1^2+4*a_1*a_3-a_2*a_3+a_1*a_4-a_3*a_4)+a_1*a_2*(a_1*a_2-5*a_1*a_3+a_2*a_4+a_3*a_4)
+6*a_1*a_2*a_3*(a_1-a_3+a_4)
+6*a_1*a_2*a_3*(a_1-a_3+a_4)
+			&+ a_1a_2 (a_1 a_2-5 a_1 a_3+a_2 a_4+a_3 a_4) \cdot \pure{\ee^8} \\			
+			&- a_1a_2 (a_1^2+4 a_1 a_3-a_2 a_3+a_1 a_4-a_3 a_4) \cdot \pure{\ee^9}\\
+			&+ a_1a_2 (a_1-a_2+a_3) (a_1+a_2+4 a_3+2 a_4) \cdot \pure{\ee^{10}} \\			
+			&- a_1a_2 (a_1 a_2+2 a_1 a_3-a_3^2+a_1 a_4-a_3 a_4)\cdot \pure{\ee^{11}} \\
+			&+ a_1a_2 (a_2+a_3) (a_2+a_3+a_4) \cdot \pure{\ee^{12}}\\
+			
+			
+-- Checking (2,3,4,6)
+restart
+loadPackage "BoijSoederberg"
+degDual := d -> (
+    d = rsort toList d;
+    D = apply(#d, l -> first d);
+    toSequence(D-d)
+    )
+
+B3 = makeCI{2,3,4}
+eliminateBetti B3
+d_1 = (0,2,5,9)
+d_2 = (0,3,5,9)
+d_3 = (0,3,6,9)
+d_4 = (0,4,6,9)
+d_5 = (0,4,7,9)
+
+--Phase 1
+scan(1..5, l -> e_l = d_l|toSequence{15})
+peek e
+--Phase 2
+e_6 = (0,4,7,11,15)
+e_7 = (0,4,8,11,15)
+degDual e_6 == e_7
+peek e
+--Phase 3
+scan(1..5,l-> e_(13-l) = degDual(e_l))
+peek e
+
+-- Make pure diagrams
+scan(1..12,l -> p_l = makePureBettiDiagram(toList e_l, TableEntries=>HerzogKuhl))
+peek p
+
+B = makeCI{2,3,4,6}
+p_1
+B1 = B-(546*p_1)
+p_2
+B2 = B1-(9/100*400*p_2)
+p_3
+B3 = B2-(11/12*648*p_3) -- get a negative value
+p_4
+B4 = B3-(-2/9*324*p_4)
+p_5
+B5 = B4-(4/45*540*p_5)
+p_6
+B6 = B5-(6/7*672*p_6)
+p_7
+B7 = B6-(36/77*1232*p_7) -- get a negative value
+p_8
+B8 = B7-(1/7*336*p_8) -- get a negative value
+p_9
+B9 = B8-(-9/55*440*p_9) 
+p_10
+B10 = B9-(11/9*486*p_10) 
+p_11
+B11 = B10-(1/12*432*p_11) 
+p_12
+B12 = B11-(546*p_12) -- Decomposes!!
+B11 
+546*p_12
+
+-- Checking (2,3,4,5)
+-- Phase 1:
+e_1 = (0,2,5,9,14)
+e_2 = (0,3,5,9,14)
+e_3 = (0,3,6,9,14)
+e_4 = (0,4,6,9,14)
+e_5 = (0,4,7,9,14)
+
+-- Phase 2: (double check these especially)
+e_6 = (0,4,7,10,14) -- (12 because it's 2+3+4 - 2 + 5 = 12)
+e_7 = (0,4,7,10,14) -- (8 because it's 2+3 - 2 + 5 = 8)
+
+-- Phase 3: (triple check the duals!)
+e_8 = (0,5,7,10,14)
+e_9 = (0,5,8,10,14)
+e_10 = (0,5,8,11,14)
+e_11 = (0,5,9,11,14)
+e_12 = (0,5,9,12,14) 
+
+degDual e_1 == e_12
+degDual e_2 == e_11
+degDual e_3 == e_10 
+degDual e_4 == e_9 
+degDual e_5 == e_8
+degDual e_6 == e_7
+eliminateBetti makeCI{2,3,4,5}
+
+-- Make pure diagrams
+scan(1..12,l -> p_l = makePureBettiDiagram(toList e_l, TableEntries=>HerzogKuhl))
+peek p
+
+B = makeCI{2,3,4,5}
+p_1
+B1 = B-(504*p_1)
+p_2
+B2 = B1-(1/15*360*p_2)
+p_3
+B3 = B2-(31/33*594*p_3) -- get a negative value
+p_4
+B4 = B3-(-7/24*288*p_4)
+p_5
+B5 = B4-(1/75*450*p_5)
+p_6
+B6 = B5-(97/49*441*p_6)
+p_7
+B7 = B6-(-1/80*720*p_7) -- get a negative value
+p_8
+B8 = B7-(1/49*294*p_8) -- get a negative value
+p_9
+B9 = B8-(-21/100*400*p_9) 
+p_10
+B10 = B9-(31/24*432*p_10) 
+p_11
+B11 = B10-(2/33*396*p_11) 
+p_12
+B12 = B11-(504*p_12) -- Decomposes!!
+B11 
+504*p_12
+
+
+
+-- Checking (2,7,8,9)
+restart
+loadPackage "BoijSoederberg"
+degDual := d -> (
+    d = rsort toList d;
+    D = apply(#d, l -> first d);
+    toSequence(D-d)
+    )
+
+B3 = makeCI{2,7,8}
+eliminateBetti B3
+d_1 = (0,2,9,17)
+d_2 = (0,7,9,17)
+d_3 = (0,7,10,17)
+d_4 = (0,8,10,17)
+d_5 = (0,8,15,17)
+
+--Phase 1
+scan(1..5, l -> e_l = d_l|toSequence{17+9})
+peek e
+--Phase 2
+e_6 = (0,8,15,2+7+9,26)
+e_7 = (0,8,2+9,18,26)
+degDual e_6 == e_7
+peek e
+--Phase 3
+scan(1..5,l-> e_(13-l) = degDual(e_l))
+peek e
+
+o52 = IndexedVariableTable{1 => (0, 2, 9, 17, 26)  }
+                           2 => (0, 7, 9, 17, 26)
+                           3 => (0, 7, 10, 17, 26)
+                           4 => (0, 8, 10, 17, 26)
+                           5 => (0, 8, 15, 17, 26)
+                           6 => (0, 8, 15, 18, 26)
+                           7 => (0, 8, 11, 18, 26)
+                           8 => (0, 9, 11, 18, 26)
+                           9 => (0, 9, 16, 18, 26)
+                           10 => (0, 9, 16, 19, 26)
+                           11 => (0, 9, 17, 19, 26)
+                           12 => (0, 9, 17, 24, 26)
+                           symbol$ => e
+
+-- Make pure diagrams
+scan(1..12,l -> p_l = makePureBettiDiagram(toList e_l, TableEntries=>HerzogKuhl))
+peek p
+
+B = makeCI{2,7,8,9}
+p_1
+B1 = B-(5040*p_1)
+p_2
+B2 = B1-(7/17*2448*p_2)
+p_3
+B3 = B2-(59/95*3990*p_3)
+p_4
+B4 = B3-(21/80*2240*p_4)
+p_5
+B5 = B4-(161/459*2754*p_5)
+p_6
+B6 = B5-(32/55*3465*p_6)
+p_7
+B7 = B6-(7/15*4320*p_7)
+p_8
+B8 = B7-(23/55*2310*p_8)
+p_9
+B9 = B8-(49/216*2592*p_9) 
+p_10
+B10 = B9-(59/80*3360*p_10) 
+p_11
+B11 = B10-(36/95*2660*p_11) 
+p_12
+B12 = B11-(5040*p_12) -- Decomposes!!
+B11 
+5040*p_12
+
+
+--this is crazy: there's positive rational coeffs at each step! WTF?!
+
+restart
+loadPackage "BoijSoederberg"
+makeCI{2,2,2,11}
+decomposeBetti(oo, TableEntries => HerzogKuhl)
+
+-- Working out the codim 4 case when a_1=a_2=a_3
+R = QQ[a,b]
+y_1 = a*a*(a+a)*(a+a+b)
+y_2 = -a*a*(a*a+2*a*a-a^2+a*b-a*b)
+y_3 = a*a*(a-a+a)*(a+a+4*a+2*b)
+y_4 = -a*a*(a^2+4*a*a-a*a+a*b-a*b)
+y_5 = a*a*(a*a-5*a*a+a*b+a*b)
+s = sum toList apply(1..5, l -> y_l) -- 6a^3b
+p_1 = 1/(2*a^3*(a+b))
+p_2 = 1/(2*a^2*b*(a+b))
+t = 6*a*a*a*(a-a+b)
+s*p_1+t*p_2 == 3

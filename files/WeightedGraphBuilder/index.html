@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NCI graph builder</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/springy/2.8.0/springy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/springy/2.8.0/springyui.min.js"></script>
+    <script src="graph.js"></script>
+    <script src="parser.js"></script>
+    <script src="ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="graph-vis">
+
+</canvas>
+<div id="edit-wrapper">
+    <div id="edit-button-wrapper">
+        <i class="glyphicon glyphicon-edit" id="open-graph-editor" data-toggle="collapse" data-target="#edit-panel">
+
+        </i>
+    </div>
+    <div id="edit-panel" class="collapse in">
+        Syntax:
+        <br>
+        <div class="code">//comment</div> denotes a comment
+        <br>
+        <div class="code">v name weight</div> adds a vertex of name 'name' and weight 'weight'
+        <br>
+        <div class="code">e v1 v2</div> adds an edge between vertices of names 'v1' and 'v2'
+        <textarea id="graph-encoding" class="code">
+//This is a simple example graph
+v a 4
+v b 3
+e a b</textarea>
+        <button id="update-graph">Update</button>
+    </div>
+</div>
+<div id="output-wrapper">
+    <div id="output-button-wrapper">
+        <i class="glyphicon glyphicon-download" id="open-output" data-toggle="collapse" data-target="#output-panel">
+
+        </i>
+    </div>
+    <div id="output-panel" class="collapse in">
+        <div id="no-syntax-errors">
+            <table>
+                <tr>
+                    <th>CI?</th>
+                    <th>
+                        <i class="glyphicon glyphicon-ok" id="CI-status">
+
+                        </i>
+                    </th>
+                </tr>
+                <tr>
+                    <th>NCI?</th>
+                    <th>
+                        <i class="glyphicon glyphicon-ok" id="NCI-status">
+
+                        </i>
+                    </th>
+                </tr>
+            </table>
+            <textarea id="m2-output" readonly></textarea>
+            <button id="get-m2">Copy M2 Ideal</button>
+        </div>
+        <div id="syntax-errors" class="hidden">
+        </div>
+    </div>
+</div>
+</body>
+</html>

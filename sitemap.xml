@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-10-08T15:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2020-tmwyf/</loc>
+    <lastmod>2020-10-08T15:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-04-21T00:00:00-04:00</lastmod>
   </url>
@@ -19,11 +29,6 @@
   
   <url>
     <loc>/author/courtney-gibbons/</loc>
-    <lastmod>2020-04-21T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-04-21T00:00:00-04:00</lastmod>
   </url>
   
@@ -58,12 +63,17 @@
   </url>
   
   <url>
-    <loc>/talk/ignite2018/</loc>
+    <loc>/talk/2018-pcmi/</loc>
+    <lastmod>2018-07-19T15:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2018-pcmi-ignite/</loc>
     <lastmod>2018-06-21T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/googlingit17/</loc>
+    <loc>/talk/2017-googlingit/</loc>
     <lastmod>2018-06-21T00:00:00-04:00</lastmod>
   </url>
   
@@ -83,7 +93,7 @@
   </url>
   
   <url>
-    <loc>/talk/levitt2018/</loc>
+    <loc>/talk/2018-levitt/</loc>
     <lastmod>2018-06-20T00:00:00-04:00</lastmod>
   </url>
   

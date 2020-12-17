@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue";
+}
+
+#graph-vis{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#edit-wrapper{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    max-width: 300px;
+}
+
+#edit-button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+#open-graph-editor{
+    font-size: 30pt;
+}
+
+#graph-encoding{
+    resize: vertical;
+    width: 100%;
+    height: 300px;
+}
+
+#edit-panel{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 5px;
+}
+
+#output-wrapper{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    max-height: 300px;
+}
+
+#output-panel{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 5px;
+}
+
+#open-output{
+    cursor: pointer;
+    font-size: 30pt;
+}
+
+.glyphicon-ok{
+    color: limegreen;
+}
+
+.glyphicon-remove{
+    color: red;
+}
+
+#m2-output{
+    float: right;
+
+}
+
+.code{
+    font-family: "Courier New";
+}

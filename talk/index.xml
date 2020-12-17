@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>The Real Friends are the Betti Numbers We Calculated Along the Way</title>
+      <link>/talk/2020-tmwyf/</link>
+      <pubDate>Thu, 08 Oct 2020 15:30:00 -0400</pubDate>
+      <guid>/talk/2020-tmwyf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Syzygy: When Submodules Align</title>
       <link>/talk/2019-mathfest/</link>
       <pubDate>Sat, 03 Aug 2019 11:00:00 -0400</pubDate>
@@ -29,18 +37,26 @@
     </item>
     
     <item>
+      <title>Syzygy: a mysterious mathematical object</title>
+      <link>/talk/2018-pcmi/</link>
+      <pubDate>Thu, 19 Jul 2018 15:30:00 -0400</pubDate>
+      <guid>/talk/2018-pcmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>From 0 to Syzygy in 5 minutes</title>
-      <link>/talk/ignite2018/</link>
+      <link>/talk/2018-pcmi-ignite/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/ignite2018/</guid>
+      <guid>/talk/2018-pcmi-ignite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Googling It: How Google Ranks Search Results</title>
-      <link>/talk/googlingit17/</link>
+      <link>/talk/2017-googlingit/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/googlingit17/</guid>
+      <guid>/talk/2017-googlingit/</guid>
       <description></description>
     </item>
     
@@ -70,9 +86,9 @@
     
     <item>
       <title>Gerrymandering: The Math Behind the Madness.</title>
-      <link>/talk/levitt2018/</link>
+      <link>/talk/2018-levitt/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/levitt2018/</guid>
+      <guid>/talk/2018-levitt/</guid>
       <description></description>
     </item>
     

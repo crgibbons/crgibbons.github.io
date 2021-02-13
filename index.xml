@@ -2,173 +2,173 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr. Courtney R. Gibbons</title>
-    <link>https://people.hamilton.edu/cgibbons/</link>
-      <atom:link href="https://people.hamilton.edu/cgibbons/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Courtney R. Gibbons</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 08 Oct 2020 15:30:00 -0400</lastBuildDate>
     <image>
-      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Dr. Courtney R. Gibbons</title>
-      <link>https://people.hamilton.edu/cgibbons/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>The Real Friends are the Betti Numbers We Calculated Along the Way</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2020-tmwyf/</link>
+      <link>/talk/2020-tmwyf/</link>
       <pubDate>Thu, 08 Oct 2020 15:30:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2020-tmwyf/</guid>
+      <guid>/talk/2020-tmwyf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/notices2020/notices2020/</link>
+      <link>/publication/notices2020/notices2020/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/notices2020/notices2020/</guid>
+      <guid>/publication/notices2020/notices2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syzygy: When Submodules Align</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2019-mathfest/</link>
+      <link>/talk/2019-mathfest/</link>
       <pubDate>Sat, 03 Aug 2019 11:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2019-mathfest/</guid>
+      <guid>/talk/2019-mathfest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Boij-Soederberg Theory as an Introduction to Research in Commutative Algebra</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2019-jmm/</link>
+      <link>/talk/2019-jmm/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2019-jmm/</guid>
+      <guid>/talk/2019-jmm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syzygy: a mysterious mathematical object</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2018-pcmi/</link>
+      <link>/talk/2018-pcmi/</link>
       <pubDate>Thu, 19 Jul 2018 15:30:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2018-pcmi/</guid>
+      <guid>/talk/2018-pcmi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>From 0 to Syzygy in 5 minutes</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2018-pcmi-ignite/</link>
+      <link>/talk/2018-pcmi-ignite/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2018-pcmi-ignite/</guid>
+      <guid>/talk/2018-pcmi-ignite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Googling It: How Google Ranks Search Results</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2017-googlingit/</link>
+      <link>/talk/2017-googlingit/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2017-googlingit/</guid>
+      <guid>/talk/2017-googlingit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maximum Likelihood Degrees for Discrete Random Models</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/siamaag17/</link>
+      <link>/talk/siamaag17/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/siamaag17/</guid>
+      <guid>/talk/siamaag17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive Decompositions of Betti diagrams of complete intersections</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2018-rte81/</link>
+      <link>/talk/2018-rte81/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2018-rte81/</guid>
+      <guid>/talk/2018-rte81/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shidoku: A Crash Course on Ideals and Varieties</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/shidoku/</link>
+      <link>/talk/shidoku/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/shidoku/</guid>
+      <guid>/talk/shidoku/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gerrymandering: The Math Behind the Madness.</title>
-      <link>https://people.hamilton.edu/cgibbons/talk/2018-levitt/</link>
+      <link>/talk/2018-levitt/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/talk/2018-levitt/</guid>
+      <guid>/talk/2018-levitt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/bbgspaper2020/bbgspaper2020/</link>
+      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/bbgspaper2020/bbgspaper2020/</guid>
+      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/ghspaper2018/ghspaper2018/</link>
+      <link>/publication/ghspaper2018/ghspaper2018/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/ghspaper2018/ghspaper2018/</guid>
+      <guid>/publication/ghspaper2018/ghspaper2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/g-reu-2014/reupaper/</link>
+      <link>/publication/g-reu-2014/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/g-reu-2014/reupaper/</guid>
+      <guid>/publication/g-reu-2014/reupaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/glaisonpaul/glaisonpaul/</link>
+      <link>/publication/glaisonpaul/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/glaisonpaul/glaisonpaul/</guid>
+      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandma makes Granola</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/bedientg/granola/</link>
+      <link>/publication/bedientg/granola/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/bedientg/granola/</guid>
+      <guid>/publication/bedientg/granola/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/g-et-al-msri-2012/msripaper/</link>
+      <link>/publication/g-et-al-msri-2012/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/g-et-al-msri-2012/msripaper/</guid>
+      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/glaison1/glaison1/</link>
+      <link>/publication/glaison1/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/glaison1/glaison1/</guid>
+      <guid>/publication/glaison1/glaison1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/bbegpaper2011/mrcpaper/</link>
+      <link>/publication/bbegpaper2011/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/bbegpaper2011/mrcpaper/</guid>
+      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
       <description></description>
     </item>
     

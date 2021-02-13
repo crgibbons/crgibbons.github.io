@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Dr. Courtney R. Gibbons</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/categories/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://people.hamilton.edu/cgibbons/categories/</link>
     </image>
     
   </channel>

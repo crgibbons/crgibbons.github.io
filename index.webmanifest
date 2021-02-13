@@ -5,14 +5,14 @@
   "theme_color": "#002f86",
   "background_color": "#002f86",
   "icons": [{
-    "src": "/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_192x192_fill_lanczos_center_2.png",
+    "src": "/cgibbons/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_512x512_fill_lanczos_center_2.png",
+    "src": "/cgibbons/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],
   "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
+  "start_url": "/cgibbons/?utm_source=web_app_manifest"
 }

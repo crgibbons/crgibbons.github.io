@@ -1,0 +1,6 @@
+# robots.txt for crgibbons.github.io
+User-agent: *
+Disallow: 
+Disallow: /newsletter/
+Disallow: /preprints/
+Disallow: /stash/

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Dr. Courtney R. Gibbons</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/tags/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Tue, 21 Apr 2020 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://people.hamilton.edu/cgibbons/tags/</link>
     </image>
     
   </channel>

@@ -13,6 +13,58 @@
     </image>
     
     <item>
+      <title>Math 325: Modern Algebra</title>
+      <link>/post/math325/2022-math325/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 -0500</pubDate>
+      <guid>/post/math325/2022-math325/</guid>
+      <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
+&lt;h2 id=&#34;the-word-algebra&#34;&gt;The word &amp;ldquo;Algebra&amp;rdquo;&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; and its mathematical connotation stem from a 9th century
+Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restoration and Compensation&lt;/em&gt;, by al-Kwarizmi. This historical text dealt with finding the roots of a general quadratic polynomial, $ax^2+bx+c=0$ where $a \not = 0$, by completing the square&amp;mdash;hence &amp;ldquo;restoration&amp;rdquo; and &amp;ldquo;compensation.&amp;rdquo;&amp;rdquo; This is where our journey begins. By the end of the course, we&amp;rsquo;ll have an understanding of what tools and techniques &amp;ldquo;modern&amp;rdquo; (19th and 20th century) algebra brings to bear on polynomials and their roots. This course gets more abstract as the semester progresses, so set good habits early. (See Endotes 1)&lt;/p&gt;
+&lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Abstract Algebra: A Concrete Introduction&lt;/em&gt;, by Robert Redfield (available from the Hamilton College Bookstore; see me if you have difficulty acquiring the book)
+&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)&lt;/p&gt;
+&lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
+&lt;p&gt;See the 
+&lt;a href=&#34;files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule (tentative)&lt;/a&gt; for the day-to-day of the course (includes topics covered and assignments).&lt;/p&gt;
+&lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Writing Intensive:&lt;/strong&gt; We will focus on writing during class, and you will have several revision opportunities on writing assignments and the writing portions of exams. The final paper in the course will allow you to tie together what you&amp;rsquo;ve learned (and what you&amp;rsquo;ve already written in earlier writing assignments) into a mathematical survey paper written for a mathematically literate audience.&lt;/p&gt;
+&lt;p&gt;To support your progress as a writer of mathematics, I can help you during open hours or on Piazza, and the QSR Center and the Writing Center both have a number of peer tutors who are familiar with mathematical proof writing and $\LaTeX$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Educational Goals:&lt;/strong&gt; This course supports several of 
+&lt;a href=&#34;https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals&#34; title=&#34;Hamilton&amp;#39;s Educational Goals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamilton&amp;rsquo;s Educational Goals&lt;/a&gt;. Much of the &lt;em&gt;Disciplinary Practice&lt;/em&gt;, &lt;em&gt;Creativity&lt;/em&gt;, and &lt;em&gt;Communication and Expression&lt;/em&gt; within mathematics comes through the process of solving a problem/proving a proposition and then writing it up. In this class, you will refine your proof writing skills and develop new mathematical prose writing skills.&lt;/p&gt;
+&lt;h2 id=&#34;types-of-assessments&#34;&gt;Types of Assessments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homework (HW)&lt;/strong&gt;: Due Tuesdays at 4pm (rigid). The homework is graded by a Hamilton student and will be returned in 2-3 class periods. Because the written homework is graded by a student who is super-busy just like you, homework is due when it&amp;rsquo;s due! (Don&amp;rsquo;t @ me!) However, to help you out, I drop your lowest 2 homework scores.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Midterm Exams (ME)&lt;/strong&gt;: Two 2-hour self-scheduled midterms. Before the first exam, I will post a preview that describes the kinds of questions, the point distributions, and other information that will help you study.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Exam (FE)&lt;/strong&gt;: One 3-hour cumulative self-scheduled exam. The material on the final, though cumulative, will be weighted toward the material covered at the end of the course that was not tested on midterms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing Assignments (WA)&lt;/strong&gt;: Due Thursdays at 4pm (flexible). You will write up solutions to problems and responses to writing prompts roughly once a week using $\LaTeX$ (via 
+&lt;a href=&#34;https://www.overleaf.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Overleaf&lt;/a&gt; with your Hamilton SSO) (sometimes solo, sometimes in partners). Each writing assignment is graded among the options &lt;strong&gt;E&lt;/strong&gt; (exemplary), &lt;strong&gt;M&lt;/strong&gt; (masterful), &lt;strong&gt;R&lt;/strong&gt; (consider revising), and &lt;strong&gt;X&lt;/strong&gt; (not enough to assess).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Paper (FP)&lt;/strong&gt;: Due by beginning of our scheduled final exam period. This will be graded like a writing assignment; a lot of the content of this paper will come from writing assignments you&amp;rsquo;ve already completed, so think of it as a way to study for the final and get a chance to revise your writing one last time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;classroom-environment&#34;&gt;Classroom Environment&lt;/h2&gt;
+&lt;p&gt;The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&amp;hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)&lt;/p&gt;
+&lt;h2 id=&#34;your-responsibilities&#34;&gt;Your Responsibilities&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Piazza&lt;/strong&gt; This term we will be using Piazza for online discussions (and virtual office hours). The system is highly catered to getting you help fast and efficiently from classmates, the course grader, and me. Rather than emailing questions to the me, please post your questions on Piazza, and I will try to keep a record of office hours questions on Piazza, too. If you have any problems or feedback for the developers, email &lt;a href=&#34;mailto:team@piazza.com&#34;&gt;team@piazza.com&lt;/a&gt;. You can access Piazza directly through Blackboard by cliclking &amp;ldquo;Piazza&amp;rdquo; in the course menu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams&lt;/strong&gt; Please give me notice at least one week prior to an that you have an academic accommodation or a conflict. Since the exams in this course are self-scheduled, I hope this allows you the flexibility to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility. T&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, please fill out the Class Absence Request Form (link available on Blackboard). You are part of a community that believes in the power of the Honor Code to make Hamilton College a great place to be a student and a teacher. We are all bound by the responsibility to actively create and maintain a culture of learning, academic integrity, and personal honor. I do not take my responsibility lightly; nor should you! (See Endnotes 3)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Stuck&lt;/strong&gt; Being stumped is part of learning mathematics, so please attempt to solve homework problems on your own before asking for help on them. Collaboration on the homework is encouraged as long as you are collaborating with your peers currently enrolled in any section of Math 325. However, make sure to write up your final drafts separately to ensure that you have each fully understood the answer(s). Similarly, even though you will be assigned a writing partner for the writing assignments, it is your responsibility to make sure you understand and approve of all the mathematics your team turns in. (See Endnotes 4)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; &lt;em&gt;Please check with me before using resources other than your classmates, Piazza, tutors at the QSR or Writing Centers, or online $\LaTeX$ help. For example, check with me before asking other professors, students not currently enrolled in Math 325, the internet, a magic eight ball, the ghost of Gauss, etc! Mathematical plagiarism is a subtle business, and it&amp;rsquo;s easy to accidentally plagiarize by copying a solution you&amp;rsquo;ve read somewhere else.&lt;/em&gt; (See Endnotes 5)&lt;/p&gt;
+&lt;h2 id=&#34;endnotes&#34;&gt;Endnotes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Oxford English Dictionary, retrieved January 30, 2021.&lt;/li&gt;
+&lt;li&gt;AMS Policy on a Welcoming Environment, retrieved January 30, 2021.&lt;/li&gt;
+&lt;li&gt;If you wantonly skip class, aside from missing out on the learning community within the walls of our classroom, you&amp;rsquo;ll penalize yourself by getting lower homework and test scores than you otherwise would. And anyway, I do notice if you&amp;rsquo;re not in class.&lt;/li&gt;
+&lt;li&gt;Honor Code issues aside, you&amp;rsquo;re doing your education a disservice if you turn in work you have not personally thought through carefully. Plus, some Writing Assignment problems will reappear on exams or on the final paper.&lt;/li&gt;
+&lt;li&gt;Seriously, though: you can&amp;rsquo;t &amp;ldquo;unsee&amp;rdquo; someone else&amp;rsquo;s solution. There are deep and interesting ethical conundra lurking here; Googling unwisely (or at all) may lead you down a path you didn&amp;rsquo;t intend to follow.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Seminar: Mathematics in Social Context</title>
       <link>/post/math498/2022-math498/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 -0500</pubDate>

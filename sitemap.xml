@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/talk/2021-amswesternsectional/</loc>
-    <lastmod>2021-05-02T17:00:00-04:00</lastmod>
+    <loc>/course/</loc>
+    <lastmod>2022-01-01T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2022-01-01T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2021-amswesternsectional/</loc>
     <lastmod>2021-05-02T17:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/2021-theotherside/</loc>
     <lastmod>2021-04-14T15:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/math498/2022-math498/</loc>
+    <lastmod>2021-01-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-01-18T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -313,10 +328,6 @@
   
   <url>
     <loc>/author/courtney-r.-gibbons/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
 </urlset>

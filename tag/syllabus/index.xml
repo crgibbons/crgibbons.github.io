@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dr. Courtney R. Gibbons</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dr. Courtney R. Gibbons</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 13 Jan 2022 00:00:00 -0500</lastBuildDate>
+    <title>syllabus | Dr. Courtney R. Gibbons</title>
+    <link>/tag/syllabus/</link>
+      <atom:link href="/tag/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    <description>syllabus</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 -0500</lastBuildDate>
     <image>
       <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
-      <title>Dr. Courtney R. Gibbons</title>
-      <link>/</link>
+      <title>syllabus</title>
+      <link>/tag/syllabus/</link>
     </image>
-    
-    <item>
-      <title>My Favorite Theorem: Episode 73</title>
-      <link>/post/inthemedia/myfavthmep73/</link>
-      <pubDate>Thu, 13 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/inthemedia/myfavthmep73/</guid>
-      <description>&lt;p&gt;From the episode description:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;On this episode of My Favorite Theorem, we were delighted to talk with Courtney Gibbons, a mathematician at Hamilton College, about Emmy Noether&amp;rsquo;s isomorphism theorems. 
-&lt;a href=&#34;https://kpknudson.com/my-favorite-theorem/2022/1/13/episode-73-courtney-gibbons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Episode 73&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context</title>
@@ -249,192 +236,6 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;li&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Final Exam emphasizes Chs 19-28&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A Hypergraph Characterization of Nearly Complete Intersections</title>
-      <link>/talk/2021-amswesternsectional/</link>
-      <pubDate>Sun, 02 May 2021 17:00:00 -0400</pubDate>
-      <guid>/talk/2021-amswesternsectional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Math of Online Privacy</title>
-      <link>/talk/2021-theotherside/</link>
-      <pubDate>Wed, 14 Apr 2021 15:30:00 -0400</pubDate>
-      <guid>/talk/2021-theotherside/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>So You Think You&#39;re Bad at Math (video pep talk)</title>
-      <link>/post/inthemedia/youtubepeptalk/</link>
-      <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
-      <guid>/post/inthemedia/youtubepeptalk/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve had a lot of conversations with students lately that start with disclaimers like &amp;ldquo;I&amp;rsquo;m sorry, I&amp;rsquo;m not really good at math, so&amp;hellip;&amp;rdquo; and since it&amp;rsquo;s not so easy to give a pep talk in-person with the whole pandemic and everything, I thought I&amp;rsquo;d give the pep talk here. Watch the 
-&lt;a href=&#34;https://www.youtube.com/watch?v=kenf8E1RuoA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pep Talk&lt;/a&gt;!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Real Friends are the Betti Numbers We Calculated Along the Way</title>
-      <link>/talk/2020-tmwyf/</link>
-      <pubDate>Thu, 08 Oct 2020 15:30:00 -0400</pubDate>
-      <guid>/talk/2020-tmwyf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>
-      <link>/publication/notices2020/notices2020/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 -0400</pubDate>
-      <guid>/publication/notices2020/notices2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syzygy: When Submodules Align</title>
-      <link>/talk/2019-mathfest/</link>
-      <pubDate>Sat, 03 Aug 2019 11:00:00 -0400</pubDate>
-      <guid>/talk/2019-mathfest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Boij-Soederberg Theory as an Introduction to Research in Commutative Algebra</title>
-      <link>/talk/2019-jmm/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 -0500</pubDate>
-      <guid>/talk/2019-jmm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syzygy: a mysterious mathematical object</title>
-      <link>/talk/2018-pcmi/</link>
-      <pubDate>Thu, 19 Jul 2018 15:30:00 -0400</pubDate>
-      <guid>/talk/2018-pcmi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>From 0 to Syzygy in 5 minutes</title>
-      <link>/talk/2018-pcmi-ignite/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-pcmi-ignite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Googling It: How Google Ranks Search Results</title>
-      <link>/talk/2017-googlingit/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2017-googlingit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maximum Likelihood Degrees for Discrete Random Models</title>
-      <link>/talk/siamaag17/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/siamaag17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recursive Decompositions of Betti diagrams of complete intersections</title>
-      <link>/talk/2018-rte81/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-rte81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shidoku: A Crash Course on Ideals and Varieties</title>
-      <link>/talk/shidoku/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/shidoku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gerrymandering: The Math Behind the Madness.</title>
-      <link>/talk/2018-levitt/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-levitt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/ghspaper2018/ghspaper2018/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/ghspaper2018/ghspaper2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/g-reu-2014/reupaper/</link>
-      <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/g-reu-2014/reupaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
-      <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/glaisonpaul/</link>
-      <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grandma makes Granola</title>
-      <link>/publication/bedientg/granola/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/bedientg/granola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/g-et-al-msri-2012/msripaper/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/glaison1/</link>
-      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/glaison1/glaison1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/bbegpaper2011/mrcpaper/</link>
-      <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
-      <description></description>
     </item>
     
   </channel>

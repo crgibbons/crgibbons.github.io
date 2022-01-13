@@ -5,12 +5,25 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 13 Jan 2022 00:00:00 -0500</lastBuildDate>
     <image>
       <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>My Favorite Theorem: Episode 73</title>
+      <link>/post/inthemedia/myfavthmep73/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>/post/inthemedia/myfavthmep73/</guid>
+      <description>&lt;p&gt;From the episode description:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On this episode of My Favorite Theorem, we were delighted to talk with Courtney Gibbons, a mathematician at Hamilton College, about Emmy Noether&amp;rsquo;s isomorphism theorems. 
+&lt;a href=&#34;https://kpknudson.com/my-favorite-theorem/2022/1/13/episode-73-courtney-gibbons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Episode 73&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context</title>
@@ -142,7 +155,7 @@ NOTE: ebook available with Hamilton College login
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-word-algebra&#34;&gt;The word &amp;ldquo;Algebra&amp;rdquo;&amp;hellip;&lt;/h2&gt;
 &lt;p&gt;&amp;hellip; and its mathematical connotation stem from a 9th century
-Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restoration and Compensation&lt;/em&gt;, by al-Kwarizmi. This historical text dealt with finding the roots of a general quadratic polynomial, $ax^2+bx+c=0$ where $a \not = 0$, by completing the square&amp;mdash;hence &amp;ldquo;restoration&amp;rdquo; and &amp;ldquo;compensation.&amp;rdquo;&amp;rdquo; This is where our journey begins. By the end of the course, we&amp;rsquo;ll have an understanding of what tools and techniques &amp;ldquo;modern&amp;rdquo; (19th and 20th century) algebra brings to bear on polynomials and their roots. This course gets more abstract as the semester progresses, so set good habits early. (See Endotes 1)&lt;/p&gt;
+Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restoration and Compensation&lt;/em&gt;, by al-Kwarizmi. This historical text dealt with finding the roots of a general quadratic polynomial equation, $ax^2+bx+c=0$ for nonzero $a$, by completing the square&amp;mdash;hence &amp;ldquo;restoration&amp;rdquo; and &amp;ldquo;compensation.&amp;rdquo;&amp;rdquo; This is where our journey begins. By the end of the course, we&amp;rsquo;ll have an understanding of what tools and techniques &amp;ldquo;modern&amp;rdquo; (19th and 20th century) algebra brings to bear on polynomials and their roots. This course gets more abstract as the semester progresses, so set good habits early. (See Endotes 1)&lt;/p&gt;
 &lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Abstract Algebra: A Concrete Introduction&lt;/em&gt;, by Robert Redfield (available from the Hamilton College Bookstore; see me if you have difficulty acquiring the book)&lt;/li&gt;
@@ -235,6 +248,16 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;li&gt;M 05/09/2022: Workshop on Final Papers&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Final Exam emphasizes Chs 19-28&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>So You Think You&#39;re Bad at Math (video pep talk)</title>
+      <link>/post/inthemedia/youtubepeptalk/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>/post/inthemedia/youtubepeptalk/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had a lot of conversations with students lately that start with disclaimers like &amp;ldquo;I&amp;rsquo;m sorry, I&amp;rsquo;m not really good at math, so&amp;hellip;&amp;rdquo; and since it&amp;rsquo;s not so easy to give a pep talk in-person with the whole pandemic and everything, I thought I&amp;rsquo;d give the pep talk here. Watch the 
+&lt;a href=&#34;https://www.youtube.com/watch?v=kenf8E1RuoA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pep Talk&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     

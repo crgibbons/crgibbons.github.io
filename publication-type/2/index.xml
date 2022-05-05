@@ -5,12 +5,28 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Tue, 21 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 14 Mar 2022 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>A hypergraph characterization of nearly complete intersections</title>
+      <link>/publication/g-reu-2020/g-reu-2020/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 -0400</pubDate>
+      <guid>/publication/g-reu-2020/g-reu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L-dimension for modules over a local ring.</title>
+      <link>/publication/gjs-2021/gjs-2021/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>/publication/gjs-2021/gjs-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>

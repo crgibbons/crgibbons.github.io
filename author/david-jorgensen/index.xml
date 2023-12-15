@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Jorgensen | Dr. Courtney R. Gibbons</title>
-    <link>/author/david-jorgensen/</link>
-      <atom:link href="/author/david-jorgensen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/author/david-jorgensen/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/author/david-jorgensen/index.xml" rel="self" type="application/rss+xml" />
     <description>David Jorgensen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Wed, 29 Dec 2021 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>David Jorgensen</title>
-      <link>/author/david-jorgensen/</link>
+      <link>https://people.hamilton.edu/cgibbons/author/david-jorgensen/</link>
     </image>
     
     <item>
       <title>L-dimension for modules over a local ring.</title>
-      <link>/publication/gjs-2021/gjs-2021/</link>
+      <link>https://people.hamilton.edu/cgibbons/publication/gjs-2021/gjs-2021/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/gjs-2021/gjs-2021/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/publication/gjs-2021/gjs-2021/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Smolkin | Dr. Courtney R. Gibbons</title>
-    <link>/author/daniel-smolkin/</link>
-      <atom:link href="/author/daniel-smolkin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/author/daniel-smolkin/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/author/daniel-smolkin/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Smolkin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 17 Mar 2017 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Daniel Smolkin</title>
-      <link>/author/daniel-smolkin/</link>
+      <link>https://people.hamilton.edu/cgibbons/author/daniel-smolkin/</link>
     </image>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     

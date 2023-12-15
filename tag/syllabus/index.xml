@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>syllabus | Dr. Courtney R. Gibbons</title>
-    <link>/tag/syllabus/</link>
-      <atom:link href="/tag/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/tag/syllabus/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/tag/syllabus/index.xml" rel="self" type="application/rss+xml" />
     <description>syllabus</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>syllabus</title>
-      <link>/tag/syllabus/</link>
+      <link>https://people.hamilton.edu/cgibbons/tag/syllabus/</link>
     </image>
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context</title>
-      <link>/post/math498/2022-math498/</link>
+      <link>https://people.hamilton.edu/cgibbons/post/math498/2022-math498/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/math498/2022-math498/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/post/math498/2022-math498/</guid>
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-big-picture&#34;&gt;The Big Picture&lt;/h2&gt;
 &lt;p&gt;This course is designed to examine issues of social, structural, and institutional hierarchies that intersect with mathematics and statistics. This year, the course will examine several big themes:&lt;/p&gt;
@@ -136,9 +136,9 @@ NOTE: ebook available with Hamilton College login
     
     <item>
       <title>Math 325 (Writing Intensive): Modern Algebra</title>
-      <link>/post/syllabi/2022-math325/</link>
+      <link>https://people.hamilton.edu/cgibbons/post/syllabi/2022-math325/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/syllabi/2022-math325/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/post/syllabi/2022-math325/</guid>
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-word-algebra&#34;&gt;The word &amp;ldquo;Algebra&amp;rdquo;&amp;hellip;&lt;/h2&gt;
 &lt;p&gt;&amp;hellip; and its mathematical connotation stem from a 9th century
@@ -150,7 +150,7 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;/ul&gt;
 &lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
 &lt;p&gt;See the 
-&lt;a href=&#34;/files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule Table (tentative)&lt;/a&gt; or the list at the end of the page for the day-to-day topics coverage.&lt;/p&gt;
+&lt;a href=&#34;https://people.hamilton.edu/cgibbons/files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule Table (tentative)&lt;/a&gt; or the list at the end of the page for the day-to-day topics coverage.&lt;/p&gt;
 &lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Writing Intensive:&lt;/strong&gt; We will focus on writing during class, and you will have several revision opportunities on writing assignments and the writing portions of exams. The final paper in the course will allow you to tie together what you&amp;rsquo;ve learned (and what you&amp;rsquo;ve already written in earlier writing assignments) into a mathematical survey paper written for a mathematically literate audience.&lt;/p&gt;
 &lt;p&gt;To support your progress as a writer of mathematics, I can help you during open hours or on Piazza, and the QSR Center and the Writing Center both have a number of peer tutors who are familiar with mathematical proof writing and $\LaTeX$.&lt;/p&gt;

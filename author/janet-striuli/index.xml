@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Janet Striuli | Dr. Courtney R. Gibbons</title>
-    <link>/author/janet-striuli/</link>
-      <atom:link href="/author/janet-striuli/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://people.hamilton.edu/cgibbons/author/janet-striuli/</link>
+      <atom:link href="https://people.hamilton.edu/cgibbons/author/janet-striuli/index.xml" rel="self" type="application/rss+xml" />
     <description>Janet Striuli</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Wed, 29 Dec 2021 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Janet Striuli</title>
-      <link>/author/janet-striuli/</link>
+      <link>https://people.hamilton.edu/cgibbons/author/janet-striuli/</link>
     </image>
     
     <item>
       <title>L-dimension for modules over a local ring.</title>
-      <link>/publication/gjs-2021/gjs-2021/</link>
+      <link>https://people.hamilton.edu/cgibbons/publication/gjs-2021/gjs-2021/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/gjs-2021/gjs-2021/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/publication/gjs-2021/gjs-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
+      <link>https://people.hamilton.edu/cgibbons/publication/bbgspaper2020/bbgspaper2020/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
+      <guid>https://people.hamilton.edu/cgibbons/publication/bbgspaper2020/bbgspaper2020/</guid>
       <description></description>
     </item>
     

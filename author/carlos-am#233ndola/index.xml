@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carlos Am&amp;#233;ndola | Dr. Courtney R. Gibbons</title>
-    <link>https://people.hamilton.edu/cgibbons/author/carlos-am#233ndola/</link>
-      <atom:link href="https://people.hamilton.edu/cgibbons/author/carlos-am#233ndola/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/carlos-am#233ndola/</link>
+      <atom:link href="/author/carlos-am#233ndola/index.xml" rel="self" type="application/rss+xml" />
     <description>Carlos Am&amp;#233;ndola</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 17 Mar 2017 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Carlos Am&amp;#233;ndola</title>
-      <link>https://people.hamilton.edu/cgibbons/author/carlos-am#233ndola/</link>
+      <link>/author/carlos-am#233ndola/</link>
     </image>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     

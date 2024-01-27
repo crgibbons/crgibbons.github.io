@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>in the media | Dr. Courtney R. Gibbons</title>
-    <link>https://people.hamilton.edu/cgibbons/tag/in-the-media/</link>
-      <atom:link href="https://people.hamilton.edu/cgibbons/tag/in-the-media/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/in-the-media/</link>
+      <atom:link href="/tag/in-the-media/index.xml" rel="self" type="application/rss+xml" />
     <description>in the media</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 13 Jan 2022 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>https://people.hamilton.edu/cgibbons/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>in the media</title>
-      <link>https://people.hamilton.edu/cgibbons/tag/in-the-media/</link>
+      <link>/tag/in-the-media/</link>
     </image>
     
     <item>
       <title>My Favorite Theorem: Episode 73</title>
-      <link>https://people.hamilton.edu/cgibbons/post/inthemedia/myfavthmep73/</link>
+      <link>/post/inthemedia/myfavthmep73/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/post/inthemedia/myfavthmep73/</guid>
+      <guid>/post/inthemedia/myfavthmep73/</guid>
       <description>&lt;p&gt;From the episode description:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;On this episode of My Favorite Theorem, we were delighted to talk with Courtney Gibbons, a mathematician at Hamilton College, about Emmy Noether&amp;rsquo;s isomorphism theorems. 
@@ -27,9 +27,9 @@
     
     <item>
       <title>So You Think You&#39;re Bad at Math (video pep talk)</title>
-      <link>https://people.hamilton.edu/cgibbons/post/inthemedia/youtubepeptalk/</link>
+      <link>/post/inthemedia/youtubepeptalk/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
-      <guid>https://people.hamilton.edu/cgibbons/post/inthemedia/youtubepeptalk/</guid>
+      <guid>/post/inthemedia/youtubepeptalk/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had a lot of conversations with students lately that start with disclaimers like &amp;ldquo;I&amp;rsquo;m sorry, I&amp;rsquo;m not really good at math, so&amp;hellip;&amp;rdquo; and since it&amp;rsquo;s not so easy to give a pep talk in-person with the whole pandemic and everything, I thought I&amp;rsquo;d give the pep talk here. Watch the 
 &lt;a href=&#34;https://www.youtube.com/watch?v=kenf8E1RuoA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pep Talk&lt;/a&gt;!&lt;/p&gt;
 </description>

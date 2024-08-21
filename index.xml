@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr. Courtney R. Gibbons</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://crgibbons.github.io/</link>
+      <atom:link href="https://crgibbons.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Courtney R. Gibbons</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Dr. Courtney R. Gibbons</title>
-      <link>/</link>
+      <link>https://crgibbons.github.io/</link>
     </image>
     
     <item>
       <title>Math 512: Number Theory</title>
-      <link>/post/syllabi/2024-math512/</link>
+      <link>https://crgibbons.github.io/post/syllabi/2024-math512/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
-      <guid>/post/syllabi/2024-math512/</guid>
+      <guid>https://crgibbons.github.io/post/syllabi/2024-math512/</guid>
       <description>&lt;p&gt;Revised Fall 2024&lt;/p&gt;
 &lt;h2 id=&#34;number-theorists-are-like-lotus-eaters----having-tasted-this-food-they-can-never-give-it-up--leopold-kronecker&#34;&gt;&amp;ldquo;Number Theorists are like lotus eaters -  having tasted this food they can never give it up.&amp;rdquo; -Leopold Kronecker&lt;/h2&gt;
 &lt;p&gt;&amp;ldquo;What&amp;rsquo;s up with prime numbers?&amp;rdquo; is our motivating question for a lot of this course. &amp;ldquo;How can we use that cool property of prime numbers?&amp;rdquo; is our motivating question for most of the rest. Number theory begins with the integers and the relationships (and remainders) that come from trying to divide one integer into another or find integer solutions to polynomial equations (like $x^3 + y^3 + z^3 = 42$). Although some original numberphiles celebrated number theory&amp;rsquo;s purity (read: its lack of applications to the &amp;ldquo;real world&amp;rdquo;), they&amp;rsquo;d be annoyed to know that we now use their results to accomplish many practical ends, like sending information via secure webpages, listening to scratched CDs, and speed-testing computers. This course will focus on the fundamental results in the field and their applications (especially to cryptography and cryptanalysis). Expect distinguished visitors from different schools and sectors to give short guest presentations in class. (See Endnotes 1)&lt;/p&gt;
@@ -75,17 +75,17 @@ and good, old-fashioned hard work.&lt;/li&gt;
     
     <item>
       <title>A hypergraph characterization of nearly complete intersections</title>
-      <link>/publication/g-reu-2020/g-reu-2020/</link>
+      <link>https://crgibbons.github.io/publication/g-reu-2020/g-reu-2020/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 -0400</pubDate>
-      <guid>/publication/g-reu-2020/g-reu-2020/</guid>
+      <guid>https://crgibbons.github.io/publication/g-reu-2020/g-reu-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My Favorite Theorem: Episode 73</title>
-      <link>/post/inthemedia/myfavthmep73/</link>
+      <link>https://crgibbons.github.io/post/inthemedia/myfavthmep73/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/inthemedia/myfavthmep73/</guid>
+      <guid>https://crgibbons.github.io/post/inthemedia/myfavthmep73/</guid>
       <description>&lt;p&gt;From the episode description:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;On this episode of My Favorite Theorem, we were delighted to talk with Courtney Gibbons, a mathematician at Hamilton College, about Emmy Noether&amp;rsquo;s isomorphism theorems. 
@@ -96,9 +96,9 @@ and good, old-fashioned hard work.&lt;/li&gt;
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context</title>
-      <link>/post/syllabi/2022-math498/</link>
+      <link>https://crgibbons.github.io/post/syllabi/2022-math498/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/syllabi/2022-math498/</guid>
+      <guid>https://crgibbons.github.io/post/syllabi/2022-math498/</guid>
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-big-picture&#34;&gt;The Big Picture&lt;/h2&gt;
 &lt;p&gt;This course is designed to examine issues of social, structural, and institutional hierarchies that intersect with mathematics and statistics. This year, the course will examine several big themes:&lt;/p&gt;
@@ -218,9 +218,9 @@ NOTE: ebook available with Hamilton College login
     
     <item>
       <title>Math 325 (Writing Intensive): Modern Algebra</title>
-      <link>/post/syllabi/2022-math325/</link>
+      <link>https://crgibbons.github.io/post/syllabi/2022-math325/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/syllabi/2022-math325/</guid>
+      <guid>https://crgibbons.github.io/post/syllabi/2022-math325/</guid>
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-word-algebra&#34;&gt;The word &amp;ldquo;Algebra&amp;rdquo;&amp;hellip;&lt;/h2&gt;
 &lt;p&gt;&amp;hellip; and its mathematical connotation stem from a 9th century
@@ -232,7 +232,7 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;/ul&gt;
 &lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
 &lt;p&gt;See the 
-&lt;a href=&#34;/files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule Table (tentative)&lt;/a&gt; or the list at the end of the page for the day-to-day topics coverage.&lt;/p&gt;
+&lt;a href=&#34;https://crgibbons.github.io/files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule Table (tentative)&lt;/a&gt; or the list at the end of the page for the day-to-day topics coverage.&lt;/p&gt;
 &lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Writing Intensive:&lt;/strong&gt; We will focus on writing during class, and you will have several revision opportunities on writing assignments and the writing portions of exams. The final paper in the course will allow you to tie together what you&amp;rsquo;ve learned (and what you&amp;rsquo;ve already written in earlier writing assignments) into a mathematical survey paper written for a mathematically literate audience.&lt;/p&gt;
 &lt;p&gt;To support your progress as a writer of mathematics, I can help you during open hours or on Piazza, and the QSR Center and the Writing Center both have a number of peer tutors who are familiar with mathematical proof writing and $\LaTeX$.&lt;/p&gt;
@@ -321,41 +321,41 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
     
     <item>
       <title>L-dimension for modules over a local ring.</title>
-      <link>/publication/gjs-2021/gjs-2021/</link>
+      <link>https://crgibbons.github.io/publication/gjs-2021/gjs-2021/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/gjs-2021/gjs-2021/</guid>
+      <guid>https://crgibbons.github.io/publication/gjs-2021/gjs-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is a prime, and who decides?</title>
-      <link>/publication/amsfeaturescolumn/featuresnov2021/</link>
+      <link>https://crgibbons.github.io/publication/amsfeaturescolumn/featuresnov2021/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/amsfeaturescolumn/featuresnov2021/</guid>
+      <guid>https://crgibbons.github.io/publication/amsfeaturescolumn/featuresnov2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Hypergraph Characterization of Nearly Complete Intersections</title>
-      <link>/talk/2021-amswesternsectional/</link>
+      <link>https://crgibbons.github.io/talk/2021-amswesternsectional/</link>
       <pubDate>Sun, 02 May 2021 17:00:00 -0400</pubDate>
-      <guid>/talk/2021-amswesternsectional/</guid>
+      <guid>https://crgibbons.github.io/talk/2021-amswesternsectional/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Math of Online Privacy</title>
-      <link>/talk/2021-theotherside/</link>
+      <link>https://crgibbons.github.io/talk/2021-theotherside/</link>
       <pubDate>Wed, 14 Apr 2021 15:30:00 -0400</pubDate>
-      <guid>/talk/2021-theotherside/</guid>
+      <guid>https://crgibbons.github.io/talk/2021-theotherside/</guid>
       <description></description>
     </item>
     
     <item>
       <title>So You Think You&#39;re Bad at Math (video pep talk)</title>
-      <link>/post/inthemedia/youtubepeptalk/</link>
+      <link>https://crgibbons.github.io/post/inthemedia/youtubepeptalk/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
-      <guid>/post/inthemedia/youtubepeptalk/</guid>
+      <guid>https://crgibbons.github.io/post/inthemedia/youtubepeptalk/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had a lot of conversations with students lately that start with disclaimers like &amp;ldquo;I&amp;rsquo;m sorry, I&amp;rsquo;m not really good at math, so&amp;hellip;&amp;rdquo; and since it&amp;rsquo;s not so easy to give a pep talk in-person with the whole pandemic and everything, I thought I&amp;rsquo;d give the pep talk here. Watch the 
 &lt;a href=&#34;https://www.youtube.com/watch?v=kenf8E1RuoA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pep Talk&lt;/a&gt;!&lt;/p&gt;
 </description>
@@ -363,161 +363,161 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
     
     <item>
       <title>The Real Friends are the Betti Numbers We Calculated Along the Way</title>
-      <link>/talk/2020-tmwyf/</link>
+      <link>https://crgibbons.github.io/talk/2020-tmwyf/</link>
       <pubDate>Thu, 08 Oct 2020 15:30:00 -0400</pubDate>
-      <guid>/talk/2020-tmwyf/</guid>
+      <guid>https://crgibbons.github.io/talk/2020-tmwyf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>
-      <link>/publication/notices2020/notices2020/</link>
+      <link>https://crgibbons.github.io/publication/notices2020/notices2020/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 -0400</pubDate>
-      <guid>/publication/notices2020/notices2020/</guid>
+      <guid>https://crgibbons.github.io/publication/notices2020/notices2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syzygy: When Submodules Align</title>
-      <link>/talk/2019-mathfest/</link>
+      <link>https://crgibbons.github.io/talk/2019-mathfest/</link>
       <pubDate>Sat, 03 Aug 2019 11:00:00 -0400</pubDate>
-      <guid>/talk/2019-mathfest/</guid>
+      <guid>https://crgibbons.github.io/talk/2019-mathfest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Boij-Soederberg Theory as an Introduction to Research in Commutative Algebra</title>
-      <link>/talk/2019-jmm/</link>
+      <link>https://crgibbons.github.io/talk/2019-jmm/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 -0500</pubDate>
-      <guid>/talk/2019-jmm/</guid>
+      <guid>https://crgibbons.github.io/talk/2019-jmm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syzygy: a mysterious mathematical object</title>
-      <link>/talk/2018-pcmi/</link>
+      <link>https://crgibbons.github.io/talk/2018-pcmi/</link>
       <pubDate>Thu, 19 Jul 2018 15:30:00 -0400</pubDate>
-      <guid>/talk/2018-pcmi/</guid>
+      <guid>https://crgibbons.github.io/talk/2018-pcmi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>From 0 to Syzygy in 5 minutes</title>
-      <link>/talk/2018-pcmi-ignite/</link>
+      <link>https://crgibbons.github.io/talk/2018-pcmi-ignite/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-pcmi-ignite/</guid>
+      <guid>https://crgibbons.github.io/talk/2018-pcmi-ignite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Googling It: How Google Ranks Search Results</title>
-      <link>/talk/2017-googlingit/</link>
+      <link>https://crgibbons.github.io/talk/2017-googlingit/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2017-googlingit/</guid>
+      <guid>https://crgibbons.github.io/talk/2017-googlingit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maximum Likelihood Degrees for Discrete Random Models</title>
-      <link>/talk/siamaag17/</link>
+      <link>https://crgibbons.github.io/talk/siamaag17/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/siamaag17/</guid>
+      <guid>https://crgibbons.github.io/talk/siamaag17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive Decompositions of Betti diagrams of complete intersections</title>
-      <link>/talk/2018-rte81/</link>
+      <link>https://crgibbons.github.io/talk/2018-rte81/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-rte81/</guid>
+      <guid>https://crgibbons.github.io/talk/2018-rte81/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shidoku: A Crash Course on Ideals and Varieties</title>
-      <link>/talk/shidoku/</link>
+      <link>https://crgibbons.github.io/talk/shidoku/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/shidoku/</guid>
+      <guid>https://crgibbons.github.io/talk/shidoku/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gerrymandering: The Math Behind the Madness.</title>
-      <link>/talk/2018-levitt/</link>
+      <link>https://crgibbons.github.io/talk/2018-levitt/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
-      <guid>/talk/2018-levitt/</guid>
+      <guid>https://crgibbons.github.io/talk/2018-levitt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
+      <link>https://crgibbons.github.io/publication/bbgspaper2020/bbgspaper2020/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
+      <guid>https://crgibbons.github.io/publication/bbgspaper2020/bbgspaper2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/ghspaper2018/ghspaper2018/</link>
+      <link>https://crgibbons.github.io/publication/ghspaper2018/ghspaper2018/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/ghspaper2018/ghspaper2018/</guid>
+      <guid>https://crgibbons.github.io/publication/ghspaper2018/ghspaper2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/g-reu-2014/reupaper/</link>
+      <link>https://crgibbons.github.io/publication/g-reu-2014/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/g-reu-2014/reupaper/</guid>
+      <guid>https://crgibbons.github.io/publication/g-reu-2014/reupaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/glaisonpaul/</link>
+      <link>https://crgibbons.github.io/publication/glaisonpaul/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
+      <guid>https://crgibbons.github.io/publication/glaisonpaul/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandma makes Granola</title>
-      <link>/publication/bedientg/granola/</link>
+      <link>https://crgibbons.github.io/publication/bedientg/granola/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/bedientg/granola/</guid>
+      <guid>https://crgibbons.github.io/publication/bedientg/granola/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/g-et-al-msri-2012/msripaper/</link>
+      <link>https://crgibbons.github.io/publication/g-et-al-msri-2012/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
+      <guid>https://crgibbons.github.io/publication/g-et-al-msri-2012/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/glaison1/</link>
+      <link>https://crgibbons.github.io/publication/glaison1/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/glaison1/glaison1/</guid>
+      <guid>https://crgibbons.github.io/publication/glaison1/glaison1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/bbegpaper2011/mrcpaper/</link>
+      <link>https://crgibbons.github.io/publication/bbegpaper2011/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
+      <guid>https://crgibbons.github.io/publication/bbegpaper2011/mrcpaper/</guid>
       <description></description>
     </item>
     

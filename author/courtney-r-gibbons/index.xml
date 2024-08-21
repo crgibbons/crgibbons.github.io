@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courtney R Gibbons | Dr. Courtney R. Gibbons</title>
-    <link>/author/courtney-r-gibbons/</link>
-      <atom:link href="/author/courtney-r-gibbons/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://crgibbons.github.io/author/courtney-r-gibbons/</link>
+      <atom:link href="https://crgibbons.github.io/author/courtney-r-gibbons/index.xml" rel="self" type="application/rss+xml" />
     <description>Courtney R Gibbons</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 17 Mar 2017 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Courtney R Gibbons</title>
-      <link>/author/courtney-r-gibbons/</link>
+      <link>https://crgibbons.github.io/author/courtney-r-gibbons/</link>
     </image>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     

@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Dr. Courtney R. Gibbons</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://crgibbons.github.io/publication/</link>
+      <atom:link href="https://crgibbons.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 14 Mar 2022 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
+      <url>https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://crgibbons.github.io/publication/</link>
     </image>
     
     <item>
       <title>A hypergraph characterization of nearly complete intersections</title>
-      <link>/publication/g-reu-2020/g-reu-2020/</link>
+      <link>https://crgibbons.github.io/publication/g-reu-2020/g-reu-2020/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 -0400</pubDate>
-      <guid>/publication/g-reu-2020/g-reu-2020/</guid>
+      <guid>https://crgibbons.github.io/publication/g-reu-2020/g-reu-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>L-dimension for modules over a local ring.</title>
-      <link>/publication/gjs-2021/gjs-2021/</link>
+      <link>https://crgibbons.github.io/publication/gjs-2021/gjs-2021/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/gjs-2021/gjs-2021/</guid>
+      <guid>https://crgibbons.github.io/publication/gjs-2021/gjs-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is a prime, and who decides?</title>
-      <link>/publication/amsfeaturescolumn/featuresnov2021/</link>
+      <link>https://crgibbons.github.io/publication/amsfeaturescolumn/featuresnov2021/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 -0500</pubDate>
-      <guid>/publication/amsfeaturescolumn/featuresnov2021/</guid>
+      <guid>https://crgibbons.github.io/publication/amsfeaturescolumn/featuresnov2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mentoring Undergraduate Research: Advanced Planning Tools and Tips</title>
-      <link>/publication/notices2020/notices2020/</link>
+      <link>https://crgibbons.github.io/publication/notices2020/notices2020/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 -0400</pubDate>
-      <guid>/publication/notices2020/notices2020/</guid>
+      <guid>https://crgibbons.github.io/publication/notices2020/notices2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/bbgspaper2020/bbgspaper2020/</link>
+      <link>https://crgibbons.github.io/publication/bbgspaper2020/bbgspaper2020/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/bbgspaper2020/bbgspaper2020/</guid>
+      <guid>https://crgibbons.github.io/publication/bbgspaper2020/bbgspaper2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursive strategy for decomposing Betti tables of complete intersections</title>
-      <link>/publication/ghspaper2018/ghspaper2018/</link>
+      <link>https://crgibbons.github.io/publication/ghspaper2018/ghspaper2018/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/ghspaper2018/ghspaper2018/</guid>
+      <guid>https://crgibbons.github.io/publication/ghspaper2018/ghspaper2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rational combinations of Betti diagrams of complete intersections</title>
-      <link>/publication/g-reu-2014/reupaper/</link>
+      <link>https://crgibbons.github.io/publication/g-reu-2014/reupaper/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/g-reu-2014/reupaper/</guid>
+      <guid>https://crgibbons.github.io/publication/g-reu-2014/reupaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Maximum Likelihood Degree of Toric Varieties</title>
-      <link>/publication/algstatmrcpaper/maximumlikelihood/</link>
+      <link>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 -0400</pubDate>
-      <guid>/publication/algstatmrcpaper/maximumlikelihood/</guid>
+      <guid>https://crgibbons.github.io/publication/algstatmrcpaper/maximumlikelihood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Critical pebbling numbers of graphs</title>
-      <link>/publication/glaisonpaul/glaisonpaul/</link>
+      <link>https://crgibbons.github.io/publication/glaisonpaul/glaisonpaul/</link>
       <pubDate>Wed, 07 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/glaisonpaul/glaisonpaul/</guid>
+      <guid>https://crgibbons.github.io/publication/glaisonpaul/glaisonpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandma makes Granola</title>
-      <link>/publication/bedientg/granola/</link>
+      <link>https://crgibbons.github.io/publication/bedientg/granola/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/bedientg/granola/</guid>
+      <guid>https://crgibbons.github.io/publication/bedientg/granola/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-simplicial decompositions of Betti diagrams of complete intersections</title>
-      <link>/publication/g-et-al-msri-2012/msripaper/</link>
+      <link>https://crgibbons.github.io/publication/g-et-al-msri-2012/msripaper/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
-      <guid>/publication/g-et-al-msri-2012/msripaper/</guid>
+      <guid>https://crgibbons.github.io/publication/g-et-al-msri-2012/msripaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing numbers of graphs and groups</title>
-      <link>/publication/glaison1/glaison1/</link>
+      <link>https://crgibbons.github.io/publication/glaison1/glaison1/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/glaison1/glaison1/</guid>
+      <guid>https://crgibbons.github.io/publication/glaison1/glaison1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The cone of Betti diagrams over a hypersurface ring of low embedding dimension</title>
-      <link>/publication/bbegpaper2011/mrcpaper/</link>
+      <link>https://crgibbons.github.io/publication/bbegpaper2011/mrcpaper/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 -0400</pubDate>
-      <guid>/publication/bbegpaper2011/mrcpaper/</guid>
+      <guid>https://crgibbons.github.io/publication/bbegpaper2011/mrcpaper/</guid>
       <description></description>
     </item>
     

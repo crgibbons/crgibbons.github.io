@@ -5,12 +5,73 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Courtney R. Gibbons</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 14 Mar 2022 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 -0500</lastBuildDate>
     <image>
       <url>/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>Dr. Courtney R. Gibbons</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Math 512: Number Theory</title>
+      <link>/post/syllabi/2024-math512/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <guid>/post/syllabi/2024-math512/</guid>
+      <description>&lt;p&gt;Revised Fall 2024&lt;/p&gt;
+&lt;h2 id=&#34;number-theorists-are-like-lotus-eaters----having-tasted-this-food-they-can-never-give-it-up--leopold-kronecker&#34;&gt;&amp;ldquo;Number Theorists are like lotus eaters -  having tasted this food they can never give it up.&amp;rdquo; -Leopold Kronecker&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;What&amp;rsquo;s up with prime numbers?&amp;rdquo; is our motivating question for a lot of this course. &amp;ldquo;How can we use that cool property of prime numbers?&amp;rdquo; is our motivating question for most of the rest. Number theory begins with the integers and the relationships (and remainders) that come from trying to divide one integer into another or find integer solutions to polynomial equations (like $x^3 + y^3 + z^3 = 42$). Although some original numberphiles celebrated number theory&amp;rsquo;s purity (read: its lack of applications to the &amp;ldquo;real world&amp;rdquo;), they&amp;rsquo;d be annoyed to know that we now use their results to accomplish many practical ends, like sending information via secure webpages, listening to scratched CDs, and speed-testing computers. This course will focus on the fundamental results in the field and their applications (especially to cryptography and cryptanalysis). Expect distinguished visitors from different schools and sectors to give short guest presentations in class. (See Endnotes 1)&lt;/p&gt;
+&lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://bookstore.ams.org/view?ProductCode=TEXT/9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Number Theory Through Inquiry&lt;/em&gt;&lt;/a&gt;, by David C. Marshall, Edward Odell, and Michael Starbird (available from the Hamilton College Bookstore; see me if you have difficulty acquiring the book)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
+&lt;p&gt;Students will be (collectively) responsible for preparing, presenting, and recording solutions to almost every problem in Chapters 1-6. This makes it difficult to predict exactly when each topic will be covered, but we&amp;rsquo;ll start by assuming the following breakdown (roughly) and adapting as necessary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First third of the semester: Chapters 1-3;&lt;/li&gt;
+&lt;li&gt;Middle third of the semester: Chapters 4-6;&lt;/li&gt;
+&lt;li&gt;Remaining third of the semester: Choose Your Own Adventure (see below)&lt;/li&gt;
+&lt;li&gt;In defiance of linear time: We will also cover some basic principles of cryptography and cryptanalysis &amp;ldquo;between&amp;rdquo; the first and second thirds of the semester.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Speaking Intensive:&lt;/strong&gt; This class will help you develop your ability to communicate mathematics orally in both formal and informal settings, and you will have several assessments to help you keep track of your progress: two oral midterms of very different natures along with assessments of your class presentations.
+To support your progress as an oral communicator of mathematics, I can help you during open hours and the QSR Center and the Oral Communication Center both have peer tutors who are familiar with mathematical presentations. You can also review this [helpful video by math major Chiara Bondi &amp;lsquo;22](link to video).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Educational Goals:&lt;/strong&gt; This course supports several of 
+&lt;a href=&#34;https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals&#34; title=&#34;Hamilton&amp;#39;s Educational Goals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamilton&amp;rsquo;s Educational Goals&lt;/a&gt;. Much of the &lt;em&gt;Disciplinary Practice&lt;/em&gt;, &lt;em&gt;Creativity&lt;/em&gt;, and &lt;em&gt;Communication and Expression&lt;/em&gt; within mathematics comes through the process of solving a problem or proving a proposition and communicating it to others. In this class, you will put your proof writing skills to work and develop new mathematical speaking skills.&lt;/p&gt;
+&lt;h2 id=&#34;types-of-assessments&#34;&gt;Types of Assessments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Active Attendance and Participation&lt;/strong&gt;: &lt;em&gt;Every Class&lt;/em&gt;. Get ready to work like a mathematician in this class. No more lectures! This class is active learning all-the-way, which means your attendance is critical for its success. You and your classmates will work together and uncover the major results through activities, groupwork,
+and good, old-fashioned hard work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class Participation (CP)&lt;/strong&gt;: &lt;em&gt;Frequently&lt;/em&gt;. Everyone will present often. Your CP grade will include your presentations and also your active participation in the discussion following (and sometimes during) others&amp;rsquo; presentations. Want help? Visit the Oral Communication Center to practice presenting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oral Midterm Exam (OME)&lt;/strong&gt;: &lt;em&gt;30 minutes&lt;/em&gt;. We will use a random number generator (like a 10-sided die) to select from a list of pre-selected midterm problems, and you will present the selected problem to me in my office at the blackboard. I will follow up with some questions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oral Midterm Conversation (OMC)&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Midterm Skills Exam (MSE)&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose Your Own Adventure (CYOA)&lt;/strong&gt;: Team-based self-guided inquiry on a number theoretic topic of your choosing. A menu of options is available, but you can also pitch your own topic. As part of this assignment, you will write a short chapter on the topic in the collaborative course notes (including homework problems and solutions).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Skills Exam (FE)&lt;/strong&gt;: One 3-hour cumulative self-scheduled exam delivered through Blackboard in one-hour chunks (you can take breaks in between chunks).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;classroom-environment&#34;&gt;Classroom Environment&lt;/h2&gt;
+&lt;p&gt;The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&amp;hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)&lt;/p&gt;
+&lt;h2 id=&#34;your-responsibilities&#34;&gt;Your Responsibilities&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams&lt;/strong&gt; Please give me notice at least one week prior to an that you have an academic accommodation or a conflict. Since the exams in this course are self-scheduled, I hope this allows you the flexibility to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility. T&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, please fill out the Class Absence Request Form (link available on Blackboard). You are part of a community that believes in the power of the Honor Code to make Hamilton College a great place to be a student and a teacher. We are all bound by the responsibility to actively create and maintain a culture of learning, academic integrity, and personal honor. I do not take my responsibility lightly; nor should you! (See Endnotes 3)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Stuck&lt;/strong&gt; Being stumped is part of learning mathematics, so please attempt to solve problems on your own before asking for help on them. Collaboration on problem sets is encouraged as long as you are collaborating with your peers currently enrolled in any section of Math 512. However, make sure to write up your final drafts separately to ensure that you have each fully understood the answer(s). Similarly, even though you may submit joint assignments, it is your responsibility to make sure you understand and approve of all the mathematics your team turns in. (See Endnotes 4)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; &lt;em&gt;Please check with me before using resources other than your classmates, tutors at the Academic Resource Centers, or online $\LaTeX$ help. For example, check with me before asking other professors, students not currently enrolled in Math 325, the internet, a magic eight ball, the ghost of Gauss, etc! Mathematical plagiarism is a subtle business, and it&amp;rsquo;s easy to accidentally plagiarize by copying a solution you&amp;rsquo;ve read somewhere else.  If you use external resources on an assignment that allows them, you must use an open source resource (no Chegg, Math Stack Exchange, or ChatGPT!), you must disclose that you used it, and in the case of generative AI you must share your prompt or sequence of prompts.&lt;/em&gt; (See Endnotes 5)&lt;/p&gt;
+&lt;h2 id=&#34;endnotes&#34;&gt;Endnotes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The 
+&lt;a href=&#34;https://www.oed.com/dictionary/number-theory_n#11162207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford English Dictionary&lt;/a&gt;, retrieved 08/19/2024.&lt;/li&gt;
+&lt;li&gt;AMS Policy on a Welcoming Environment, retrieved 08/19/2024.&lt;/li&gt;
+&lt;li&gt;If you wantonly skip class, aside from missing out on the learning community within the walls of our classroom, you&amp;rsquo;ll penalize yourself by getting lower homework and test scores than you otherwise would. And anyway, I do notice if you&amp;rsquo;re not in class.&lt;/li&gt;
+&lt;li&gt;Honor Code issues aside, you&amp;rsquo;re doing your education a disservice if you turn in work you have not personally thought through carefully. Plus, some problems will reappear on exams.&lt;/li&gt;
+&lt;li&gt;Seriously, though: you can&amp;rsquo;t &amp;ldquo;unsee&amp;rdquo; someone else&amp;rsquo;s solution. There are deep and interesting ethical conundra lurking here; Googling or GPTing unwisely (or at all) may lead you down a path you didn&amp;rsquo;t intend to follow.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>A hypergraph characterization of nearly complete intersections</title>
@@ -35,9 +96,9 @@
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context</title>
-      <link>/post/math498/2022-math498/</link>
+      <link>/post/syllabi/2022-math498/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
-      <guid>/post/math498/2022-math498/</guid>
+      <guid>/post/syllabi/2022-math498/</guid>
       <description>&lt;p&gt;Revised Spring 2022&lt;/p&gt;
 &lt;h2 id=&#34;the-big-picture&#34;&gt;The Big Picture&lt;/h2&gt;
 &lt;p&gt;This course is designed to examine issues of social, structural, and institutional hierarchies that intersect with mathematics and statistics. This year, the course will examine several big themes:&lt;/p&gt;
@@ -194,17 +255,16 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;/blockquote&gt;
 &lt;p&gt;I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)&lt;/p&gt;
 &lt;h2 id=&#34;your-responsibilities&#34;&gt;Your Responsibilities&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Piazza&lt;/strong&gt; This term we will be using Piazza for online discussions (and virtual office hours). The system is highly catered to getting you help fast and efficiently from classmates, the course grader, and me. Rather than emailing questions to the me, please post your questions on Piazza, and I will try to keep a record of office hours questions on Piazza, too. If you have any problems or feedback for the developers, email &lt;a href=&#34;mailto:team@piazza.com&#34;&gt;team@piazza.com&lt;/a&gt;. You can access Piazza directly through Blackboard by cliclking &amp;ldquo;Piazza&amp;rdquo; in the course menu.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams&lt;/strong&gt; Please give me notice at least one week prior to an that you have an academic accommodation or a conflict. Since the exams in this course are self-scheduled, I hope this allows you the flexibility to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility. T&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams&lt;/strong&gt; Please give me notice at least one week prior to an that you have an academic accommodation or a conflict. Since the exams in this course are self-scheduled, I hope this allows you the flexibility to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, please fill out the Class Absence Request Form (link available on Blackboard). You are part of a community that believes in the power of the Honor Code to make Hamilton College a great place to be a student and a teacher. We are all bound by the responsibility to actively create and maintain a culture of learning, academic integrity, and personal honor. I do not take my responsibility lightly; nor should you! (See Endnotes 3)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Getting Stuck&lt;/strong&gt; Being stumped is part of learning mathematics, so please attempt to solve homework problems on your own before asking for help on them. Collaboration on the homework is encouraged as long as you are collaborating with your peers currently enrolled in any section of Math 325. However, make sure to write up your final drafts separately to ensure that you have each fully understood the answer(s). Similarly, even though you will be assigned a writing partner for the writing assignments, it is your responsibility to make sure you understand and approve of all the mathematics your team turns in. (See Endnotes 4)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; &lt;em&gt;Please check with me before using resources other than your classmates, Piazza, tutors at the QSR or Writing Centers, or online $\LaTeX$ help. For example, check with me before asking other professors, students not currently enrolled in Math 325, the internet, a magic eight ball, the ghost of Gauss, etc! Mathematical plagiarism is a subtle business, and it&amp;rsquo;s easy to accidentally plagiarize by copying a solution you&amp;rsquo;ve read somewhere else.&lt;/em&gt; (See Endnotes 5)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; &lt;em&gt;Please check with me before using resources other than your classmates, tutors at the QSR or Writing Centers, or online $\LaTeX$ help. For example, check with me before asking other professors, students not currently enrolled in Math 325, the internet, a magic eight ball, the ghost of Gauss, etc! Mathematical plagiarism is a subtle business, and it&amp;rsquo;s easy to accidentally plagiarize by copying a solution you&amp;rsquo;ve read somewhere else.&lt;/em&gt; (See Endnotes 5)&lt;/p&gt;
 &lt;h2 id=&#34;endnotes&#34;&gt;Endnotes&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;The Oxford English Dictionary, retrieve 01/ar/30, 2021.&lt;/li&gt;
-&lt;li&gt;AMS Policy on a Welcoming Environment, retrieve 01/ar/30, 2021.&lt;/li&gt;
+&lt;li&gt;The Oxford English Dictionary, retrieved 01/30/2021.&lt;/li&gt;
+&lt;li&gt;AMS Policy on a Welcoming Environment, retrieve 01/30/2021.&lt;/li&gt;
 &lt;li&gt;If you wantonly skip class, aside from missing out on the learning community within the walls of our classroom, you&amp;rsquo;ll penalize yourself by getting lower homework and test scores than you otherwise would. And anyway, I do notice if you&amp;rsquo;re not in class.&lt;/li&gt;
-&lt;li&gt;Honor Code issues aside, you&amp;rsquo;re doing yu02/uc/ion a disservice if you turn in work you have not personally thought through carefl02/Pl/, some Writing Assignment problems will reappear on exams or on the final paper.&lt;/li&gt;
+&lt;li&gt;Honor Code issues aside, you&amp;rsquo;re doing your education a disservice if you turn in work you have not personally thought through carefully. Plus, some Writing Assignment problems will reappear on exams or on the final paper.&lt;/li&gt;
 &lt;li&gt;Seriously, though: you can&amp;rsquo;t &amp;ldquo;unsee&amp;rdquo; someone else&amp;rsquo;s solution. There are deep and interesting ethical conundra lurking here; Googling unwisely (or at all) may lead you down a path you didn&amp;rsquo;t intend to  low.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;spring-2022-schedule-of-topics&#34;&gt;Spring 2022 Schedule of Topics&lt;/h2&gt;

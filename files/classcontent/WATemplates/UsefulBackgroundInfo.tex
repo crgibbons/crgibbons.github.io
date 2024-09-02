@@ -1,0 +1,130 @@
+\documentclass{article}
+
+\usepackage{amsmath,amssymb,amsthm}
+\include{Init/preamble}
+
+\begin{document}
+
+\noindent\textbf{\Large Mathematical and \LaTeX{}nichal Information For Your Reference}
+
+Almost every mathematician learns \LaTeX, the mathematical typesetting language, by starting with a document that compiles (like this one you may recognize from linear algebra!)\ and editing it.  Inevitably, your \LaTeX\ code will occasionally fail to compile.  The online software that you are using right now will attempt to give you useful error messages, but you can also learn a lot by googling.  Over the semester, I will add more resources and offer special \LaTeX\ office hours as we need to do more complicated mathematical writing.  For now, this document will get you started with the code you need to write your first two proofs.
+
+\begin{prop*} For all $a,b,c \in \mathbb{Z}$, the following properties hold:
+\begin{enumerate}
+\item Addition is commutative: $a+b = b+a$.
+\item Addition is associative: $(a+b)+c = a+(b+c)$.
+\item Multiplication is distributive over addition: $a(b+c) = ab + ac$.
+\item Multiplication is commutative: $ab = ba$.
+\item Multiplication is associative: $(ab)c=a(bc)$
+\item There exists an additive identity $0$ such that $a + 0 = 0 + a = a$.
+\item Given $a$, there exists an additive inverse $d$ such that $a+d = d+a = 0$; we refer to this number as $-a$ and for real numbers, $-a = -1\cdot a$.
+\item There exists a multiplicative identity $1$ such that $a1 = 1a = a$.\textbf{}
+\item Multiplication has the zero-product property: if $ab = ba = 0$, then one of $a$ or $b$ is zero.
+\end{enumerate}
+\end{prop*}
+ 
+You can use these properties of integer (or real number, or complex number, etc) operations in your writing assignments by referring to their names.  For example, you might say ``by the commutative and associative properties of addition of integers, 
+\begin{align*}
+a + (b + c) 
+    &= (a + b) + c\\ 
+    &= (b + a) + c
+\end{align*}
+for all $a,b,c \in \mathbb{Z}$.
+
+You write propositions, proofs, and examples using \textit{environments} (these are the \verb|\begin{...} \end{...}| blocks of LaTeX code).  Here's an example of an example (meta!):
+
+\begin{example*}
+Polynomials with real coefficients might have complex roots.
+%
+Many of us can rattle off the quadratic formula, which states that for a polynomial equation $ax^2 + bx + c = 0$ with coefficients $a,b,c \in \mathbb{R}$ and $a \not = 0$, the roots are $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+%
+When $b^2 - 4ac < 0$, the roots are complex numbers. Consider $x^2 - x + 1 = 0$.  The quadratic formula yields two complex roots, namely $x = \frac{1 \pm \sqrt{-3}}{2}$.
+\end{example*}
+
+One way to approach writing an example is to have a topic sentence (``Polynomials with real coefficients might have complex roots.'') followed by an explanation or demonstration to support the topic sentence.  In the example above, I'm using the quadratic formula to explain how we get roots of polynomials, then giving a specific polynomial that has complex roots.
+
+\section*{A Nice Induction Proof}
+
+For a problem like \#32 in Chapter 1, you could write a proof that every finite set of real numbers has a minimal element \textit{without} using induction, but it's pretty sketchy and not very satisfying.  Here's a proof of that result that uses induction as an example of (a) how induction takes kinda sketchy arguments and makes them more rigorous and (b) as an example of an \textbf{E}-caliber induction proof.
+
+\begin{center}
+\begin{footnotesize}
+\fbox{
+\begin{minipage}{.8\textwidth}
+\noindent \textbf{Proposition} (Ch.\ 1, \#32)\textbf{.} Every finite subset of the real numbers has a minimal element.
+
+\begin{proof} Let $S$ be a finite subset of the real numbers.  This means that there exists a positive integer $n$ for which $S = \{a_1, a_2, \ldots, a_n\} \subseteq\mathbb{R}$.  We proceed by induction to prove the claim.\\
+
+\noindent\textit{Base case.} Let $n = 1$.  Then $S = \{a_1\}$. Since $a_1 \leq a_1$, it follows that $a_1$ is the minimal element of $S$.\\
+
+\noindent\textit{Induction hypothesis.} Let $k$ be an integer for which $1 \leq k < n$.  Assume that every $k$-element subset of the real numbers has a minimal element.\\
+
+\noindent\textit{Induction step.} Suppose $S$ has $k+1$ elements, so that $S = \{a_1,a_2,\ldots,a_k,a_{k+1}\}$.  Consider the subset $\{a_1,\ldots,a_k\}$, a $k$-element subset of $S$ (and $\mathbb{R}$).  By the induction hypothesis, this subset has a minimal element.  Reindexing, we may assume that $a_1$ is the minimal element of $\{a_1,\ldots,a_k\}$.  This means that $a_1 \leq a_i$ for all $1 \leq i \leq k$.  If $a_1 \leq a_{k+1}$, then $a_1$ is the miminal element of $S$.  
+
+Otherwise, $a_{k+1} < a_1 \leq a_i$ for all $1 \leq i \leq k$; of course, $a_{k+1} \leq a_{k+1}$, too. In this case, $a_{k+1}$ is the minimal element of $S$.  Either way, $S$ has a minimal element, as desired.\\
+
+Thus, by the first principle of mathematical induction, the claim holds for every finite subset of $\mathbb{R}$.\end{proof}
+\end{minipage}
+}
+\end{footnotesize}
+\end{center}
+
+\section*{Complex Numbers (and a little trig review)}
+
+We consider $\alpha \in \mathbb{C}$ geometrically. In \textbf{\textit{rectangular form}}, we write $a+bi$ where $a, b \in \mathbb{R}$.  In \textbf{\textit{polar form}}, we write $r(\cos(\theta) + i \sin(\theta))$ where, by convention, $r$ is a nonnegative real number.  To convert back and forth, we use $a = r \cos(\theta)$, $b = r \sin(\theta)$, and $\theta = \arctan(\frac{b}{a})$ (making sure we're in the correct quadrant).
+
+\begin{example*} We plot points in the complex plane in rectangular or polar coordinates (just like in calculus).
+
+\begin{minipage}{.2 \textwidth}
+\scalebox{.7}{\input{Init/polar.tex}}
+\end{minipage}
+\hfill
+\begin{minipage}{.75\textwidth}
+The complex number $\alpha = 1+i\sqrt{3}$ is plotted in the complex plane with the rectangular coordinates $a = 1$ and $b = \sqrt{3}$.  We also have $\alpha = 2 (\cos(\frac{\pi}{3}) + i \sin(\frac{\pi}{3}))$, so is plotted in the complex plane with the polar coordinates $r = 2$ and $\theta = \frac{\pi}{3}$.
+\end{minipage}
+\end{example*}
+
+\begin{defn*} Let $\alpha = a+bi \in \mathbb{C}$.  Its magnitude, denoted $|\alpha|$, is defined to be $\sqrt{a^2 + b^2}$.  Similarly, its argument, denoted $\arg(\alpha)$, is defined to be $\arctan \left(\frac{b}{a}\right)$ (chosen to be in the correct quadrant of the complex plane).
+
+When we write $\alpha$ in polar form, we see that $|\alpha| = r$ and $\arg(\alpha) = \theta$.  Indeed, thanks to Pythagorus, \[
+|\alpha|^2 = r^2 \cos^2(\theta) + r^2 \sin^2(\theta) = r^2(\cos^2(\theta) + \sin^2(\theta)) = r^2\]
+and, for nonnegative $r$, 
+\[\arg(\alpha) = \arctan\left(\frac{r\sin(\theta)}{r\cos(\theta)}\right) = \arctan(\tan(\theta)) = \theta.\]
+\end{defn*}
+
+You may find the next propositions helpful for working with complex numbers in their trig forms.
+
+\begin{prop*}[Angle Addition Formulas] For all angles $\theta_1$ and $\theta_2$, there are equalities
+\begin{align*} \sin(\theta_1 + \theta_2) &= \sin(\theta_1)\cos(\theta_2) + \sin(\theta_2)\cos(\theta_1), \\
+                \cos(\theta_1 + \theta_2) &= \cos(\theta_1)\cos(\theta_2) - \sin(\theta_1)\sin(\theta_2).
+                \end{align*}
+\end{prop*}
+
+
+For example, we can use the angle addition formulas to prove the following proposition.
+
+\begin{prop*}[Multiplying Complex Numbers in Polar Form] For all complex numbers $\alpha, \beta \in \mathbb{C}$, $\arg(\alpha \beta) = \arg(\alpha) + \arg(\beta)$ and $|\alpha\beta| = |\alpha| \cdot |\beta|$.
+\end{prop*}
+
+\begin{proof}
+% Remember that a proof starts by defining your variables:
+Let $\alpha, \beta \in \mathbb{C}$.
+% The next line might tell you what that means.
+This means that there exist nonnegative real numbers $r,s$ and angles $\theta_1$, $\theta_2$ such that $\alpha = r (\cos(\theta_1) + i \sin(\theta_1))$ and $\beta = s(\cos(\theta_2) + i \sin(\theta_2))$ in polar form.  In particular, $r = |\alpha|$, $s = |\beta|$, $\theta_1 = \arg(\alpha)$, and $\theta_2 = \arg(\beta)$.t
+
+% Now we do some math.
+Taking the product of $\alpha$ and $\beta$ and applying the angle addition formulas, the definition of complex multiplication, and the associative and commutative properties of real number multiplication, we have
+\begin{align*}
+    \alpha \beta &= r (\cos(\theta_1) + i \sin(\theta_1))\, s(\cos(\theta_2) + i \sin(\theta_2)) \\
+                 &= rs \left[\cos(\theta_1) + i \sin(\theta_1)\right] \left[\cos(\theta_2) + i \sin(\theta_2)\right] \\
+                 &= rs \left[\big(\cos(\theta_1)\cos(\theta_2) - \sin(\theta_1)\sin(\theta_2)\big) + i \big(\sin(\theta_1)\cos(\theta_2) + \sin(\theta_2)\cos(\theta_1)\big)\right]\\
+                 &= rs \left[\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)\right].
+\end{align*}
+
+% The last line demonstrates that our desired equations are true!
+Thus, $|\alpha \beta| = rs = |\alpha|\cdot|\beta|$ and $\arg(\alpha \beta) = \theta_1 + \theta_2 = \arg(\alpha) + \arg(\beta)$.
+\end{proof}
+
+\end{document}
+
+Anything you write after the end of the document doesn't matter to the compiler, so you can leave yourself notes and to-do's here with impunity!

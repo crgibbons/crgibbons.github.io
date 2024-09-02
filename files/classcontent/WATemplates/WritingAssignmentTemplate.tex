@@ -1,0 +1,81 @@
+\documentclass{article}
+\include{Init/preamble}
+
+\begin{document}
+
+\WAtitle{NUMBER}{DATE} %% Put the assignment number in the first { } and the due date in the second { }
+\WAauthors{AUTHORS} %% Put the authors here alphabetically by last name
+
+\todoG{This is a solo assignment. Please delete the green stuff enclosed in the \LaTeX\ code ``\textbackslash todoG\{ ... \}'' before turning it in.}
+
+\todoG{The first problem is to write a paragraph that explains how to arrive at the quadratic formula by completing the square. You can look up how to do it -- this isn't about the math, it's about the writing about math.}
+
+\todoG{Below is an example of a similar paragraph explaining how to arrive at the slope-intercept form of a line from point-slope.}
+
+Suppose that $\ell$ is a line with a slope of $m$ that passes through the point $(x_0, y_0)$. Traditionally, we write lines in ``slope-intercept'' form, $y = mx + b$, where $m$ the ordered pair $(9,b)$ is the point on the line where it passes through the $y$-axis.  The point-slope formula for our line can be manipulated to produce the slope-intercept form using the properties of real number addition and multiplication. Indeed, $y-y_1  = m(x-x_1)$ implies $y = mx + (y_1 - mx_1)$, from which we see that $b = y_1 - mx_1$.
+
+\todoG{Here's a sample start to your paragraph.}
+
+Consider the quadratic equation $ax^2 + bx + c = 0$ where $a \not = 0$. Many people know of the existence of the quadratic formula, 
+    \begin{equation}\label{eqn:QuadFormula} %%% Names this equation for later reference
+        x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2},
+    \end{equation}
+for finding the solutions to this equation.
+
+\todoG{From here, tell your reader that you're going to arrive at the quadratic formula through a process called completing the square, show the big ideas (without a lot of small arithmetic steps because your reader can, and should, do a little scratc-hwork to follow your outline), and probably this means a couple of different equations that show how 
+$ax^2 + bx + c = 0$ implies Equation~\eqref{eqn:QuadFormula}.}
+
+\todoG{Notice in the code on line 20, t I gave you a short code to label an equation (it's the \texttt{label} command after the \texttt{begin\{equation\}})
+and then to its number later in line 26 (that's the \texttt{eqref} command, into which you plug in the name from the label.  This is a really handy built-in system that \LaTeX\ offers so that you don't have to manually update equation numbers and references to them when you're working on a long document!}
+
+\clearpage
+
+
+
+\WAtitle{NUMBER}{DATE} %% Put the assignment number in the first { } and the due date in the second { }
+\WAauthors{AUTHORS} %% Put the authors here alphabetically by last name
+
+\todoG{These problems involve \textbf{binomial coefficients}, which are defined in our book right around where these problems are stated. They're the numbers that show up in Pascal's Triangle (still attributed to Blaise Pascal for some reason even though it was known millenia before by at least 3 distinct civilizations\dots}
+
+\begin{lemma*}[Chapter 1, \#41] For all positive integers $n$ and $r$ satisfying $0 < r \leq n$, the binomial coefficients satisfy the equality \[
+\binom{n+1}{r} = \binom{n}{r-1} + \binom{n}{r}\]
+(where $\binom{n}{r} = \frac{n!}{(n-r)!r!}$ and $0! = 1$ by definition).
+\end{lemma*}
+
+\todoG{You can use the above lemma without proving it.}
+
+\todoG{do 36, 30, 42, and 43, here, then finish the last example}
+
+
+
+
+
+
+\begin{example*}[Chapter 1, \#44] The Binomial Theorem helps us expand $(x+1)^5$.  Indeed, 
+    \begin{align*} 
+        (x+1)^5 &= \sum_{k=0}^5 \binom{n}{k} x^{5-k}y^k \\ 
+                %% ^^^ fixed 9/8/2021 (bad Gibbons!)
+                &= ... \\
+                &= ...
+    \end{align*}.
+   
+    \todoG{Tell your reader what you notice about the middle coefficients; use \#43 for inspiration here. Hint: 5 is prime.}
+\end{example*}
+
+\clearpage
+
+\WAtitle{NUMBER}{DATE}
+\WAauthors{AUTHORS}
+
+\begin{lemma*}[Ch. 1, \#39] 
+    For all nonzero integers $m$ and $n$, if $\gcd(m,n) = 1$ and $n$ divides $mk$ for some integer $k$, then $n$ divides $k$.
+\end{lemma*}
+
+\todoG{You don't have to prove this lemma, but it's a good practice problem before the first exam.}
+
+\begin{prop*}[Ch. 3, \#53] ...
+\end{prop*}
+
+\end{document}
+
+There are useful pieces of code in the file WA-0.tex if you get stuck!

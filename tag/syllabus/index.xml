@@ -36,7 +36,8 @@ Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restorati
 &lt;a href=&#34;https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals&#34; title=&#34;Hamilton&amp;#39;s Educational Goals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamilton&amp;rsquo;s Educational Goals&lt;/a&gt;. Much of the &lt;em&gt;Disciplinary Practice&lt;/em&gt;, &lt;em&gt;Creativity&lt;/em&gt;, and &lt;em&gt;Communication and Expression&lt;/em&gt; within mathematics comes through the process of solving a problem/proving a proposition and then writing it up. In this class, you will refine your proof writing skills and develop new mathematical prose writing skills.&lt;/p&gt;
 &lt;h2 id=&#34;types-of-assessments&#34;&gt;Types of Assessments&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ready for Class (RC)&lt;/strong&gt;: &lt;em&gt;Beginning of Class&lt;/em&gt;. We we are working toward answering one (huge!) mathematical problem; you will find it really helpful to review your notes and preview the book for these short quiz-like multiple choice assignments. I don’t reschedule these, but I do drop (at least) three low scores for everyone.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ready for Class (RC)&lt;/strong&gt;: &lt;em&gt;Beginning of Class&lt;/em&gt;. We we are working toward answering one (huge!) mathematical problem; you will find it really helpful to review your notes and preview the book for these short quiz-like multiple choice assignments. I don’t reschedule these, but I do drop (at least) three low scores for everyone. For these assessments, you will need a Plickers card (distributed in class). If you lose yours, can you find a printable card here: 
+&lt;a href=&#34;https://crgibbons.github.io/files/PlickersCards_1-40.zip&#34;&gt;Plickers Cards&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Homework (HW)&lt;/strong&gt;: &lt;em&gt;Due Tuesdays at 4pm (rigid)&lt;/em&gt;. The homework is graded by a Hamilton student and will be returned in 2-3 class periods. Because the written homework is graded by a student who is super-busy just like you, homework is due when it&amp;rsquo;s due! (Don&amp;rsquo;t @ me!) However, to help you out, I drop your lowest 2 homework scores.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Midterm Exams (ME)&lt;/strong&gt;: &lt;em&gt;Two 2-hour self-scheduled midterms&lt;/em&gt;. Before the first exam, I will post a preview that describes the kinds of questions, the point distributions, and other information that will help you study.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Final Exam (FE)&lt;/strong&gt;: One 3-hour cumulative self-scheduled exam. The material on the final, though cumulative, will be weighted toward the material covered at the end of the course that was not tested on midterms.&lt;/li&gt;
@@ -150,8 +151,8 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 1 &lt;br&gt; (Divisibility)&lt;/td&gt;
-&lt;td&gt;Chapter 1 &lt;br&gt; (GCD, FTA)&lt;/td&gt;
-&lt;td&gt;Chapter 1 &lt;br&gt; (Induction)&lt;/td&gt;
+&lt;td&gt;HW 1 due&lt;/td&gt;
+&lt;td&gt;Chapter 1 &lt;br&gt; (FTa, Induction)&lt;/td&gt;
 &lt;td&gt;WA 1 due&lt;/td&gt;
 &lt;td&gt;Chapter 3 &lt;br&gt; (Complex Nums)&lt;/td&gt;
 &lt;/tr&gt;
@@ -164,7 +165,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 3 &lt;br&gt; (Complex Nums)&lt;/td&gt;
-&lt;td&gt;HW 1 due&lt;/td&gt;
+&lt;td&gt;HW 2 due&lt;/td&gt;
 &lt;td&gt;LaTeX Day&lt;/td&gt;
 &lt;td&gt;WA 2 due&lt;/td&gt;
 &lt;td&gt;Chapter 4 &lt;br&gt; (Modulo N)&lt;/td&gt;
@@ -178,7 +179,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 4 &lt;br&gt; (Zero Divs, Quats)&lt;/td&gt;
-&lt;td&gt;HW 2 due&lt;/td&gt;
+&lt;td&gt;HW 3 due&lt;/td&gt;
 &lt;td&gt;Chapter 5 &lt;br&gt; (Fields &amp;amp; Subfields)&lt;/td&gt;
 &lt;td&gt;WA 3 due&lt;/td&gt;
 &lt;td&gt;Chapter 5/6 &lt;br&gt; (Solv by Rads)&lt;/td&gt;
@@ -192,7 +193,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 6 &lt;br&gt; (Solvable by Rads)&lt;/td&gt;
-&lt;td&gt;HW 3 due&lt;/td&gt;
+&lt;td&gt;HW 4 due&lt;/td&gt;
 &lt;td&gt;Chapter 7 &lt;br&gt; (Rings)&lt;/td&gt;
 &lt;td&gt;WA 4 due&lt;/td&gt;
 &lt;td&gt;Chapter 7 &lt;br&gt; (Rings)&lt;/td&gt;
@@ -206,7 +207,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 7/8 &lt;br&gt; (Poly. Rings)&lt;/td&gt;
-&lt;td&gt;HW 4 due&lt;/td&gt;
+&lt;td&gt;HW 5 due&lt;/td&gt;
 &lt;td&gt;Chapter 8 &lt;br&gt; (Polynomial Rings)&lt;/td&gt;
 &lt;td&gt;WA Rewrite due&lt;/td&gt;
 &lt;td&gt;Chapter 9 &lt;br&gt; (PIDs)&lt;/td&gt;
@@ -220,7 +221,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 9 &lt;br&gt; (PIDs)&lt;/td&gt;
-&lt;td&gt;HW 5 due&lt;/td&gt;
+&lt;td&gt;HW 6 due&lt;/td&gt;
 &lt;td&gt;Ring Homomorphisms&lt;/td&gt;
 &lt;td&gt;Midterm 1 &lt;br&gt; (self-scheduled)&lt;/td&gt;
 &lt;td&gt;Chapter 11 &lt;br&gt; (Irreducibility)&lt;/td&gt;
@@ -234,7 +235,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 10 &lt;br&gt; (Algebraic Elts)&lt;/td&gt;
-&lt;td&gt;HW 6 due&lt;/td&gt;
+&lt;td&gt;HW 7 due&lt;/td&gt;
 &lt;td&gt;Chapter 10 &lt;br&gt; (Algebraic Elts)&lt;/td&gt;
 &lt;td&gt;WA 5 due&lt;/td&gt;
 &lt;td&gt;No Class&lt;/td&gt;
@@ -248,7 +249,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 12 &lt;br&gt; (Fields as VS)&lt;/td&gt;
-&lt;td&gt;HW 7 due&lt;/td&gt;
+&lt;td&gt;HW 8 due&lt;/td&gt;
 &lt;td&gt;Chapter 13 &lt;br&gt; (Auts of Fields)&lt;/td&gt;
 &lt;td&gt;WA 6 due&lt;/td&gt;
 &lt;td&gt;Chapter 14 &lt;br&gt; (Counting Auts)&lt;/td&gt;
@@ -262,7 +263,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 15 &lt;br&gt; (Groups)&lt;/td&gt;
-&lt;td&gt;HW 8 due&lt;/td&gt;
+&lt;td&gt;HW 9 due&lt;/td&gt;
 &lt;td&gt;Chapter 15 &lt;br&gt; (Groups)&lt;/td&gt;
 &lt;td&gt;WA 7 due&lt;/td&gt;
 &lt;td&gt;Chapter 16 &lt;br&gt; (Permutations)&lt;/td&gt;
@@ -276,7 +277,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 17 &lt;br&gt; (Group Homoms)&lt;/td&gt;
-&lt;td&gt;HW 9 due&lt;/td&gt;
+&lt;td&gt;HW 10 due&lt;/td&gt;
 &lt;td&gt;Chapter 18 &lt;br&gt; (Subgroups)&lt;/td&gt;
 &lt;td&gt;Midterm 2 &lt;br&gt; (self-scheduled)&lt;/td&gt;
 &lt;td&gt;Chapter 19 &lt;br&gt; (Generators)&lt;/td&gt;
@@ -290,7 +291,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 20 &lt;br&gt; (Cosets)&lt;/td&gt;
-&lt;td&gt;HW 10 due&lt;/td&gt;
+&lt;td&gt;HW 11 due&lt;/td&gt;
 &lt;td&gt;Chapter 21 &lt;br&gt; (Lagrange)&lt;/td&gt;
 &lt;td&gt;WA 8 due&lt;/td&gt;
 &lt;td&gt;Chapter 23 &lt;br&gt; (Normal Sgps)&lt;/td&gt;
@@ -304,7 +305,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 23 &lt;br&gt; (Quotient Gps)&lt;/td&gt;
-&lt;td&gt;HW 11 due&lt;/td&gt;
+&lt;td&gt;HW 12 due&lt;/td&gt;
 &lt;td&gt;Chapter 25 &lt;br&gt; (Galois again)&lt;/td&gt;
 &lt;td&gt;WA 9 due&lt;/td&gt;
 &lt;td&gt;No Class&lt;/td&gt;
@@ -332,7 +333,7 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Chapter 26 &lt;br&gt; (Solvable Gps)&lt;/td&gt;
-&lt;td&gt;HW 12 due&lt;/td&gt;
+&lt;td&gt;HW 13 due&lt;/td&gt;
 &lt;td&gt;Chapter 26 &lt;br&gt; (Commutators)&lt;/td&gt;
 &lt;td&gt;WA 10 due&lt;/td&gt;
 &lt;td&gt;Chapter 26 &lt;br&gt; (Commutators)&lt;/td&gt;

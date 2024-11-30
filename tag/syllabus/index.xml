@@ -403,6 +403,396 @@ FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (ave
     </item>
     
     <item>
+      <title>Math 325 (Writing Intensive): Modern Algebra</title>
+      <link>https://crgibbons.github.io/post/syllabi/2025s-math325/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 -0400</pubDate>
+      <guid>https://crgibbons.github.io/post/syllabi/2025s-math325/</guid>
+      <description>&lt;p&gt;Revised Fall 2024 (updates still coming)&lt;/p&gt;
+&lt;h2 id=&#34;the-word-algebra&#34;&gt;The word &amp;ldquo;Algebra&amp;rdquo;&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; and its mathematical connotation stem from a 9th century
+Arabic treatise entitled, &lt;em&gt;The Concise Book on Calculation by Restoration and Compensation&lt;/em&gt;, by al-Kwarizmi. This historical text dealt with finding the roots of a general quadratic polynomial equation, $ax^2+bx+c=0$ for nonzero $a$, by completing the square&amp;mdash;hence &amp;ldquo;restoration&amp;rdquo; and &amp;ldquo;compensation.&amp;rdquo; This is where our journey begins. By the end of the course, we&amp;rsquo;ll have an understanding of what tools and techniques &amp;ldquo;modern&amp;rdquo; (19th and 20th century) algebra brings to bear on polynomials and their roots. This course gets more abstract as the semester progresses, so set good habits early. (See Endotes 1)&lt;/p&gt;
+&lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Abstract Algebra: A Concrete Introduction&lt;/em&gt;, by Robert Redfield (available from the Hamilton College Bookstore; see me if you have difficulty acquiring the book)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
+&lt;p&gt;See the 
+&lt;a href=&#34;https://crgibbons.github.io/files/syllabi/325-S2022.pdf&#34;&gt;Topics Schedule Table (tentative; still being updated!)&lt;/a&gt; or the list at the end of the page for the day-to-day topics coverage.&lt;/p&gt;
+&lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Writing Intensive:&lt;/strong&gt; We will focus on writing during class, and you will have several revision opportunities on writing assignments and the writing portions of exams. The final paper in the course will allow you to tie together what you&amp;rsquo;ve learned (and what you&amp;rsquo;ve already written in earlier writing assignments) into a mathematical survey paper written for a mathematically literate audience.&lt;/p&gt;
+&lt;p&gt;To support your progress as a writer of mathematics, I can help you during open hours, and the QSR Center and the Writing Center both have a number of peer tutors who are familiar with mathematical proof writing and $\LaTeX$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Educational Goals:&lt;/strong&gt; This course supports several of 
+&lt;a href=&#34;https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals&#34; title=&#34;Hamilton&amp;#39;s Educational Goals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamilton&amp;rsquo;s Educational Goals&lt;/a&gt;. Much of the &lt;em&gt;Disciplinary Practice&lt;/em&gt;, &lt;em&gt;Creativity&lt;/em&gt;, and &lt;em&gt;Communication and Expression&lt;/em&gt; within mathematics comes through the process of solving a problem/proving a proposition and then writing it up. In this class, you will refine your proof writing skills and develop new mathematical prose writing skills.&lt;/p&gt;
+&lt;h2 id=&#34;types-of-assessments&#34;&gt;Types of Assessments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ready for Class (RC)&lt;/strong&gt;: &lt;em&gt;Beginning of Class&lt;/em&gt;. We we are working toward answering one (huge!) mathematical problem; you will find it really helpful to review your notes and preview the book for these short quiz-like multiple choice assignments. I don’t reschedule these, but I do drop (at least) three low scores for everyone. For these assessments, you will need a Plickers card (distributed in class). If you lose yours, can you find a printable card here: 
+&lt;a href=&#34;https://crgibbons.github.io/files/PlickersCards_1-40.zip&#34;&gt;Plickers Cards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Homework (HW)&lt;/strong&gt;: &lt;em&gt;Due Tuesdays at 4pm (rigid)&lt;/em&gt;. The homework is graded by a Hamilton student and will be returned in 2-3 class periods. Because the written homework is graded by a student who is super-busy just like you, homework is due when it&amp;rsquo;s due! (Don&amp;rsquo;t @ me!) However, to help you out, I drop your lowest 2 homework scores.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Midterm Exams (ME)&lt;/strong&gt;: &lt;em&gt;Two 2-hour self-scheduled midterms&lt;/em&gt;. Before the first exam, I will post a preview that describes the kinds of questions, the point distributions, and other information that will help you study.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Exam (FE)&lt;/strong&gt;: One 3-hour cumulative self-scheduled exam. The material on the final, though cumulative, will be weighted toward the material covered at the end of the course that was not tested on midterms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing Assignments (WA)&lt;/strong&gt;: &lt;em&gt;Due Thursdays at 4pm (flexible)&lt;/em&gt;. You will write up solutions to problems and responses to writing prompts roughly once a week using $\LaTeX$ (via 
+&lt;a href=&#34;https://www.overleaf.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Overleaf&lt;/a&gt; with your Hamilton credentials) (sometimes solo, sometimes in partners). Each writing assignment is graded among the options &lt;strong&gt;E&lt;/strong&gt; (exemplary), &lt;strong&gt;M&lt;/strong&gt; (masterful), &lt;strong&gt;R&lt;/strong&gt; (revisions necessary to meet expectations), and &lt;strong&gt;X&lt;/strong&gt; (not enough to assess). You will have revision opportunities by invitation throughout the semester.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Paper (FP)&lt;/strong&gt;: &lt;em&gt;Due by beginning of our scheduled final exam period&lt;/em&gt;. This will be graded like a writing assignment; a lot of the content of this paper will come from writing assignments you&amp;rsquo;ve already completed, so think of it as a way to study for the final and get a chance to revise your writing one last time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;grades&#34;&gt;Grades&lt;/h3&gt;
+&lt;p&gt;Your base grade (A, B, C, D, or F) is calcullated by a combination of &lt;strong&gt;weighted average&lt;/strong&gt; on some of your assignments (HW (25%); ME and
+FE (75%)) and &lt;strong&gt;minimum specifications&lt;/strong&gt; on others (average RC score, scores out of $n$ total writing assignments, and score on the final paper). The following table lists minimum thresholds for each base grade. &lt;strong&gt;You must meet all the requirements in the row to earn that base grade.&lt;/strong&gt; Ranges for $\pm$ will be determined at the end of the semester at the professor’s discretion (typically $-$ will be assigned if you are close to a base grade but didn’t quite meet one of the criteria, and $+$ will be assigned for work consistently at the top of the base grade range).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Base Grade&lt;/th&gt;
+&lt;th&gt;Ready for Class&lt;/th&gt;
+&lt;th&gt;Weighted Avg of HW and Exams&lt;/th&gt;
+&lt;th&gt;Writing Assignment scores&lt;/th&gt;
+&lt;th&gt;Final Paper score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;[90,100)&lt;/td&gt;
+&lt;td&gt;$n-2$ scores of &lt;strong&gt;E&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;E&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;[80,90)&lt;/td&gt;
+&lt;td&gt;$n-3$ scores of &lt;strong&gt;E&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;[70,80)&lt;/td&gt;
+&lt;td&gt;$n-2$ scores of &lt;strong&gt;M&lt;/strong&gt; or better&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;[55,70)&lt;/td&gt;
+&lt;td&gt;$n-4$ scores of &lt;strong&gt;M&lt;/strong&gt; or better&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;[0,55)&lt;/td&gt;
+&lt;td&gt;$n$ scores of &lt;strong&gt;X&lt;/strong&gt; or better&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;X&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The big picture is that, to do well in the course, you will need to demonstrate that you can do the computations well and write well at the 300-level.  Throughout the semester you will have opportunities to revise your writing (and potentially receive a new score on an assignment) by responding to professor feedback.&lt;/p&gt;
+&lt;h2 id=&#34;classroom-environment&#34;&gt;Classroom Environment&lt;/h2&gt;
+&lt;p&gt;The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&amp;hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)&lt;/p&gt;
+&lt;h2 id=&#34;your-responsibilities&#34;&gt;Your Responsibilities&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams&lt;/strong&gt; Please give me notice at least one week prior to an that you have an academic accommodation or a conflict. Since the exams in this course are self-scheduled, I hope this allows you the flexibility to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, please fill out the Class Absence Request Form (link available on Blackboard). You are part of a community that believes in the power of the Honor Code to make Hamilton College a great place to be a student and a teacher. We are all bound by the responsibility to actively create and maintain a culture of learning, academic integrity, and personal honor. I do not take my responsibility lightly; nor should you! (See Endnotes 3)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Stuck&lt;/strong&gt; Being stumped is part of learning mathematics, so please attempt to solve homework problems on your own before asking for help on them. Collaboration on the homework is encouraged as long as you are collaborating with your peers currently enrolled in any section of Math 325. However, make sure to write up your final drafts separately to ensure that you have each fully understood the answer(s). Similarly, even though you will be assigned a writing partner for the writing assignments, it is your responsibility to make sure you understand and approve of all the mathematics your team turns in. (See Endnotes 4)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; &lt;em&gt;Please check with me before using resources other than your classmates, tutors at the QSR or Writing Centers, or online $\LaTeX$ help. For example, check with me before asking other professors, students not currently enrolled in Math 325, the internet, a magic eight ball, the ghost of Gauss, etc! Mathematical plagiarism is a subtle business, and it&amp;rsquo;s easy to accidentally plagiarize by copying a solution you&amp;rsquo;ve read somewhere else.&lt;/em&gt; (See Endnotes 5)&lt;/p&gt;
+&lt;h2 id=&#34;endnotes&#34;&gt;Endnotes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Oxford English Dictionary, retrieved 01/30/2021.&lt;/li&gt;
+&lt;li&gt;AMS Policy on a Welcoming Environment, retrieve 01/30/2021.&lt;/li&gt;
+&lt;li&gt;If you wantonly skip class, aside from missing out on the learning community within the walls of our classroom, you&amp;rsquo;ll penalize yourself by getting lower homework and test scores than you otherwise would. And anyway, I do notice if you&amp;rsquo;re not in class.&lt;/li&gt;
+&lt;li&gt;Honor Code issues aside, you&amp;rsquo;re doing your education a disservice if you turn in work you have not personally thought through carefully. Plus, some Writing Assignment problems will reappear on exams or on the final paper.&lt;/li&gt;
+&lt;li&gt;Seriously, though: you can&amp;rsquo;t &amp;ldquo;unsee&amp;rdquo; someone else&amp;rsquo;s solution. There are deep and interesting ethical conundra lurking here; Googling unwisely (or at all) may lead you down a path you didn&amp;rsquo;t intend to  low.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;fall-2024-schedule-of-topics-may-be-revised&#34;&gt;Fall 2024 Schedule of Topics (may be revised)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Monday&lt;/th&gt;
+&lt;th&gt;Tuesday&lt;/th&gt;
+&lt;th&gt;Wednesday&lt;/th&gt;
+&lt;th&gt;Thursday&lt;/th&gt;
+&lt;th&gt;Friday&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;8/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Introductions &lt;br&gt; The Quadratic Formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9/2&lt;/td&gt;
+&lt;td&gt;9/3&lt;/td&gt;
+&lt;td&gt;9/4&lt;/td&gt;
+&lt;td&gt;9/5&lt;/td&gt;
+&lt;td&gt;9/6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 1 &lt;br&gt; (Divisibility)&lt;/td&gt;
+&lt;td&gt;HW 1 due&lt;/td&gt;
+&lt;td&gt;Chapter 1 &lt;br&gt; (FTa, Induction)&lt;/td&gt;
+&lt;td&gt;WA 1 due&lt;/td&gt;
+&lt;td&gt;Chapter 3 &lt;br&gt; (Complex Nums)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9/9&lt;/td&gt;
+&lt;td&gt;9/10&lt;/td&gt;
+&lt;td&gt;9/11&lt;/td&gt;
+&lt;td&gt;9/12&lt;/td&gt;
+&lt;td&gt;9/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 3 &lt;br&gt; (Complex Nums)&lt;/td&gt;
+&lt;td&gt;HW 2 due&lt;/td&gt;
+&lt;td&gt;LaTeX Day&lt;/td&gt;
+&lt;td&gt;WA 2 due&lt;/td&gt;
+&lt;td&gt;Chapter 4 &lt;br&gt; (Modulo N)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9/16&lt;/td&gt;
+&lt;td&gt;9/17&lt;/td&gt;
+&lt;td&gt;9/18&lt;/td&gt;
+&lt;td&gt;9/19&lt;/td&gt;
+&lt;td&gt;9/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 4 &lt;br&gt; (Zero Divs, Quats)&lt;/td&gt;
+&lt;td&gt;HW 3 due&lt;/td&gt;
+&lt;td&gt;Chapter 5 &lt;br&gt; (Fields &amp;amp; Subfields)&lt;/td&gt;
+&lt;td&gt;WA 3 due&lt;/td&gt;
+&lt;td&gt;Chapter 5/6 &lt;br&gt; (Solv by Rads)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9/23&lt;/td&gt;
+&lt;td&gt;9/24&lt;/td&gt;
+&lt;td&gt;9/25&lt;/td&gt;
+&lt;td&gt;9/26&lt;/td&gt;
+&lt;td&gt;9/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 6 &lt;br&gt; (Solvable by Rads)&lt;/td&gt;
+&lt;td&gt;HW 4 due&lt;/td&gt;
+&lt;td&gt;Chapter 7 &lt;br&gt; (Rings)&lt;/td&gt;
+&lt;td&gt;WA 4 due&lt;/td&gt;
+&lt;td&gt;Chapter 7 &lt;br&gt; (Rings)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9/30&lt;/td&gt;
+&lt;td&gt;10/1&lt;/td&gt;
+&lt;td&gt;10/2&lt;/td&gt;
+&lt;td&gt;10/3&lt;/td&gt;
+&lt;td&gt;10/4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 7/8 &lt;br&gt; (Poly. Rings)&lt;/td&gt;
+&lt;td&gt;HW 5 due&lt;/td&gt;
+&lt;td&gt;Chapter 8 &lt;br&gt; (Polynomial Rings)&lt;/td&gt;
+&lt;td&gt;WA Rewrite due&lt;/td&gt;
+&lt;td&gt;Chapter 9 &lt;br&gt; (PIDs)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10/7&lt;/td&gt;
+&lt;td&gt;10/8&lt;/td&gt;
+&lt;td&gt;10/9&lt;/td&gt;
+&lt;td&gt;10/10&lt;/td&gt;
+&lt;td&gt;10/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 9 &lt;br&gt; (PIDs)&lt;/td&gt;
+&lt;td&gt;HW 6 due&lt;/td&gt;
+&lt;td&gt;Ring Homomorphisms&lt;/td&gt;
+&lt;td&gt;Midterm 1 &lt;br&gt; (self-scheduled)&lt;/td&gt;
+&lt;td&gt;Chapter 11 &lt;br&gt; (Irreducibility)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10/14&lt;/td&gt;
+&lt;td&gt;10/15&lt;/td&gt;
+&lt;td&gt;10/16&lt;/td&gt;
+&lt;td&gt;10/17&lt;/td&gt;
+&lt;td&gt;10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 10 &lt;br&gt; (Algebraic Elts)&lt;/td&gt;
+&lt;td&gt;HW 7 due&lt;/td&gt;
+&lt;td&gt;Chapter 10 &lt;br&gt; (Algebraic Elts)&lt;/td&gt;
+&lt;td&gt;WA 5 due&lt;/td&gt;
+&lt;td&gt;No Class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10/21&lt;/td&gt;
+&lt;td&gt;10/22&lt;/td&gt;
+&lt;td&gt;10/23&lt;/td&gt;
+&lt;td&gt;10/24&lt;/td&gt;
+&lt;td&gt;10/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 12 &lt;br&gt; (Fields as VS)&lt;/td&gt;
+&lt;td&gt;HW 8 due&lt;/td&gt;
+&lt;td&gt;Chapter 13 &lt;br&gt; (Auts of Fields)&lt;/td&gt;
+&lt;td&gt;WA 6 due&lt;/td&gt;
+&lt;td&gt;Chapter 14 &lt;br&gt; (Counting Auts)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10/28&lt;/td&gt;
+&lt;td&gt;10/29&lt;/td&gt;
+&lt;td&gt;10/30&lt;/td&gt;
+&lt;td&gt;10/31&lt;/td&gt;
+&lt;td&gt;11/1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 15 &lt;br&gt; (Groups)&lt;/td&gt;
+&lt;td&gt;HW 9 due&lt;/td&gt;
+&lt;td&gt;Chapter 15 &lt;br&gt; (Groups)&lt;/td&gt;
+&lt;td&gt;WA 7 due&lt;/td&gt;
+&lt;td&gt;Chapter 16 &lt;br&gt; (Permutations)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11/4&lt;/td&gt;
+&lt;td&gt;11/5&lt;/td&gt;
+&lt;td&gt;11/6&lt;/td&gt;
+&lt;td&gt;11/7&lt;/td&gt;
+&lt;td&gt;11/8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 17 &lt;br&gt; (Group Homoms)&lt;/td&gt;
+&lt;td&gt;HW 10 due&lt;/td&gt;
+&lt;td&gt;Chapter 18 &lt;br&gt; (Subgroups)&lt;/td&gt;
+&lt;td&gt;Midterm 2 &lt;br&gt; (self-scheduled)&lt;/td&gt;
+&lt;td&gt;Chapter 19 &lt;br&gt; (Generators)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11/11&lt;/td&gt;
+&lt;td&gt;11/12&lt;/td&gt;
+&lt;td&gt;11/13&lt;/td&gt;
+&lt;td&gt;11/14&lt;/td&gt;
+&lt;td&gt;11/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 20 &lt;br&gt; (Cosets)&lt;/td&gt;
+&lt;td&gt;HW 11 due&lt;/td&gt;
+&lt;td&gt;Chapter 21 &lt;br&gt; (Lagrange)&lt;/td&gt;
+&lt;td&gt;WA 8 due&lt;/td&gt;
+&lt;td&gt;Chapter 23 &lt;br&gt; (Normal Sgps)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11/18&lt;/td&gt;
+&lt;td&gt;11/19&lt;/td&gt;
+&lt;td&gt;11/20&lt;/td&gt;
+&lt;td&gt;11/21&lt;/td&gt;
+&lt;td&gt;11/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 23 &lt;br&gt; (Quotient Gps)&lt;/td&gt;
+&lt;td&gt;HW 12 due&lt;/td&gt;
+&lt;td&gt;Chapter 25 &lt;br&gt; (Galois again)&lt;/td&gt;
+&lt;td&gt;WA 9 due&lt;/td&gt;
+&lt;td&gt;No Class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11/25&lt;/td&gt;
+&lt;td&gt;11/26&lt;/td&gt;
+&lt;td&gt;11/27&lt;/td&gt;
+&lt;td&gt;11/28&lt;/td&gt;
+&lt;td&gt;11/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No Class&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;No Class&lt;/td&gt;
+&lt;td&gt;Thanksgiving&lt;/td&gt;
+&lt;td&gt;No Class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12/2&lt;/td&gt;
+&lt;td&gt;12/3&lt;/td&gt;
+&lt;td&gt;12/4&lt;/td&gt;
+&lt;td&gt;12/5&lt;/td&gt;
+&lt;td&gt;12/6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapter 26 &lt;br&gt; (Solvable Gps)&lt;/td&gt;
+&lt;td&gt;HW 13 due&lt;/td&gt;
+&lt;td&gt;Chapter 26 &lt;br&gt; (Commutators)&lt;/td&gt;
+&lt;td&gt;WA 10 due&lt;/td&gt;
+&lt;td&gt;Chapter 26 &lt;br&gt; (Commutators)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12/9&lt;/td&gt;
+&lt;td&gt;12/10&lt;/td&gt;
+&lt;td&gt;12/11&lt;/td&gt;
+&lt;td&gt;12/12&lt;/td&gt;
+&lt;td&gt;12/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chapters 27-28 &lt;br&gt; (Putting it Together)&lt;/td&gt;
+&lt;td&gt;HW 14 due&lt;/td&gt;
+&lt;td&gt;Catch-up/Review&lt;/td&gt;
+&lt;td&gt;WA 11 due&lt;/td&gt;
+&lt;td&gt;Catch-up/Review&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- - Class 00: Ch 1, Well-Ordering and Division          
+- Class 01: Ch 1, Primes and GCDs                 
+- Class 02: Ch 1, Induction, FT of arithmetic     
+- Class 03: Ch 3, Complex Numbers                 
+- Class 04: Ch 3, Complex Numbers                 
+- Class 05: Ch 4, Modular Arithmetic              
+- Class 06: LaTeX Day                             
+- Class 07: Ch 4, Zero Divisors                   
+- Class 08: Ch 5, Fields                          
+- Class 09: Ch 5, Subfields                       
+- Class 10: Ch 6, Solvability by Radicals         
+- Class 11: Ch 6, Solvability by Radicals         
+- Class 12: Ch 7, Rings                           
+- Class 13: Ch 7, Rings                           
+- Class 14: Ch 7, Rings                           
+- Class 15: Ch 8, Polynomial Rings                
+- Class 16: Ch 8, Polynomial Rings                
+- **NOTE**: Midterm 1 covers Chs 1 through 8         
+- Class 17: Ch 9, Ideals                          
+- Class 18: Ch 9, Principal Ideals and PIDs       
+- Class 19: Ring Homomorphisms                    
+- Class 20: Ch 10, Algebraic Elements             
+- Class 21: Ch 10, Algebraic Elements             
+- Class 22: Ch 11, Irreducible polynomials
+- Class 23: Ch 12, Extension Fields as Vector Spaces
+- Class 24: Ch 13, Automorphism that Fix a Field  
+- Class 25: Ch 14, Counting Automorphisms         
+- Class 26: Ch 15, Groups                         
+- Class 27: Ch 15, Groups                         
+- Class 28: Ch 16, Permutation Groups             
+- Class 29: Ch 17, Group Homomorphisms            
+- Class 30: Ch 18, Subgroups                      
+- **NOTE**: Midterm 2 covers Chs 9 through 18    
+- Class 31: Ch 19, Generators of (Sub)Groups      
+- Class 32: Ch 20, Cosets                         
+- Class 33: Ch 20-21, Cosets and Lagrange&#39;s Theorem 
+- Class 34: Ch 23, Normal Subgroups               
+- Class 35: Ch 23, Quotient Groups                
+- Class 36: Ch 25, Galois Theory Revisited       
+- Class 37: Ch 26, Solvable Groups                
+- Class 38: Ch 26, Solvable Groups                
+- Class 39: Ch 27-28, Putting it All Together    
+- Class 40: Ch 27-28, Putting it All Together    
+- Class 41: Workshop on Final Papers              
+- **NOTE**: Final Exam emphasizes Chs 19-28  --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Math 512: Number Theory</title>
       <link>https://crgibbons.github.io/post/syllabi/2024-math512/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>

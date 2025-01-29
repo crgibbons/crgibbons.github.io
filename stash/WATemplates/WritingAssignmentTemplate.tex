@@ -6,13 +6,28 @@
 \WAtitle{NUMBER}{DATE} %% Put the assignment number in the first { } and the due date in the second { }
 \WAauthors{AUTHORS} %% Put the authors here alphabetically by last name
 
-\todoG{This is a solo assignment. Please delete the green stuff enclosed in the \LaTeX\ code ``\textbackslash todoG\{ ... \}'' before turning it in.}
+\todoG{
+    This is a solo assignment. Please delete the green stuff enclosed in the \LaTeX\ code 
+    ``\textbackslash todoG\{ ... \}'' before turning it in.
+    }
 
-\todoG{The first problem is to write a paragraph that explains how to arrive at the quadratic formula by completing the square. You can look up how to do it -- this isn't about the math, it's about the writing about math.}
+\todoG{
+    The first problem is to write a paragraph that explains how to arrive at the quadratic formula
+    by completing the square. You can look up how to do it--this isn't about the math, 
+    it's about the writing about math.
+    }
 
-\todoG{Below is an example of a similar paragraph explaining how to arrive at the slope-intercept form of a line from point-slope.}
+\todoG{
+    Below is an example of a similar paragraph explaining how to arrive 
+    at the slope-intercept form of a line from point-slope.
+    }
 
-Suppose that $\ell$ is a line with a slope of $m$ that passes through the point $(x_0, y_0)$. Traditionally, we write lines in ``slope-intercept'' form, $y = mx + b$, where $m$ the ordered pair $(0,b)$ is the point on the line where it passes through the $y$-axis.  The point-slope formula for our line can be manipulated to produce the slope-intercept form using the properties of real number addition and multiplication. Indeed, $y-y_1  = m(x-x_1)$ implies $y = mx + (y_1 - mx_1)$, from which we see that $b = y_1 - mx_1$.
+    Suppose that $\ell$ is a line with a slope of $m$ that passes through the point $(x_0, y_0)$. 
+    Traditionally, we write lines in ``slope-intercept'' form, 
+    $y = mx + b$, where $m$ the ordered pair $(0,b)$ is the point on the line where it passes through the $y$-axis.  
+    The point-slope formula for our line can be manipulated to produce the slope-intercept form using 
+    the properties of real number addition and multiplication. 
+    Indeed, $y-y_1  = m(x-x_1)$ implies $y = mx + (y_1 - mx_1)$, from which we see that $b = y_1 - mx_1$.
 
 \todoG{Here's a sample start to your paragraph.}
 
@@ -22,22 +37,64 @@ Consider the quadratic equation $ax^2 + bx + c = 0$ where $a \not = 0$. Many peo
     \end{equation}
 for finding the solutions to this equation.
 
-\todoG{From here, tell your reader that you're going to arrive at the quadratic formula through a process called completing the square, show the big ideas (without a lot of small arithmetic steps because your reader can, and should, do a little scratc-hwork to follow your outline), and probably this means a couple of different equations that show how 
-$ax^2 + bx + c = 0$ implies Equation~\eqref{eqn:QuadFormula}.}
+\todoG{
+    From here, tell your reader that you're going to arrive at the quadratic formula 
+    through a process called completing the square, show the big ideas 
+    (without a lot of small arithmetic steps because your reader can, and should, 
+    do a little scratchwork to follow your outline), 
+    and probably this means a couple of different equations that show how
+    $ax^2 + bx + c = 0$ implies Equation~\eqref{eqn:QuadFormula}.
+    }
 
-\todoG{Notice in the code on line 20, I gave you a short code to label an equation (it's the \texttt{label} command after the \texttt{begin\{equation\}})
-and then to its number later in line 26 (that's the \texttt{eqref} command, into which you plug in the name from the label.  This is a really handy built-in system that \LaTeX\ offers so that you don't have to manually update equation numbers and references to them when you're working on a long document!}
+\todoG{
+    Notice in the code on line 35, I gave you a short code to label an equation 
+    (it's the \texttt{label} command after the \texttt{begin\{equation\}})
+    and then to its number later at the end of line 46 
+    (that's the \texttt{eqref} command, into which you plug in the name from the label.
+    This is a really handy built-in system that \LaTeX\ offers so that you don't have to 
+    manually update equation numbers and references to them when you're working on a long document!
+    }
 
 \clearpage
 
-
+%%% WA 01 %%%
 
 \WAtitle{NUMBER}{DATE} %% Put the assignment number in the first { } and the due date in the second { }
 \WAauthors{AUTHORS} %% Put the authors here alphabetically by last name
 
-\begin{prop*}[Chapter 1, \#36] For all positive integers $n$, three divides $4^n - 1$.\end{prop*}
+\begin{prop*}[Problem CG 2025.] For all positive integers $n$,
+\[
+    \sum_{j=1}^n j^3 = \left(\sum_{j=1}^n\right)^2.
+\]
+
+In particular, \[2025 = 45^2 = (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9)^2 = 1^3 + 2^3 + 3^3 + 4^3 + 5^3 + 6^3 + 7^3 + 8^3 + 9^3.\]
+\end{prop*}
+
+\begin{proof} 
+    We proceed by induction. Let $n$ be a positive integer.
+
+    % Base Case:
+    When $n = 1$, %%% Finish the base case: $\sum_{j=1}^1 j^3 = 1^3 = 1 = 1^2 = \left(\sum_{j=1}^1 j\right)^2$.
+
+    % Induction Hypothesis: assume the formula is true for $k \geq 1$, then show it holds for $k + 1$.
+    Let$k \geq 1$ and assume
+    %%% Fill in the induction hypothesis
+
+    %%% Complete the induction step;
+    %%% it might be helpful to use a result we proved in class to simplify
+    %%% the sum inside the square:
+    %%% $\sum_{j=1}^k j = \frac{k(k+1)}{2}$.
+
+    Therefore, by the principle of mathematical induction, %%% Fill out the conclusion
+\end{proof}
+
+\begin{prop*}[Chapter 1, \#39]. Let $m$ and $n$ be nonzero integers, and assume $m$ and $k$ are relatively prime integers. If $k$ is an integer for which $m$ divides $nk$, then $m$ divides $k$.
+\end{prop*}
 
 \begin{proof}
+
+%%% Don't forget to make sure you're satisfying the hypotheses of any theorems you use (like the FTa or the GCD theorem).
+%%% You might need to take care of some special cases depending on what route you choose!
 
 \end{proof}
 
@@ -50,22 +107,7 @@ and then to its number later in line 26 (that's the \texttt{eqref} command, into
 
 \todoG{You can use the above lemma without proving it. You can also use the result that binomial coefficients are integers without proof.}
 
-\todoG{do the assigned problems here}
-
-\begin{prop*}[Chapter 1, \#43] \end{prop*}
-
-\begin{proof} \end{proof}
-
-\begin{prop*}[Chapter 1, \#44] \end{prop*}
-
-\begin{proof} \end{proof}
-
-
-
-
-\todoG{Complete the text of the example below.}
-
-\begin{example*}[Chapter 1, \#44] The Binomial Theorem helps us expand $(x+1)^5$.  Indeed, 
+\begin{example*}[Chapter 1, \#43 and \#44] The Binomial Theorem helps us expand $(x+1)^5$.  Indeed, 
     \begin{align*} 
         (x+1)^5 &= \sum_{k=0}^5 \binom{5}{k} x^{5-k}1^k \\ 
                 %% ^^^ fixed 9/8/2021 (bad Gibbons!)
@@ -78,6 +120,8 @@ and then to its number later in line 26 (that's the \texttt{eqref} command, into
 
 \clearpage
 
+%%% WA 02 %%%
+
 \WAtitle{NUMBER}{DATE}
 \WAauthors{AUTHORS}
 
@@ -85,9 +129,15 @@ and then to its number later in line 26 (that's the \texttt{eqref} command, into
     For all nonzero integers $m$ and $n$, if $\gcd(m,n) = 1$ and $n$ divides $mk$ for some integer $k$, then $n$ divides $k$.
 \end{lemma*}
 
-\todoG{You don't have to prove this lemma, but it's a good practice problem before the first exam.}
+\todoG{
+    You proved this on the previous assignment, so you don't need to prove it again. 
+    I just put it here for your reference because I think you'll need it for \#56
+    }
 
 \begin{prop*}[Ch. 3, \#53] ...
+\end{prop*}
+
+\begin{prop*}[Ch. 3, \#56] ...
 \end{prop*}
 
 \end{document}

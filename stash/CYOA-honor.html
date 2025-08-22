@@ -3,58 +3,309 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Healthy Learning and Academic Integrity</title>
+<title>Choose your own (Homework) adventure!</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:.1em}0%,to{top:0px}}@keyframes shudder{25%{left:.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%,to{transform:translateX(0em)}5%,25%,45%{transform:translateX(-1em)}15%,35%,55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%,to{transform:translateY(0em)}5%,25%,45%{transform:translateY(-1em)}15%,35%,55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%,8.1%,82.1%,31.1%,38.1%,44.1%,40.1%,47.1%,74.1%,16.1%,27.1%,72.1%,24.1%,95.1%,6.1%,36.1%,20.1%,4.1%,91.1%,14.1%,87.1%,to{left:0px;top:0px}8%,82%,31%,38%,44%{left:-1px}40%,47%,74%,16%,27%{left:1px}72%,24%,95%,6%,36%{top:-1px}20%,4%,91%,14%,87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:.2}64%{opacity:.4}78%{opacity:.6}87%{opacity:.8}92%,to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:#000;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}tw-open-button[goto]{display:none}.debug-mode tw-open-button[replay],.debug-mode tw-open-button[goto]{display:inline}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 .5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,.5)}.debug-mode tw-expression[title]:not([title=""]){cursor:help}.debug-mode tw-hook{background-color:rgba(0,85,255,.1) !important}.debug-mode tw-hook::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,.1) !important}.debug-mode tw-collapsed::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 50%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0.25) 0%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,.2)}.debug-mode tw-enchantment{animation:enchantment .5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,.1)}.debug-mode tw-include::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}.debug-dialogs tw-backdrop:not(.eval-replay):not(.harlowe-crash){pointer-events:none;opacity:.1}tw-eval-replay tw-eval-code,tw-eval-replay tw-eval-explanation{max-height:20vh;overflow:auto;margin:10px auto}tw-eval-replay tw-eval-code{display:block;font-family:monospace;padding-bottom:1ex;border-bottom:2px solid gray}tw-eval-replay tw-eval-explanation{display:block;text-align:center}tw-eval-replay tw-eval-explanation>code{white-space:pre-wrap}tw-eval-replay tw-eval-explanation>code.from-block{width:40%;display:inline-block;text-align:left;max-height:4em;overflow-wrap:anywhere;overflow-y:scroll}tw-eval-replay tw-eval-explanation>code.from-block~.to-desc{width:calc(40% - 2em);margin-left:2em;display:inline-block}tw-eval-replay tw-eval-explanation>code.from-block+span::after{content:"..."}tw-eval-replay tw-eval-explanation>code.from-inline{text-align:right}tw-eval-replay tw-eval-explanation>:nth-child(2){white-space:pre}tw-eval-replay tw-eval-explanation>.to-desc{text-align:left}tw-eval-replay tw-eval-explanation>table{width:100%;margin-top:1em}tw-eval-replay tw-eval-explanation>table td{white-space:pre-wrap !important;word-wrap:anywhere}tw-eval-replay tw-eval-reason{text-align:center;font-size:80%;font-style:italic;display:block}tw-eval-replay tw-eval-it{text-align:center;font-size:80%;display:block}tw-eval-replay tw-dialog-links{display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:14em;min-height:1em;padding:0em .5em .5em 1em;font-size:1.25em;font-family:sans-serif;color:#262626;background-color:#fff;border-left:solid #262626 2px;border-top:solid #262626 2px;border-top-left-radius:.5em;opacity:1}tw-debugger.fade-panel:not(:hover){opacity:.33}tw-debugger.theme-dark{color:#d9d9d9;background-color:#000}tw-debugger.theme-dark{border-color:#d9d9d9 rgba(0,0,0,0) rgba(0,0,0,0) #d9d9d9}tw-debugger select{margin-right:1em;width:12em}tw-debugger button,tw-debugger tw-link{border-radius:3px;border:solid #999 1px;margin:auto 4px;color:#262626;background-color:#fff;cursor:pointer}tw-debugger button.enabled,tw-debugger tw-link.enabled{color:#000;background-color:#d9d9d9;box-shadow:inset #999 3px 5px .5em}tw-debugger.theme-dark button,tw-debugger.theme-dark tw-link{color:#d9d9d9;background-color:#000;border-color:#666}tw-debugger.theme-dark button.enabled,tw-debugger.theme-dark tw-link.enabled{color:#e6e6e6;background-color:#424242;box-shadow:inset #666 3px 5px .5em}tw-debugger button{font-size:1em;overflow-x:hidden;text-overflow:ellipsis;white-space:pre}tw-debugger tw-link{font-size:1.25em;border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-debugger tw-link:hover{border-color:#262626;color:#262626}tw-debugger.theme-dark tw-link:hover{border-color:#d9d9d9;color:#d9d9d9}tw-debugger tw-dialog{background-color:#fff;color:#000;font-size:1.25em}tw-debugger.theme-dark tw-dialog{background-color:#000;color:#e6e6e6}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;overflow-y:scroll;overflow-x:hidden;border:inherit;box-sizing:content-box;background-color:#fff;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger.theme-dark .panel{background-color:#000;border-bottom-color:#666}tw-debugger .panel-source .panel-row-buttons{width:2rem}tw-debugger .panel-source .source-tags{width:20%;font-style:italic}tw-debugger .panel-row-source td{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:8rem;padding:1rem}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background-color:#e6e6e6}tw-debugger .panel-tools .panel-rows>*,tw-debugger .panel-options .panel-rows>*{margin-top:.4rem;display:block}tw-debugger.theme-dark .panel-rows>div:nth-of-type(2n){background-color:#212121}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty+.panel-errors-bottom{display:none}tw-debugger.theme-dark .panel-variables .panel-rows:empty::before,tw-debugger.theme-dark .panel-enchantments .panel-rows:empty::before,tw-debugger.theme-dark .panel-errors .panel-rows:empty::before{color:#a8a8a8}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger th[data-col]{text-decoration:underline;cursor:pointer}tw-debugger th[data-col][data-order=asc]::after{content:"↓"}tw-debugger th[data-col][data-order=desc]::after{content:"↑"}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .storylet-exclusive,tw-debugger .storylet-urgent,tw-debugger .storylet-open{text-align:center}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:.8;font-size:.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#575757;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger.theme-dark .variable-type{color:#a8a8a8}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,.3)}tw-debugger .error-row>*{display:table-cell;padding:.25em .5em}tw-debugger .error-row .error-message[title]:not([title=""]){cursor:help}tw-debugger .error-row .error-passage{color:#575757}tw-debugger.theme-dark .error-row .error-passage{color:#a8a8a8}tw-debugger .storylet-row{background-color:rgba(193,240,225,.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(152,231,204,.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;background-color:#fff}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:#e6e6e6}tw-debugger .storylet-row.storylet-closed>:not(.storylet-lambda){opacity:.6}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .storylet-row .storylet-lambda{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere}tw-debugger.theme-dark .storylet-row.storylet-closed{background-color:#000}tw-debugger.theme-dark .storylet-row.storylet-closed:nth-child(2n){background-color:#212121}tw-debugger .tabs{padding-bottom:.5em}tw-debugger .tab{border-radius:0px 0px .5em .5em;border-top:none;top:-2px}tw-debugger .resizer-h{position:absolute;height:14em;border-left:2px solid #999;border-right:2px solid #999;top:10px;left:4px;width:8px;cursor:ew-resize}tw-debugger.theme-dark .resizer-h{border-color:rgba(0,0,0,0) #666}tw-debugger .resizer-v{position:absolute;height:8px;border-top:2px solid #999;border-bottom:2px solid #999;margin-bottom:4px;top:4px;left:10px;width:95%;cursor:ns-resize;box-sizing:border-box}tw-debugger.theme-dark .resizer-v{border-color:#666 rgba(0,0,0,0)}tw-debugger mark{color:inherit;background-color:rgba(101,230,230,.3) !important}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media(min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%;border:solid #fff !important}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop~tw-backdrop{display:none}tw-link,.enchantment-link{cursor:pointer;color:#4169e1;font-weight:bold;text-decoration:none;transition:color .2s ease-in-out}tw-passage [style^=color] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^=color][hover=true] tw-link:hover,tw-passage [style*=" color"][hover=true] tw-link:hover,tw-passage [style^=color] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^=color][hover=true] .enchantment-link:hover,tw-passage [style*=" color"][hover=true] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#dd4b39}.visited{color:#6941e1}tw-passage [style^=color] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^=color][hover=true] .visited:hover,tw-passage [style*=" color"][hover=true] .visited:hover{color:inherit}.visited:hover{color:#e3e}tw-broken-link{color:#933;border-bottom:2px solid #933;cursor:not-allowed}tw-passage [style^=color] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^=color][hover=true] tw-broken-link:hover,tw-passage [style*=" color"][hover=true] tw-broken-link:hover{color:inherit}tw-link.enchantment-mouseover,.link.enchantment-mouseover,tw-expression.enchantment-mouseover>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border-bottom:2px dashed #999}tw-link.enchantment-mouseover:hover,tw-link.enchantment-mouseover:active,.link.enchantment-mouseover:hover,.link.enchantment-mouseover:active,tw-expression.enchantment-mouseover>tw-link:hover,tw-expression.enchantment-mouseover>tw-link:active{color:inherit}tw-link.enchantment-mouseover.enchantment-button,.link.enchantment-mouseover.enchantment-button,tw-expression.enchantment-mouseover>tw-link.enchantment-button{border-style:dashed}tw-link.enchantment-mouseout,.link.enchantment-mouseout,tw-expression.enchantment-mouseout>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border:rgba(64,149,191,.6) 1px solid;border-radius:.2em}tw-link.enchantment-mouseout:hover,tw-link.enchantment-mouseout:active,.link.enchantment-mouseout:hover,.link.enchantment-mouseout:active,tw-expression.enchantment-mouseout>tw-link:hover,tw-expression.enchantment-mouseout>tw-link:active{color:inherit}tw-link.enchantment-mouseout:hover,.link.enchantment-mouseout:hover,tw-expression.enchantment-mouseout>tw-link:hover{background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 1px solid}tw-link.enchantment-dblclick,.link.enchantment-dblclick,tw-expression.enchantment-dblclick>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;cursor:pointer;border:2px solid #999;border-radius:0}tw-link.enchantment-dblclick:hover,tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:hover,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:hover,tw-expression.enchantment-dblclick>tw-link:active{color:inherit}tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:active{background-color:#999}tw-link.enchantment-button,.link.enchantment-button,.enchantment-button:not(.link) tw-link,.enchantment-button:not(.link) .link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}.enchantment-button{display:block}.enchantment-clickblock{cursor:pointer;width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,.5);transition:color .2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 .5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 .5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 2px solid;border-radius:.2em}.enchantment-dblclickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;cursor:pointer;border:2px solid #999}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia,serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media(min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:rgba(0,0,0,0);font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=text]{background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 .5em .5em .5em;vertical-align:middle}tw-story tw-noscript{animation:appear .8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media(min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*=width]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:.2;cursor:pointer}tw-icon[alt]:hover{opacity:.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:.2em;padding:.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:4px;border:1px solid rgba(255,255,255,.5);font-size:.8rem;margin:0 .2rem;padding:3px;white-space:pre}tw-folddown::after{content:"▶"}tw-folddown.open::after{content:"▼"}tw-open-button[replay]{display:none}tw-error tw-open-button,tw-eval-replay tw-open-button{display:inline !important}tw-open-button::after{content:attr(label)}tw-notifier{border-radius:.2em;padding:.2em;font-size:1rem;background-color:rgba(223,182,58,.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid #000;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:.3em 0 .6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,.6);background-color:#ff9}ins{color:rgba(0,0,0,.6);background-color:rgba(255,242,204,.5);border-radius:.5em;box-shadow:0em 0em .2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Healthy Learning and Academic Integrity.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Healthy Learning and Academic Integrity" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="D05DF878-17AA-4B0D-B032-850E69BCC2C2" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="homework is posted" tags="" position="575,200" size="100,100">It&#39;s 5pm on Wednesday, and your professor has just posted the homework due next week. Do you [[look at the homework now]] or [[put it off]]?</tw-passagedata><tw-passagedata pid="2" name="look at the homework now" tags="" position="750,75" size="100,100">You&#39;ve made a good choice! You have plenty of time to think about the problems, and there are a lot you can get done right away. Still, a few are a little bit tricky.
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Choose your own (Homework) adventure!.</tw-noscript></noscript></tw-story>
+<tw-storydata name="Choose your own (Homework) adventure!" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="D05DF878-17AA-4B0D-B032-850E69BCC2C2" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 
+	Twine CSS Template
+	
+	Simple CSS Template to help Twine authors change 
+		the default appearance
+		
+	Most current version, and license information at:
+	https://github.com/danieltalsky/twine-css-template
+	
+	Special thanks to furkle's Twine 2 Harlowe CSS Tutorial
+	no longer up on the web but helped a lot with the basics.
+	
+	- Version:  1.0
+	- Author:   Daniel Talsky <daniel@danieltalsky.com>
 
-This is a good time to [[review your options]].</tw-passagedata><tw-passagedata pid="3" name="put it off" tags="" position="950,75" size="100,100">It&#39;s Saturday, and you remember that the homework is coming up. Do you [[put it off again]] or [[look at the homework now]]?</tw-passagedata><tw-passagedata pid="4" name="put it off again" tags="" position="1175,75" size="100,100">It&#39;s Monday, and it&#39;s time to [[look at the homework finally]] or [[take your chances and put it off until the deadline]].</tw-passagedata><tw-passagedata pid="5" name="look at the homework finally" tags="" position="1400,100" size="100,100">The homework seems mostly doable, but there are a few confusing problems. Time is tight, but you [[review your options]] anyway.</tw-passagedata><tw-passagedata pid="6" name="take your chances and put it off until the deadline" tags="" position="1550,225" size="100,100">You can do a lot of the homework, but now it&#39;s due in 15 minutes and you still have a few problems left. Do you [[try your best and turn in what you have]], [[email your professor for an extension]], or [[look for the answers online]]?</tw-passagedata><tw-passagedata pid="7" name="talk to friends" tags="" position="275,450" size="100,100">You have a great study group, which is so awesome! You also know that your friends are super generous and would probably let you look at their solutions if you asked. You have so much other homework, what could it hurt to [[copy a solution]]? 
+	
+	COLORS
 
-On the other hand, you know you&#39;ll come up with more ideas if you stop to [[review your options]].</tw-passagedata><tw-passagedata pid="8" name="go to the QSR" tags="" position="925,625" size="100,100">On the way up the stairs, you see a flyer advertising homework solutions for sale. You think about it; maybe it&#39;s not so bad to [[pay someone to do your homework for you]]?
+	The default colors I picked are based on the Solarized Dark theme, 
+	optimized for readability and most often used in computer programming.
+	Change them to make your game have whatever mood you want, just make
+	sure it's readable!
 
-Or you can [[keep going to the QSR]].</tw-passagedata><tw-passagedata pid="9" name="go to office hours" tags="" position="1550,550" size="100,100">You have to admit it: your professor is //so cool//.
+	- background  				#fffff
+	- sidebar background   		#f0f0f0
+	
+	- main text color 			#002f86
+	- main sidebar text color   #022f86
+
+	FONTS
+	
+	You can use a traditional HTML font stack, but having access to
+	unique fonts keeps your game looking unique.  I picked 
+	PT Sans Caption, but you can pick any combination of google fonts
+	and they will generate this import line for you.
+	
+	Google Fonts:
+	https://fonts.google.com/
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+/* These are the default options for the entire browser window */
+tw-story {	
+	background-color: #ffffff; 
+	/* Color is the foreground / font color */
+	color: #002f86;
+	/* Make sure the first font listed is one of the fonts you imported above */
+	font-family: 'Roboto Slab', sans-serif;
+	/* This makes the font size for normal letters just a little bit bigger than default */
+	font-size: 1.25em;
+}
+
+/* These are the default options for the each passage area */
+tw-passage {
+	/* 
+		This lets the story take up most of its width up to a maximum readable width 
+		an `em` is about the width of one of your letters.  max-width lets the size
+		get wider and wider with the size of the window but only to a sane point
+		
+		It's ok to experiment with making this smaller or larger
+	*/
+    max-width: 55em;
+	/* This centers the main story column in the window */
+    margin: 0 auto 0 auto;
+}
+
+/* The sidebar with scoring and the back button */
+tw-sidebar { 
+	background: #f9f9f9;
+	color: #0286ff;
+	/* 
+		Gives the sidebar rounded corners.  Remove for no corners or make the number
+		higher for more rounded colors.
+		
+	*/
+	border-radius: 10px;
+
+	/* Uncomment to hide the sidebar completely */
+	/* display: none; */ 
+}
+
+/*
+  BASIC LINK STYLES
+  
+  This covers various different kinds of links in Harlowe
+*/
+.enchantment-link, tw-link, a {
+	color: #0286ff; 
+	font-weight: bold; 
+	/* Adds a glow to links.  You can make it a seperate color from the text 
+	   The numbers mean, in order: 
+	   - How far to the right of the letter (0 means radiating from the letter)
+	   - How far below the letter
+	   - How much blur does the glow/shadow have
+	   - What color is the shadow
+  	text-shadow: 0 0 5px #559988;
+	*/
+}
+/* Links that have already been visited */
+.enchantment-link:visited, tw-link:visited, .enchantment-link.visited, tw-link.visited, a:visited {
+	color: #022f86; 
+	font-weight: bold; 
+}
+/* Links when the mouse is over them */
+.enchantment-link:hover, tw-link:hover, a:hover {
+	color: #022f86; 
+	font-weight: bold; 
+	text-shadow: 0 0 5px #c0c0c0;
+}
+
+
+/*
+	EFFECTS
+
+	The pulse-in effect is good for text that will appear based on a user
+	action.  In Twine2, text will just blink into being and the user might
+	not notice.  If you wrap your text in:
+	<span class="pulse-in">Text that gets shown.</span>
+	
+	It will appear with a bright colored pulse that makes it clear it just
+	appeared.
+*/
+@keyframes pulsein {
+  from { color: #00fbf7; text-shadow: 0 0 1em #00fbf7; }
+  to { color: #ADC3D8; text-shadow: 0 0; }
+}
+.pulse-in {
+    color: #ADC3D8;
+    font-size: 1.1em;
+    animation: pulsein 1.2s linear 3;
+}
+span.pulse-in {
+  font-size: inherit;
+}
+
+/* IMAGE STYLES */
+
+/* styles for all images by default */
+img {
+	/* for example */
+	/* border: 1px solid black; */
+}
+/* 
+   images with <img class="full-width"> will stretch 
+   to the full width of the story 
+*/
+img.full-width {
+	display:block; margin-right:auto; margin-left:auto; 
+	width: 100%;
+}
+
+
+/*
+	TABLET-SPECIFIC RULES / SMALL WIDTH BROWSERS
+*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  tw-story {
+	  font-size: 3em;
+	  width: 100%;
+	  max-width: 95%;
+	  margin: 0 auto 0 auto;
+	  padding: 20% 10%;
+  }
+
+  tw-passage {
+	  width: 100%;
+  }  
+
+}	
+
+/*
+	MOBILE-SPECIFIC RULES
+	
+	You often want to make fonts much larger.
+*/
+@media only screen and (max-device-width: 480px) {
+
+  tw-story {
+	  font-size: 3.2em;
+	  width: 100%;
+	  max-width: 95%;
+	  margin: 0 auto 0 auto;
+	  padding: 20% 5%;
+  }
+
+  tw-passage {
+	  width: 100%;
+  }  
+  
+}
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="bad-end" color="red"></tw-tag><tw-tag name="narrow-escape" color="orange"></tw-tag><tw-tag name="branching" color="purple"></tw-tag><tw-tag name="good-end" color="green"></tw-tag><tw-tag name="ambiguous-end" color="orange"></tw-tag><tw-tag name="go-to-options" color="blue"></tw-tag><tw-tag name="secret-polka" color="blue"></tw-tag><tw-tag name="restarts" color="yellow"></tw-tag><tw-passagedata pid="1" name="start" tags="" position="150,150" size="100,100">(set: $hwNum = ($hwNum + 1))
+
+It&#39;s 5 pm on Wednesday, and your professor has just posted Homework Number [$hwNum], due Tuesday. Do you [[look at the homework now]] or [[put it off]]?</tw-passagedata><tw-passagedata pid="2" name="look at the homework now" tags="go-to-options" position="750,75" size="100,100">You&#39;ve made a good choice! You have plenty of time to think about the problems, and there are a lot you can get done right away. Still, a few are a little bit tricky.
+
+This is a good time to [[review your options-&gt;options]].</tw-passagedata><tw-passagedata pid="3" name="put it off" tags="ambiguous-end" position="950,75" size="100,100">It&#39;s Saturday, and you remember that the homework is coming up. Do you [[put it off again]] or [[look at the homework now]]?</tw-passagedata><tw-passagedata pid="4" name="put it off again" tags="ambiguous-end" position="1175,75" size="100,100">It&#39;s Monday, and it&#39;s time to [[look at the homework finally]] or [[take your chances and put it off until the deadline]].</tw-passagedata><tw-passagedata pid="5" name="look at the homework finally" tags="ambiguous-end" position="1400,100" size="100,100">The homework seems mostly doable, but there are a few confusing problems. Time is tight, but you [[review your options-&gt;options]] anyway.</tw-passagedata><tw-passagedata pid="6" name="take your chances and put it off until the deadline" tags="branching" position="1550,225" size="100,100">You can do a lot of the homework, but now it&#39;s due in 15 minutes and you still have a few problems left. Do you [[try your best and turn in what you have]], [[email your professor for an extension]], or [[look for the answers online]]?</tw-passagedata><tw-passagedata pid="7" name="talk to friends" tags="branching" position="150,450" size="100,100">You have a great study group, which is so awesome! You also know that your friends are super generous and would probably let you look at their solutions if you asked. 
+
+You have so much other homework, what could it hurt to [[copy a solution]]? 
+
+One of your friends notices that you have a problem finished that she doesn&#39;t, and she&#39;s facing the same time crunch you are, so you offer to let her [[copy your solution-&gt;copy a solution]].
+
+Don&#39;t forget, you [[have other options-&gt;options]], too.</tw-passagedata><tw-passagedata pid="8" name="go to the QSR" tags="branching" position="825,1350" size="100,100">This is weird. You pressed the right floor on the elevator, but you&#39;re going down, not up. The doors creak open and you realize you must be in the sub-basement of CJ.
+
+Out of the corner of your eye, you see a cat dart into the shadows. Do you [[follow the cat]] or [[get the heck out of there]]?
+
+//Author&#39;s note: if you don&#39;t like cats, just replace &quot;cat&quot; with your favorite animal pal and adjust animal-based puns accordingly.//</tw-passagedata><tw-passagedata pid="9" name="go to office hours" tags="go-to-options" position="1675,550" size="100,100">You have to admit it: your professor is helpful. (And also, apropos of nothing, //really really cool//.)
 
 They help you understand some of the big ideas you were missing and ask you questions about your problem-solving process. You get some good advice, but there are still some details you don&#39;t get.
 
-There&#39;s a long line out the door, so your professor suggests that you [[review your options]].</tw-passagedata><tw-passagedata pid="10" name="ask the embedded tutor for help" tags="" position="250,300" size="100,100">The embedded tutor has some good suggestions that help you figure out some of the problems you didn&#39;t know how to do. But you still aren&#39;t sure about a few. 
+There&#39;s a long line of people waiting to see your professor, so your professor suggests that you [[review your options-&gt;options]].</tw-passagedata><tw-passagedata pid="10" name="ask the embedded tutor for help" tags="go-to-options" position="250,300" size="100,100">The embedded tutor has some good suggestions that help you figure out some of the problems you didn&#39;t know how to do. But you still aren&#39;t sure about a few. 
 
-You mentally [[review your options]].</tw-passagedata><tw-passagedata pid="11" name="using the online textbook" tags="" position="625,575" size="100,100">While you&#39;re looking at the online textbook, you see a notification pop up. It&#39;s for an online AI mathbot that will walk you through your homework solutions one step at a time. Do you [[try out the mathbot]] or [[keep looking at the online textbook]]?</tw-passagedata><tw-passagedata pid="12" name="looking at the course notes" tags="" position="1575,750" size="100,100">While you are looking over the course notes, you accidentally summon the ghost of Gottfried Wilhelm Leibniz, the 17th Century mathematician to blame for most of the mathematical content in the course. It turns out Leibniz is a pretty friendly ghost, though, and he offers to show you the rest of the solutions for the homework. Do you [[let Leibniz show you the answers]] or [[ask Leibniz to hold off for now]]? 
+You mentally [[go through your options-&gt;options]].</tw-passagedata><tw-passagedata pid="11" name="using the online textbook" tags="branching" position="425,875" size="100,100">While you&#39;re looking at the online textbook, you see a notification pop up. It&#39;s for an online AI mathbot that will walk you through your homework solutions one step at a time. Do you [[try out the mathbot]] or [[keep looking at the online textbook]]?</tw-passagedata><tw-passagedata pid="12" name="looking at the course notes" tags="branching" position="1550,725" size="100,100">While you are looking over the course notes, you accidentally summon the ghost of Gottfried Wilhelm Leibniz(if: (visits is not 1) or (visited: &quot;investigate&quot;))[](else:)[, the 17th Century mathematician to blame for most of the mathematical content in the course]. It turns out Leibniz is a pretty friendly ghost, though, and he offers to show you the rest of the solutions for the homework(if: (visits is not 1) or (visited: &quot;investigate&quot;))[ (again)](else:)[]. 
 
-You can also pretend you don&#39;t see him (that will really annoy him, and it serves him right for all the calculus he unleashed upon the world) and [[keep looking at the course notes]].</tw-passagedata><tw-passagedata pid="13" name="searching the web for more info about similar problems" tags="" position="275,725" size="100,100">While you&#39;re looking for info, you see an AI summary pop up with a general explanation. There&#39;s an option to [[click for more info]]. One of the top results is an add for an AI mathbot that will walk you through the solution step-by-step, and you&#39;re tempted to [[try out the mathbot]]. Ironically, another result takes you to part of the course&#39;s online textbook, and you remember [[using the online textbook]] is an option.
+(if: (visited: &quot;let Leibniz show you the answers&quot;) is false)[Do you [[let Leibniz show you the answers]] or [[ask Leibniz to hold off for now]]?
 
-But that&#39;s not all! You can [[visit a forum]] where people trade answers to homework problems, [[watch a video]] of the solution, or even [[pay someone to do your homework for you]].</tw-passagedata><tw-passagedata pid="14" name="let Leibniz show you the answers" tags="" position="1800,675" size="100,100">[[Uh oh]].</tw-passagedata><tw-passagedata pid="15" name="ask Leibniz to hold off for now" tags="" position="1675,1000" size="100,100">Leibniz is slightly annoyed that he won&#39;t get to show off his mathematical talents, but he understands that you want to learn. He decides to go annoy Isaac Newton for awhile and vanishes.
+You can also pretend you don&#39;t see him (that will really annoy him, and it serves him right for all the calculus he unleashed upon the world) and [[keep looking at the course notes]].]
 
-You shake your head. Maybe you need more sleep? Anyway, you take a moment to [[review your options]].</tw-passagedata><tw-passagedata pid="16" name="keep looking at the course notes" tags="" position="1450,925" size="100,100">There&#39;s an example similar to a problem you don&#39;t understand, and with some effort, you figure out how to adapt the solution to the problem on the homework. Hooray! But there are a few you still don&#39;t understand.
+(else:)[You&#39;ve been there, done that, thank you very much. You can [[tell Leibniz to get lost-&gt;ask Leibniz to hold off for now]] or [[ignore him and check out the course notes-&gt;keep looking at the course notes]].]</tw-passagedata><tw-passagedata pid="13" name="searching the web for more info about similar problems" tags="branching" position="125,700" size="100,100">While you&#39;re looking for info, you see an AI summary pop up with a general explanation. There&#39;s an option to [[click for more info]]. One of the top results is an add for an AI mathbot that will walk you through the solution step-by-step, and you&#39;re tempted to [[try out the mathbot]]. Ironically, another result takes you to part of the course&#39;s online textbook, and you remember [[using the online textbook]] is an option.
 
-You mentally [[review your options]].</tw-passagedata><tw-passagedata pid="17" name="Uh oh" tags="" position="2325,450" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve also lost your academic integrity---and possibly your Honor Court case, too. 
+But that&#39;s not all! You can [[visit a forum]] where people trade answers to homework problems, [[watch a video]] of the solution, or even [[pay someone to do your homework-&gt;pay someone]].</tw-passagedata><tw-passagedata pid="14" name="let Leibniz show you the answers" tags="bad-end" position="1800,725" size="100,100">(put: $LeibAns + 1 into $LeibAns)
+A ghostly blackboard appears and Leibniz furiously scribbles a solution, and you just as furiously scribble it down trying to keep up before the cloud of ethereal chalk dust obscures it from view.
 
-At least you can try again when [[homework is posted]] on Wednesday. Integrity and trust can be earned back after they are lost. And your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="18" name="try your best and turn in what you have" tags="" position="2325,325" size="100,100">This is the way!
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="15" name="ask Leibniz to hold off for now" tags="branching" position="1675,1150" size="100,100">Leibniz is slightly annoyed that he won&#39;t get to show off his mathematical talents, but he understands that you want to learn. He decides to go annoy Isaac Newton for awhile and vanishes in a puff of ghostly chalk dust.
+
+(if: (history:)&#39;s last is &quot;investigate&quot;)[[[Check out the cemetery-&gt;checking out the cemetery]]]
+
+(else:)[You shake your head. Maybe you need more sleep? Anyway, you take a moment to [[recall your options-&gt;options]].]</tw-passagedata><tw-passagedata pid="16" name="keep looking at the course notes" tags="go-to-options" position="1525,975" size="100,100">There&#39;s an example in the notes similar to a problem you don&#39;t understand, and with some effort, you figure out how to adapt the solution to the problem on the homework. Hooray! But there are a few you still don&#39;t understand.
+
+You mentally [[list your options-&gt;options]].</tw-passagedata><tw-passagedata pid="17" name="Uh oh" tags="restarts" position="2475,1125" size="100,100">(set: $_a = (either: &quot;dream&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;))
+
+(if: $_a is &quot;dream&quot;)[
+	(set: $hwNum = 0)This was all a bad dream... (t8n-arrive: &quot;blur&quot;)+(t8n-time: 4s)[[Start over?-&gt;start]]
+]
+(else:)[
+    (if: (history:)&#39;s last is &quot;pay someone&quot; )[(display: &quot;paid&quot;)]
+    (else-if: (history:)&#39;s last is &quot;let Leibniz show you the answers&quot; )[(display: &quot;skibidi sus&quot;)]
+    (else-if: (history:)&#39;s last is &quot;try out the mathbot&quot;)[(display: &quot;ai is bad&quot;)]
+    (else-if: ((history:)&#39;s last is &quot;ask him to show you&quot;)
+        or ((history:)&#39;s last is &quot;visit a forum&quot;)
+        or ((history:)&#39;s last is &quot;watch a video&quot;)
+        or ((history:)&#39;s last is &quot;click for more info&quot;)
+        )[(display: &quot;seen it before&quot;)]
+    (else-if: (history:)&#39;s last is &quot;copy a solution&quot;)[(display: &quot;friend copy&quot;)]
+    (else-if: (history:)&#39;s last is &quot;look for the answers online&quot;)[(display: &quot;creative&quot;)]
+]</tw-passagedata><tw-passagedata pid="18" name="try your best and turn in what you have" tags="good-end" position="2625,150" size="100,100">&#39;&#39;This is the way!&#39;&#39;
 
 Although you might not have been able to work through every problem all the way to a solution, this is the best move available to you. You&#39;ll get some great feedback on the work from your graders, and you can follow up on it with your professor in office hours.
 
-And you may have even learned some lessons that will help on Wednesday when [[homework is posted]].</tw-passagedata><tw-passagedata pid="19" name="email your professor for an extension" tags="" position="1375,275" size="100,100">Luckily, your professor is online and checking email. Your professor reminds you that the written homework is due when it&#39;s due because another student grades it. You submit what you have a few minutes after the deadline and hope the grader will take pity on you.
+And you may have even learned some lessons that will help on Wednesday when (t8n-arrive: &#39;blur&#39;)+(t8n-time: 2s)[[homework is posted-&gt;start]]...</tw-passagedata><tw-passagedata pid="19" name="email your professor for an extension" tags="ambiguous-end" position="1375,325" size="100,100">Luckily, your professor is online and checking email. Your professor reminds you that the written homework is due when it&#39;s due because another student grades it. You submit what you have a few minutes after the deadline and hope the grader will take pity on you.
 
-At least you&#39;ll get to try again next week when [[homework is posted]].</tw-passagedata><tw-passagedata pid="20" name="look for the answers online" tags="" position="1825,350" size="100,100">Whether you meant to or not, you found the answers to the remaining problems online. [[Uh oh]].</tw-passagedata><tw-passagedata pid="21" name="copy a solution" tags="" position="275,575" size="100,100">The grader realizes that you and your friend have the same wrong answer, down to this mis-matched parenthese. [[Uh oh]]---for you and your friend!</tw-passagedata><tw-passagedata pid="22" name="try out the mathbot" tags="" position="475,1250" size="100,100">Wow, this mathbot really knows its calculus! With its help, you copy down the last solutions you need to finish up the homework and turn everything in. 
+At least you&#39;ll get to try again next week when [[homework is posted-&gt;start]].</tw-passagedata><tw-passagedata pid="20" name="look for the answers online" tags="bad-end" position="1875,300" size="100,100">Whether you meant to or not, you found the answers to the remaining problems online.
 
-Unfortunately, what you thought were correct answers were just plausible answers, and you&#39;ve turned in a bunch of AI generated nonsense. You realize a stunning truth when you get the homework back: [[Uh oh]]. 
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="21" name="copy a solution" tags="bad-end" position="275,575" size="100,100">You and your friend turn in the same solution. 
 
-You realize another stunning truth, too: all these AI chatbots have somehow taken computers and made them bad at computations. </tw-passagedata><tw-passagedata pid="23" name="keep looking at the online textbook" tags="" position="800,575" size="100,100">There&#39;s an example similar to a problem you don&#39;t understand, and with some effort, you figure out how to adapt the solution to the problem on the homework. Hooray! But there are a few you still don&#39;t understand. 
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="22" name="try out the mathbot" tags="bad-end" position="350,1300" size="100,100">Wow, this mathbot really knows its calculus! AI is awesome! 
 
-Time to [[review your options]].</tw-passagedata><tw-passagedata pid="24" name="click for more info" tags="" position="325,1075" size="100,100">[[Uh oh]]. The &quot;more info&quot; expands to a solution to the exact problem you&#39;re working on, which you can&#39;t unsee now that you&#39;ve seen it. You decide to turn that problem in anyway.</tw-passagedata><tw-passagedata pid="25" name="visit a forum" tags="" position="300,900" size="100,100">You turn in a solution from the forum.
+With its help, you copy down the last solutions you need to finish up the homework and turn everything in. 
 
-[[Uh oh]]. Your professor has seen that solution before, and even though it&#39;s technically correct, it uses material that isn&#39;t covered in any of the class resources available to you.</tw-passagedata><tw-passagedata pid="26" name="watch a video" tags="" position="300,1250" size="100,100">You turn in a solution from the video.
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="23" name="keep looking at the online textbook" tags="go-to-options" position="750,300" size="100,100">There&#39;s an example similar to a problem you don&#39;t understand, and with some effort, you figure out how to adapt the solution to the problem on the homework. Hooray! But there are a few you still don&#39;t understand. 
 
-[[Uh oh]]. Your professor has seen that solution before, and even though it&#39;s //technically// correct, it uses material that isn&#39;t covered in any of the class resources available to you.</tw-passagedata><tw-passagedata pid="27" name="pay someone to do your homework for you" tags="" position="650,1250" size="100,100">You turn in a solution somebody else worked out.
+Time to [[look through your options-&gt;options]].</tw-passagedata><tw-passagedata pid="24" name="click for more info" tags="bad-end" position="150,1075" size="100,100">The &quot;more info&quot; expands to a solution to the exact problem you&#39;re working on, which you can&#39;t unsee now that you&#39;ve seen it. You decide to turn that problem in anyway.
 
-[[Uh oh]]. Even though the solution is //technically// correct, it uses Feynman notation. Your professor knows you must have gotten your answer from a physics student who forgot the (superior) math notation for all things calculus.</tw-passagedata><tw-passagedata pid="28" name="ask him to show you" tags="" position="1200,950" size="100,100">A ghostly blackboard appears and Leibniz furiously scribbles a solution, and you furiously scribble it down just trying to keep up before the cloud of ethereal chalk dust obscures it from view.
+[[Uh oh]]. </tw-passagedata><tw-passagedata pid="25" name="visit a forum" tags="bad-end" position="150,900" size="100,100">You turn in a solution from the forum.
 
-[[Uh oh]].</tw-passagedata><tw-passagedata pid="29" name="take a break" tags="" position="1550,400" size="100,100">Sometimes walking away from your problems (mathematical or otherwise!) gives your mind a chance to work them over in the background. Anyway, whether you took a walk, tried out the climbing wall, or had a healthy snack, something worked: you have some new ideas for the homework and manage to solve almost all of the problems!
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="26" name="watch a video" tags="bad-end" position="150,1250" size="100,100">You turn in a solution from the video.
 
-While you&#39;re heading back to your room, you hear a strange noise. You can&#39;t help yourself. You have to [[investigate]]!</tw-passagedata><tw-passagedata pid="30" name="review your options" tags="" position="850,425" size="100,100">The syllabus has some suggestions for when you&#39;re stuck. You can
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="27" name="pay someone" tags="bad-end" position="650,1250" size="100,100">You turn in a solution somebody else worked out.
 
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="28" name="ask him to show you" tags="bad-end" position="1425,1200" size="100,100">You turn in the answer he shows you. You can mostly understand it so it should be fine, right?
+
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="29" name="take a break" tags="branching" position="1550,400" size="100,100">Sometimes walking away from your problems (mathematical or otherwise!) gives your mind a chance to work them over in the background. Anyway, whether you took a walk, tried out the climbing wall, (if: (visited: &quot;cat friend&quot; ))[visited your secret [[cat friend]], ]or had a healthy snack, something worked: you have some new ideas for the homework and manage to solve almost all of the problems!
+
+While you&#39;re heading back to your room, you hear a strange noise. You can&#39;t help yourself. You have to [[investigate]]!</tw-passagedata><tw-passagedata pid="30" name="options" tags="" position="500,350" size="100,100">(set: _text = &quot;&quot;)
+ {
+    (if:
+    	(visited: &quot;searching the web for more info about similar problems&quot;)
+     )[(set: _text = _text + &quot; [[visit a forum]], [[watch a video]], [[check out the search AI summary-&gt;click for more info]], &quot;
+        )
+    ]
+    (if: (visited: &quot;searching the web for more info about similar problems&quot;) or (visited: &quot;get the heck out of there&quot;))[(set: _text = _text + &quot; [[pay someone]],&quot;
+        )
+    ]
+    (if: (visited: &quot;searching the web for more info about similar problems&quot;) or (visited: &quot;using the online textbook&quot;))[(set: _text = _text + &quot; [[try out the mathbot]],&quot;
+        )
+    ]
+    (if: (visited: &quot;talk to friends&quot;))[(set: _text = _text + &quot; [[copy a solution]],&quot;
+        )
+    ]
+    (if: (visited: &quot;follow the cat&quot;))[(set: _text = _text + &quot; [[get the solutions from the solutions manual]],&quot;
+        )
+    ]
+    (if: (visited: &quot;keep going to the QSR&quot;))[(set: _text = _text + &quot; [[ask that math major in the QSR to show you-&gt;ask him to show you]],&quot;)]
+    (if: (visited: &quot;investigate&quot;) or (visited: &quot;looking at the course notes&quot;))[(set: _text = _text + &quot; [[track down Leibniz for the answers-&gt;let Leibniz show you the answers]],&quot;
+    )]
+ }
+The syllabus has some suggestions for when you&#39;re stuck. You can
 * [[go to office hours]]
 * [[go to the QSR]]
 * [[ask the embedded tutor for help]] 
@@ -62,7 +313,6 @@ While you&#39;re heading back to your room, you hear a strange noise. You can&#3
 * [[take a break]] and come back to the problems with a fresh perspective
 
 The syllabus also suggests
-
 * [[looking at the course notes]]
 * [[using the online textbook]] 
 
@@ -70,22 +320,92 @@ And you figure if all that fails, you have a few more options, too, like
 * [[searching the web for more info about similar problems]]
 * procrastinating, where you [[take your chances and put it off until the deadline]] (this is just another way of taking a break, right?!)
 
-And everybody knows you can [[email your professor for an extension]] at the last minute if you really need to.</tw-passagedata><tw-passagedata pid="31" name="investigate" tags="" position="2150,675" size="100,100">The strange noise leads you to the campus cemetery, where you encounter the ghost of Gottfried Wilhelm Leibniz, the 17th Century mathematician responsible for most of the calculus you&#39;re learning. He&#39;s juggling ghostly apples, but when he sees you approach, he looks excited. He can see the problems you still haven&#39;t solved floating in your mind, and he offers to show you how to do them.
+Everybody knows you can [[email your professor for an extension]] at the last minute if you really need to.
 
-Do you [[let Leibniz show you the answers]] or [[ask Leibniz to hold off for now]]?
+{
+(if: _text is not &quot;&quot;)[And now you know you could [_text] and maybe there are still more options, too.]
+}
 
-Also, how weird is it that there&#39;s a cemetery on campus? Maybe you should just ignore Leibniz and keep [[checking out the cemetery]].</tw-passagedata><tw-passagedata pid="32" name="checking out the cemetery" tags="" position="2000,925" size="100,100">The cemetery has some strange plots with names that almost can&#39;t be deciphered anymore. You&#39;re getting a little tired so you sit down on a bench. The bench is at the grave of Sam Pellman, a Hamilton professor of music. As you look down, you notice there seem to be a lot of four-leaf clovers on his plot. It&#39;s almost like he&#39;s benevolently wishing you good luck on your learning adventure.
 
-You shake your head again: first Leibniz offering you homework help, and now a late professor giving you a friendly pat on the back and encouraging you to keep going? Just as you are about to dismiss the idea, the campus bells break out into---what is it? Is that a... polka rendition of Carissima?!
+</tw-passagedata><tw-passagedata pid="31" name="investigate" tags="branching" position="2100,675" size="100,100">The strange noise leads you to the &lt;a href=&quot;https://www.hamilton.edu/news/story/last-dormitory-cemetery&quot; target=&quot;_blank&quot;&gt;campus cemetery&lt;/a&gt;, where you encounter the ghost of Gottfried Wilhelm Leibniz(if: (visits is not 1) or (visited: &quot;investigate&quot;))[ (again)](else:)[, the 17th Century mathematician responsible for most of the calculus you&#39;re learning]. He&#39;s juggling ghostly apples, but when he sees you approach, he looks excited. He can see the problems you still haven&#39;t solved floating in your mind, and he offers to show you how to do them.
 
+(if: (visited: &quot;let Leibniz show you the answers&quot;) is false)[Do you [[let Leibniz show you the answers]]?
+
+You can also pretend you don&#39;t see him (that will really annoy him, and it serves him right for all the calculus he unleashed upon the world) and [[keep checking out the cemetery-&gt;checking out the cemetery]].]
+
+(else:)[You&#39;ve been there, done that, thank you very much. You tell him, &quot;Ich gehe jetzt besser!&quot; and [[keep checking out the cemetery-&gt;checking out the cemetery]].]
+
+//Also, how weird is it that there&#39;s a cemetery on campus?//</tw-passagedata><tw-passagedata pid="32" name="checking out the cemetery" tags="secret-polka" position="1975,1225" size="100,100">The cemetery has a mix of new plots and really old plots with names that can barely be deciphered.
+
+You&#39;re getting a little tired, so you sit down on a bench. The bench is at the grave of a deceased, beloved Hamilton professor of music. As you look down, you notice there seem to be a lot of four-leaf clovers on his plot. It&#39;s almost like he&#39;s benevolently wishing you good luck on your learning adventure.
+
+You shake your head again: first Leibniz offering you homework help, and now a late professor giving you a friendly pat on the back and encouraging you to keep going? Just as you are about to dismiss the idea, the campus bells break out into... wait... is that... a polka rendition of Carissima?!
+
+(align:&quot;=&gt;&lt;=&quot;)+(box: &quot;X&quot;)[
 &lt;audio controls&gt; &lt;source src=&quot;https://academics.hamilton.edu/music/spellman/Carissima/Polkarissima.mp3&quot; /&gt;
 &lt;/audio&gt;
+//&quot;Polkarissima&quot; - Copyright Sam Pellman, 2001//
+]
 
-This is getting weird. Time to go home and [[review your options]].</tw-passagedata><tw-passagedata pid="33" name="keep going to the QSR" tags="" position="1100,700" size="100,100">You find your way to the QSR, which has some really cozy vibes. A tutor asks you a lot of Socratic questions that help you figure out that you already know a lot of what you need to solve most of the problems. You just needed to figure out how to use it.
+This is getting weird. Time to go home and [[check out the syllabus for more options-&gt;options]].</tw-passagedata><tw-passagedata pid="33" name="keep going to the QSR" tags="go-to-options" position="925,250" size="100,100">You find your way to the QSR, which has some really cozy vibes. A tutor asks you a lot of Socratic questions that help you figure out that you already know a lot of what you need to solve most of the problems. You just needed to figure out how to use it.
 
 You still have some problems left that you don&#39;t understand, and you mention this to the tutor. A math major comes over and looks over your shoulder. &quot;Calculus? Oh yeah, I know how to do that problem. Want me to show you?&quot;
 
-You think about it. You can [[ask him to show you]] or you can try something else. After all, when you [[review your options]], you realize you have a lot of choices!</tw-passagedata></tw-storydata>
+You think about it. You can [[ask him to show you]] or you can try something else. After all, when you [[think about your options-&gt;options]], you realize you have a lot of choices!</tw-passagedata><tw-passagedata pid="34" name="cite" tags="branching" position="2550,575" size="100,100">{
+(set: $cite = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
+(if: $cite is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, you cited your sources, so it&#39;s not plagiarism. Phew. but it&#39;s not great for anyone&#39;s learning to blindly copy down someone else&#39;s work. Your professor has a chat withyou to make sure you understand that this is not a good way to learn calculus. You get the idea that you probably shouldn&#39;t do this again if you want a letter of recommendation from this prof.&quot;)]
+(if: $cite is &quot;no&quot;)[(set: _text =_text + &quot;You didn&#39;t cite your sources, alas. Now this falls under the umbrella of plagiarism. Looks like you&#39;ll both be meeting with the Dean of Students and the Honor Court Chair to determine the next steps.&quot;)]
+
+[_text]
+}
+
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Hopefully, you&#39;ll never need to go through the Honor Court procedures.
+
+      Want a Hamilton Honor Code refresher? You can review Hamilton&#39;s Honor Code &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-code&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the procedures &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-court-constitution&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.//
+	]
+
+At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday. 
+
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="35" name="follow the cat" tags="branching" position="875,875" size="100,100">It&#39;s kinda spooky down here, but you&#39;re not easily scared. You turn on your phone&#39;s flashlight and see the cat slinking toward a pile of old solutions manuals. Score! These probably have the answers to the homework problems you don&#39;t know how to do.
+
+The cat watches carefully as you make your decision to [[get the solutions from the solutions manual]] or [[make &#39;psst psst&#39; noises-&gt;cat friend]] in hopes of making a cat friend.
+
+//Author&#39;s note: if you don&#39;t like cats, just replace &quot;cat&quot; with your favorite animal pal and adjust animal-based puns accordingly.//</tw-passagedata><tw-passagedata pid="36" name="get the heck out of there" tags="branching" position="1100,1225" size="100,100">You get back in the elevator and this time, it goes the correct floor. In the elevator, you notice a flyer advertising homework solutions for sale.
+
+(if: (visited: &quot;pay someone&quot; ) is false)[You think about it; maybe it&#39;s not so bad to [[pay someone to do your homework for you-&gt;pay someone]]? Or you can [[keep going to the QSR]].](else:)[Been there, done that, no thanks! You [[keep going to the QSR]].]</tw-passagedata><tw-passagedata pid="37" name="get the solutions from the solutions manual" tags="narrow-escape" position="1000,1025" size="100,100">Before you can open the manuals, the cat hisses and chases you away. Probably for the best, because copying solutions from a solutions manual would definitely be in violation of the Honor Code. You look back at the cat, who seems to be urging to //paws// to think through your choices more thoughtfully in the future.
+
+You [[make your way back to the elevator-&gt;keep going to the QSR]].
+
+//Author&#39;s note: if you don&#39;t like cats, just replace &quot;cat&quot; with your favorite animal pal and adjust animal-based puns accordingly.//</tw-passagedata><tw-passagedata pid="38" name="cat friend" tags="branching" position="1275,1100" size="100,100">//Purr//-fect choice! The cat is now your //fur//-ever friend, and you know that when you are having a rough day, you can come visit again.(if: ((history:)&#39;s last is &quot;take a break&quot;) is true)[ Time to [[get back to it-&gt;take a break]].](else:)[ Time to [[keep going to the QSR]].]
+
+//Author&#39;s note: if you don&#39;t like cats, just replace &quot;cat&quot; with your favorite animal pal and adjust animal-based puns accordingly.//</tw-passagedata><tw-passagedata pid="39" name="seen it before" tags="" position="3400,300" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... Your professor has seen that solution before, and even though it&#39;s technically correct, it uses material that isn&#39;t covered in any of the class resources available to you. Did you at least [[cite your source-&gt;cite]]?</tw-passagedata><tw-passagedata pid="40" name="skibidi sus" tags="" position="3400,475" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... The graders have flagged your homework as &#39;skibidi sus&#39; and, while your professor doesn&#39;t see anything //technically// wrong with it, it&#39;s impossible not to read it in a 17th century German accent. You get a perfect score, but at a cost: Leibniz has stolen the knowledge of any mathematics---topics, notation, applications, you name it!---and you&#39;re left to rebuild your understanding of math as though //&#39;&#39;you&#39;&#39;// were a 17th Century mathematician...
+
+Better (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again next week-&gt;start]].</tw-passagedata><tw-passagedata pid="41" name="friend copy" tags="" position="3100,175" size="100,100">The grader realizes that you and your friend have the same wrong answer, down to this mis-matched parentheses. Did you at least [[cite each other-&gt;cite]]?</tw-passagedata><tw-passagedata pid="42" name="ai is bad" tags="" position="2825,1125" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... Unfortunately, what you thought were //correct// answers were just //plausible// answers, and you&#39;ve turned in a bunch of AI-generated slop. You realize a stunning truth: all these AI chatbots have somehow taken computers and made them bad at computations.
+
+Unless you go the explicit okay from your professor to use generative AI, this is an unapproved collaboration. Did you [[ask your professor]]?</tw-passagedata><tw-passagedata pid="43" name="creative" tags="" position="3225,975" size="100,100">You manage to creatively come up with new solutions to all of the problems, which is lucky. If you had turned in what you had found online, even if you could have come up with it on your own, and even if you had cited it, you would have run afoul of your professor&#39;s policies. You vow to be more careful (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[next time-&gt;start]].</tw-passagedata><tw-passagedata pid="44" name="paid" tags="" position="3050,1050" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... Even though the solution is //technically// correct, it uses Feynman notation. Your professor knows you must have gotten your answer from a physics student who forgot the (superior) math notation(s) for all things calculus. Did you at least [[cite your source-&gt;cite]]?</tw-passagedata><tw-passagedata pid="45" name="ask your professor" tags="bad-end" position="2550,700" size="100,100">{
+(set: _ask = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
+(if: _ask is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, asked your professor, but they told you not to do this, so it&#39;s an unapproved collaboration. You&#39;ll soon meet the Dean of Students and the Honor Court chair for a meeting with your professor to determine the next step.&quot;)]
+(if: _ask is &quot;no&quot;)[(set: _text = _text + &quot;You didn&#39;t ask your professor,, alas. Now this falls under the umbrella of unapproved collaboration. Looks like you&#39;ll both be meeting with the Honor Court chair and the Dean of Faculty to see how to proceed.&quot;)]
+
+[_text]
+}
+
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Hopefully, you&#39;ll never need to go through the Honor Court procedures.
+
+      Want a Hamilton Honor Code refresher? You can review Hamilton&#39;s Honor Code &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-code&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the procedures &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-court-constitution&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.//
+	]
+
+At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday.
+
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim

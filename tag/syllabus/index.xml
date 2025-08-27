@@ -17,7 +17,7 @@
       <link>https://crgibbons.github.io/post/syllabi/2025-math525/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
       <guid>https://crgibbons.github.io/post/syllabi/2025-math525/</guid>
-      <description>&lt;!-- 
+      <description>&lt;!--
 ---
 geometry: 
   - paperwidth = 8in
@@ -34,7 +34,8 @@ header-includes:
   - \usepackage{hyperref}
   - \hypersetup{colorlinks=true}
 colorlinks: true
---- --&gt;
+---
+--&gt;
 &lt;h2 id=&#34;a-computation-is-a-a-process-that-obeys-finitely-describable-rules--rudy-ruckerhttpsenwikipediaorgwikirudy_rucker&#34;&gt;&amp;ldquo;A computation is a a process that obeys finitely describable rules.&amp;rdquo; -
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Rudy_Rucker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rudy Rucker&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s all fun and games until someone introduces an $i$&amp;hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&amp;rsquo;re going to &lt;strong&gt;really&lt;/strong&gt; enjoy this class!&lt;/p&gt;
@@ -100,13 +101,12 @@ colorlinks: true
 &lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams.&lt;/strong&gt; Please let me know in a timely fashion if you have an academic accommodation or a conflict with a scheduled course event. Ideally, this course&amp;rsquo;s design will allow you to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor.&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, let the week coordinator know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Getting Stuck.&lt;/strong&gt; Being stumped is part of learning mathematics, and it&amp;rsquo;s a feature of this course (not a bug!). You should spend time thinking about problems on your own before seeking help (either from another peer, your professor, or a permitted resource). That doesn&amp;rsquo;t mean you need to solve them alone, though. Collaboration is not only encouraged in this course: &lt;strong&gt;&lt;em&gt;it&amp;rsquo;s absolutely vital that you work with each other to succeed.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Allowed Resources.&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;You may use:
-
-- Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).
-- Online resources for programming help (not for mathematics).
-- Your professor and your classmates.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Allowed Resources.&lt;/strong&gt; You may use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).&lt;/li&gt;
+&lt;li&gt;Online resources for programming help (not for mathematics).&lt;/li&gt;
+&lt;li&gt;Your professor and your classmates.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.  &lt;strong&gt;You may not use generative AI for any purpose without consulting and obtaining the explicit permission of your professor.&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;weekly-topics&#34;&gt;Weekly Topics&lt;/h1&gt;
 &lt;p&gt;The class is responsible for presenting (and recording in a collaborative notes LaTeX document) specific content each week.&lt;/p&gt;
@@ -139,7 +139,7 @@ colorlinks: true
 &lt;/li&gt;
 &lt;li&gt;Results to prove:
 &lt;ul&gt;
-&lt;li&gt;Given a homomorphism of commutative rings $\phi: R -&amp;gt; S$, $\mathrm{im}(\phi)$ is a subring of $S$ and $\ker(\phi)$ is an ideal of $R$&lt;/li&gt;
+&lt;li&gt;Given a homomorphism of commutative rings $\phi: R \to S$, $\mathrm{im}(\phi)$ is a subring of $S$ and $\ker(\phi)$ is an ideal of $R$&lt;/li&gt;
 &lt;li&gt;Given an ideal $I$ of a ring $R$, there is a ring homomorphism with domain $R$ for which $I$ is the kernel. (You have to figure out what the codomain is and what the ring homomorphism is.)&lt;/li&gt;
 &lt;li&gt;For a commutative ring $R$ and a prime ideal $\mathfrak{p}$, $R/\mathfrak{p}$ is an integral domain&lt;/li&gt;
 &lt;li&gt;For a commutative ring $R$ and a maximal ideal $\mathfrak{m}$, $R/\mathfrak{m}$ is a field&lt;/li&gt;

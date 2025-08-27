@@ -17,7 +17,24 @@
       <link>https://crgibbons.github.io/post/syllabi/2025-math525/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
       <guid>https://crgibbons.github.io/post/syllabi/2025-math525/</guid>
-      <description>&lt;p&gt;Revised Fall 2025&lt;/p&gt;
+      <description>&lt;!-- 
+---
+geometry: 
+  - paperwidth = 8in
+  - paperheight = 11in
+  - margin = 1cm
+  - bmargin = 1in
+fontsize: 11pt
+title: &#34;Math 525: Computational Algebra, Fall 2025&#34;
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{amsthm}
+  - \usepackage{graphicx}
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true}
+colorlinks: true
+--- --&gt;
 &lt;h2 id=&#34;a-computation-is-a-a-process-that-obeys-finitely-describable-rules--rudy-ruckerhttpsenwikipediaorgwikirudy_rucker&#34;&gt;&amp;ldquo;A computation is a a process that obeys finitely describable rules.&amp;rdquo; -
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Rudy_Rucker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rudy Rucker&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s all fun and games until someone introduces an $i$&amp;hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&amp;rsquo;re going to &lt;strong&gt;really&lt;/strong&gt; enjoy this class!&lt;/p&gt;
@@ -45,7 +62,7 @@
 &lt;h2 id=&#34;what-matters-in-this-class&#34;&gt;What Matters in this Class&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;: &lt;em&gt;Weekly roles&lt;/em&gt;. Each week, one or two students will act as &amp;ldquo;week coordinators&amp;rdquo; to figure out who will present which things in what order. Another one or two students will act as &amp;ldquo;week notetakes&amp;rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;: &lt;em&gt;Weekly roles&lt;/em&gt;. Each week, one or two students will act as &amp;ldquo;week coordinators&amp;rdquo; to figure out who will present which things in what order. Another one or two students will act as &amp;ldquo;week notetakers&amp;rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Active Attendance and Participation&lt;/strong&gt;: &lt;em&gt;Every Class&lt;/em&gt;. Get ready to work like a mathematician in this class. No more lectures! This class is active learning all-the-way, which means your attendance is critical for its success. You and your classmates will present the material in this class, and your role when not presenting is to ask questions suggest alternate solutions, and come up with additional questions about the material.&lt;/p&gt;
@@ -89,6 +106,44 @@
 * Your professor and your classmates.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.  &lt;strong&gt;You may not use generative AI for any purpose without consulting and obtaining the explicit permission of your professor.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;weekly-topics&#34;&gt;Weekly Topics&lt;/h1&gt;
+&lt;p&gt;The class is responsible for presenting (and recording in a collaborative notes LaTeX document) specific content each week.&lt;/p&gt;
+&lt;h2 id=&#34;week-one&#34;&gt;Week One&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Definitions to present:
+&lt;ul&gt;
+&lt;li&gt;Commutative Ring with Unity,&lt;/li&gt;
+&lt;li&gt;Integral Domain,&lt;/li&gt;
+&lt;li&gt;Field,&lt;/li&gt;
+&lt;li&gt;Subring of a Commutative Ring with Unity,&lt;/li&gt;
+&lt;li&gt;Homomorphism of rings (and kernel and image thereof),&lt;/li&gt;
+&lt;li&gt;Ideal,&lt;/li&gt;
+&lt;li&gt;Principal Ideal,&lt;/li&gt;
+&lt;li&gt;Prime Ideal,&lt;/li&gt;
+&lt;li&gt;Maximal Ideal,&lt;/li&gt;
+&lt;li&gt;Coset of an Ideal&lt;/li&gt;
+&lt;li&gt;Quotient Ring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Examples to Construct:
+&lt;ul&gt;
+&lt;li&gt;Polynomial ring $R$ in two variables with coefficients from a field&lt;/li&gt;
+&lt;li&gt;A principal ideal $(f)$ of $R$&lt;/li&gt;
+&lt;li&gt;An ideal $I$ of $R$ that is not principal&lt;/li&gt;
+&lt;li&gt;An ideal $\mathfrak{p}$ of $R$ that is prime but not maximal&lt;/li&gt;
+&lt;li&gt;An ideal $\mathfrak{m}$ of $R$ that is maximal&lt;/li&gt;
+&lt;li&gt;The quotient rings $R/(f)$, $R/I$, $R/\mathfrak{p}$, $R/\mathfrak{m}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Results to prove:
+&lt;ul&gt;
+&lt;li&gt;Given a homomorphism of commutative rings $\phi: R -&amp;gt; S$, $\mathrm{im}(\phi)$ is a subring of $S$ and $\ker(\phi)$ is an ideal of $R$&lt;/li&gt;
+&lt;li&gt;Given an ideal $I$ of a ring $R$, there is a ring homomorphism with domain $R$ for which $I$ is the kernel. (You have to figure out what the codomain is and what the ring homomorphism is.)&lt;/li&gt;
+&lt;li&gt;For a commutative ring $R$ and a prime ideal $\mathfrak{p}$, $R/\mathfrak{p}$ is an integral domain&lt;/li&gt;
+&lt;li&gt;For a commutative ring $R$ and a maximal ideal $\mathfrak{m}$, $R/\mathfrak{m}$ is a field&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

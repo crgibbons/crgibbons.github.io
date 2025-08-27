@@ -705,7 +705,24 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Revised Fall 2025</p>
+      <!-- 
+---
+geometry: 
+  - paperwidth = 8in
+  - paperheight = 11in
+  - margin = 1cm
+  - bmargin = 1in
+fontsize: 11pt
+title: "Math 525: Computational Algebra, Fall 2025"
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{amsthm}
+  - \usepackage{graphicx}
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true}
+colorlinks: true
+--- -->
 <h2 id="a-computation-is-a-a-process-that-obeys-finitely-describable-rules--rudy-ruckerhttpsenwikipediaorgwikirudy_rucker">&ldquo;A computation is a a process that obeys finitely describable rules.&rdquo; -
 <a href="https://en.wikipedia.org/wiki/Rudy_Rucker" target="_blank" rel="noopener">Rudy Rucker</a></h2>
 <p>It&rsquo;s all fun and games until someone introduces an $i$&hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&rsquo;re going to <strong>really</strong> enjoy this class!</p>
@@ -733,7 +750,7 @@
 <h2 id="what-matters-in-this-class">What Matters in this Class</h2>
 <ul>
 <li>
-<p><strong>Responsibility</strong>: <em>Weekly roles</em>. Each week, one or two students will act as &ldquo;week coordinators&rdquo; to figure out who will present which things in what order. Another one or two students will act as &ldquo;week notetakes&rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).</p>
+<p><strong>Responsibility</strong>: <em>Weekly roles</em>. Each week, one or two students will act as &ldquo;week coordinators&rdquo; to figure out who will present which things in what order. Another one or two students will act as &ldquo;week notetakers&rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).</p>
 </li>
 <li>
 <p><strong>Active Attendance and Participation</strong>: <em>Every Class</em>. Get ready to work like a mathematician in this class. No more lectures! This class is active learning all-the-way, which means your attendance is critical for its success. You and your classmates will present the material in this class, and your role when not presenting is to ask questions suggest alternate solutions, and come up with additional questions about the material.</p>
@@ -777,6 +794,44 @@
 * Your professor and your classmates.
 </code></pre>
 <p><strong>IMPORTANT!</strong> Please check with me before using resources other than those listed above.  <strong>You may not use generative AI for any purpose without consulting and obtaining the explicit permission of your professor.</strong></p>
+<h1 id="weekly-topics">Weekly Topics</h1>
+<p>The class is responsible for presenting (and recording in a collaborative notes LaTeX document) specific content each week.</p>
+<h2 id="week-one">Week One</h2>
+<ul>
+<li>Definitions to present:
+<ul>
+<li>Commutative Ring with Unity,</li>
+<li>Integral Domain,</li>
+<li>Field,</li>
+<li>Subring of a Commutative Ring with Unity,</li>
+<li>Homomorphism of rings (and kernel and image thereof),</li>
+<li>Ideal,</li>
+<li>Principal Ideal,</li>
+<li>Prime Ideal,</li>
+<li>Maximal Ideal,</li>
+<li>Coset of an Ideal</li>
+<li>Quotient Ring</li>
+</ul>
+</li>
+<li>Examples to Construct:
+<ul>
+<li>Polynomial ring $R$ in two variables with coefficients from a field</li>
+<li>A principal ideal $(f)$ of $R$</li>
+<li>An ideal $I$ of $R$ that is not principal</li>
+<li>An ideal $\mathfrak{p}$ of $R$ that is prime but not maximal</li>
+<li>An ideal $\mathfrak{m}$ of $R$ that is maximal</li>
+<li>The quotient rings $R/(f)$, $R/I$, $R/\mathfrak{p}$, $R/\mathfrak{m}$</li>
+</ul>
+</li>
+<li>Results to prove:
+<ul>
+<li>Given a homomorphism of commutative rings $\phi: R -&gt; S$, $\mathrm{im}(\phi)$ is a subring of $S$ and $\ker(\phi)$ is an ideal of $R$</li>
+<li>Given an ideal $I$ of a ring $R$, there is a ring homomorphism with domain $R$ for which $I$ is the kernel. (You have to figure out what the codomain is and what the ring homomorphism is.)</li>
+<li>For a commutative ring $R$ and a prime ideal $\mathfrak{p}$, $R/\mathfrak{p}$ is an integral domain</li>
+<li>For a commutative ring $R$ and a maximal ideal $\mathfrak{m}$, $R/\mathfrak{m}$ is a field</li>
+</ul>
+</li>
+</ul>
 
     </div>
 

@@ -22,12 +22,16 @@
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Rudy_Rucker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rudy Rucker&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s all fun and games until someone introduces an $i$&amp;hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&amp;rsquo;re going to &lt;strong&gt;really&lt;/strong&gt; enjoy this class!&lt;/p&gt;
 &lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
-&lt;p&gt;There is no required course text, but you will make frequent use of the following library holdings:&lt;/p&gt;
+&lt;p&gt;There is no required course text, but you will make frequent use of the following library holdings (you can access them online once you log in with your Hamilton SSO):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[&lt;em&gt;Commutative Ring Theory: An Introduction&lt;/em&gt;](https:// &amp;hellip; ), by John Watkins&lt;/li&gt;
-&lt;li&gt;[_Ideals, Varieties, and Algorithms](https:// &amp;hellip; ) by (authors)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://hamilton.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&amp;amp;vid=01HAMILTON_INST:01HAMILTON&amp;amp;search_scope=MyInst_and_CI&amp;amp;tab=Everything&amp;amp;docid=alma9917947511504131&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Commutative Ring Theory: An Introduction&lt;/em&gt;&lt;/a&gt;, by John Watkins&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://hamilton.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&amp;amp;vid=01HAMILTON_INST:01HAMILTON&amp;amp;search_scope=MyInst_and_CI&amp;amp;tab=Everything&amp;amp;docid=alma9917649764404131&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Ideals, Varieties, and Algorithms&lt;/em&gt;&lt;/a&gt; by (David Cox, John Little, and Donald O&amp;rsquo;Shea)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://hamilton.primo.exlibrisgroup.com/permalink/01HAMILTON_INST/15ojthq/alma9917627186104131&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;&lt;/a&gt;, edited by Bowers-Green, Leader, and Gowers&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;There are limitations on what other texts or resources you can use; see the Honor Code section for more.&lt;/p&gt;
 &lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
 &lt;p&gt;Students will be (collectively) responsible for preparing and presenting materials, including definitions, examples (and nonexamples), theorems (and other results), and pseudocode (a description of an algorithm that is readily implementable in a coding language). The weekly material to cover will be available on Blackboard, and it depends on the class how far we get each week.&lt;/p&gt;
 &lt;p&gt;Generally speaking, we will pick up from modern algebra by focusing on commutative rings with unity, and very quickly we&amp;rsquo;ll restrict even further to multivariable polynomial rings with coefficients from a field. You will become good friends with $\mathbb{C}[x_1,\ldots,x_d]$, and friendly acquaintances with $\mathbb{F}_p[x_1,\ldots,x_d]$. We&amp;rsquo;ll develop additional theory about these rings, learn about algorithms that are based on that theory, and solve problems using those algorithms.&lt;/p&gt;
@@ -80,12 +84,11 @@
 &lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor.&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, let the week coordinator know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Getting Stuck.&lt;/strong&gt; Being stumped is part of learning mathematics, and it&amp;rsquo;s a feature of this course (not a bug!). You should spend time thinking about problems on your own before seeking help (either from another peer, your professor, or a permitted resource). That doesn&amp;rsquo;t mean you need to solve them alone, though. Collaboration is not only encouraged in this course: &lt;strong&gt;&lt;em&gt;it&amp;rsquo;s absolutely vital that you work with each other to succeed.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Allowed Resources.&lt;/strong&gt; You may use:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).
-- Online resources for programming help (not for mathematics).
-- Your professor and your classmates.
-- Generative AI for any purpose **in consultation with, and with the express permission of, your professor.**
+&lt;pre&gt;&lt;code&gt;* Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).
+* Online resources for programming help (not for mathematics).
+* Your professor and your classmates.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.  &lt;strong&gt;You may not use generative AI for any purpose without consulting and obtaining the explicit permission of your professor.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

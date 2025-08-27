@@ -1,0 +1,1182 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Courtney R. Gibbons">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Computational algebra is the practice of using abstract algebraic structures, to solve problems via computation or to develop algorithms to perform computations. You will learn theoretical results in algebra, tools and algorithms arising from these results, and how to apply the results to problems. At the end of the course, students explore topics of interest in small groups.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://crgibbons.github.io/post/syllabi/2025-math525/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#002f86">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121170340-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-121170340-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://crgibbons.github.io/post/syllabi/2025-math525/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@virtualcourtney">
+  <meta property="twitter:creator" content="@virtualcourtney">
+  
+  <meta property="og:site_name" content="Dr. Courtney R. Gibbons">
+  <meta property="og:url" content="https://crgibbons.github.io/post/syllabi/2025-math525/">
+  <meta property="og:title" content="Math 525: Computational Algebra, Fall 2025 | Dr. Courtney R. Gibbons">
+  <meta property="og:description" content="Computational algebra is the practice of using abstract algebraic structures, to solve problems via computation or to develop algorithms to perform computations. You will learn theoretical results in algebra, tools and algorithms arising from these results, and how to apply the results to problems. At the end of the course, students explore topics of interest in small groups."><meta property="og:image" content="https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2025-08-01T00:00:00-04:00">
+    
+    <meta property="article:modified_time" content="2025-08-01T00:00:00-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crgibbons.github.io/post/syllabi/2025-math525/"
+  },
+  "headline": "Math 525: Computational Algebra, Fall 2025",
+  
+  <!-- "datePublished": "2025-08-01T00:00:00-04:00",
+  "dateModified": "2025-08-01T00:00:00-04:00", -->
+  
+  "author": {
+    "@type": "Person",
+    "name": "Courtney R. Gibbons"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dr. Courtney R. Gibbons",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Computational algebra is the practice of using abstract algebraic structures, to solve problems via computation or to develop algorithms to perform computations. You will learn theoretical results in algebra, tools and algorithms arising from these results, and how to apply the results to problems. At the end of the course, students explore topics of interest in small groups."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Math 525: Computational Algebra, Fall 2025 | Dr. Courtney R. Gibbons</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_0x70_resize_lanczos_2.png" alt="Dr. Courtney R. Gibbons"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_0x70_resize_lanczos_2.png" alt="Dr. Courtney R. Gibbons"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="http://crgibbon.blogspot.com" target="_blank" rel="noopener"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Downloads</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/files/CV.pdf"><span>CV</span></a>
+            
+              <a class="dropdown-item" href="/files/RemoteSemesterOrientation.pdf"><span>Remote Semester Orientation</span></a>
+            
+              <a class="dropdown-item" href="/files/research/research-preliminary-tasks.pdf"><span>Research HW</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Math 525: Computational Algebra, Fall 2025</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 1, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Revised Fall 2025</p>
+<h2 id="a-computation-is-a-a-process-that-obeys-finitely-describable-rules--rudy-ruckerhttpsenwikipediaorgwikirudy_rucker">&ldquo;A computation is a a process that obeys finitely describable rules.&rdquo; -
+<a href="https://en.wikipedia.org/wiki/Rudy_Rucker" target="_blank" rel="noopener">Rudy Rucker</a></h2>
+<p>It&rsquo;s all fun and games until someone introduces an $i$&hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&rsquo;re going to <strong>really</strong> enjoy this class!</p>
+<h2 id="texts">Texts</h2>
+<p>There is no required course text, but you will make frequent use of the following library holdings:</p>
+<ul>
+<li>[<em>Commutative Ring Theory: An Introduction</em>](https:// &hellip; ), by John Watkins</li>
+<li>[_Ideals, Varieties, and Algorithms](https:// &hellip; ) by (authors)</li>
+<li><em>The Princeton Companion to Mathematics</em>, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)</li>
+</ul>
+<h2 id="schedule-of-topics">Schedule of Topics</h2>
+<p>Students will be (collectively) responsible for preparing and presenting materials, including definitions, examples (and nonexamples), theorems (and other results), and pseudocode (a description of an algorithm that is readily implementable in a coding language). The weekly material to cover will be available on Blackboard, and it depends on the class how far we get each week.</p>
+<p>Generally speaking, we will pick up from modern algebra by focusing on commutative rings with unity, and very quickly we&rsquo;ll restrict even further to multivariable polynomial rings with coefficients from a field. You will become good friends with $\mathbb{C}[x_1,\ldots,x_d]$, and friendly acquaintances with $\mathbb{F}_p[x_1,\ldots,x_d]$. We&rsquo;ll develop additional theory about these rings, learn about algorithms that are based on that theory, and solve problems using those algorithms.</p>
+<p>In case the notation above scared you, don&rsquo;t worry! We&rsquo;ll talk about it! What&rsquo;s most important to know reading this syllabus is that about a third of the course will be about multivariable polynomials with coefficients from the complex numbers $\mathbb{C}$, a third of the course will be about multivariable polynomials with coefficients from an algebraically closed finite field $\mathbb{F}_p$ (where $p$ is probably an odd prime), and the end of the course will let you go deeper into some part of the course that interests you.</p>
+<h2 id="skills-and-practices">Skills and Practices</h2>
+<p><strong>Speaking Intensive:</strong> This class will help you develop your ability to communicate mathematics orally in both formal and informal settings, and you will have several assessments to help you keep track of your progress: two oral midterms of very different natures along with assessments of your class presentations. To support your progress as an oral communicator of mathematics, I can help you during open hours and the QSR Center and the Oral Communication Center both have peer tutors who are familiar with mathematical presentations.</p>
+<p><strong>Educational Goals:</strong> This course supports several of 
+<a href="https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals" title="Hamilton&#39;s Educational Goals" target="_blank" rel="noopener">Hamilton&rsquo;s Educational Goals</a>. Much of the <em>Disciplinary Practice</em>, <em>Creativity</em>, and <em>Communication and Expression</em> within mathematics comes through the process of solving a problem or proving a proposition and communicating it to others. In this class, you will put your proof writing skills to work and develop new mathematical speaking skills.</p>
+<p><strong>Active Learning:</strong> At first, you might feel a little uncomfortable if you are used to lecture-based classes, but there&rsquo;s good news! A 
+<a href="https://news.harvard.edu/gazette/story/2019/09/study-shows-that-students-learn-more-when-taking-part-in-classrooms-that-employ-active-learning-strategies/" target="_blank" rel="noopener">Harvard study</a> in the Proceedings of the National Academy of Sciences recently demonstrated that students learn more in active learning classes: &ldquo;[T]hough students felt as if they learned more through traditional lectures, they actually learned more when taking part in classrooms that employed so-called active-learning strategies.&rdquo;</p>
+<h2 id="what-matters-in-this-class">What Matters in this Class</h2>
+<ul>
+<li>
+<p><strong>Responsibility</strong>: <em>Weekly roles</em>. Each week, one or two students will act as &ldquo;week coordinators&rdquo; to figure out who will present which things in what order. Another one or two students will act as &ldquo;week notetakes&rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).</p>
+</li>
+<li>
+<p><strong>Active Attendance and Participation</strong>: <em>Every Class</em>. Get ready to work like a mathematician in this class. No more lectures! This class is active learning all-the-way, which means your attendance is critical for its success. You and your classmates will present the material in this class, and your role when not presenting is to ask questions suggest alternate solutions, and come up with additional questions about the material.</p>
+<p>Examples of good participation:</p>
+<ul>
+<li>&ldquo;The book I was looking at had a slightly different definition. Are they the same?&rdquo;</li>
+<li>&ldquo;Would this work with more than one variable?&rdquo;</li>
+<li>&ldquo;What if we tried this with $p = 2$ instead?&rdquo;</li>
+<li>(if someone has gotten stuck) &ldquo;I got to this point, too, and here&rsquo;s what I tried next.&rdquo;</li>
+<li>&ldquo;I like that example! Here&rsquo;s a different kind of example that&rsquo;s cool, too.&rdquo;</li>
+</ul>
+</li>
+<li>
+<p><strong>Class Presentation (CP)</strong>: <em>Frequently</em>.  Everyone will present often. Want help? Visit the Oral Communication Center to practice presenting.</p>
+</li>
+<li>
+<p><strong>Oral Skills Check</strong>: <em>30-60 minutes, 1-2 times</em>. You&rsquo;ll come to my office, I&rsquo;ll throw some questions at you, and we&rsquo;ll go from there.</p>
+</li>
+<li>
+<p><strong>Oral Midterm Conversation (OMC)</strong>: <em>30 minutes, 1 time</em>. You will explain, to a full-time campus employee of your choosing, how to represent a game with algebra and why that helps you win the game.</p>
+</li>
+<li>
+<p><strong>Choose Your Own Adventure (CYOA)</strong>: <em>After Thanksgiving</em>. Team-based self-guided inquiry on a number theoretic topic of your choosing. A menu of options is available, but you can also pitch your own topic. As part of this assignment, you will write a short chapter on the topic in the collaborative course notes (including homework problems and solutions).</p>
+</li>
+</ul>
+<h2 id="grades">Grades</h2>
+<p>This course is &ldquo;ungraded&rdquo;&mdash;which doesn&rsquo;t mean you won&rsquo;t get a grade at the end. While you will get a final letter grade at the end of the term, I will not be grading individual assignments, but rather asking questions and making comments that engage your work rather than simply evaluate it. You will also be reflecting carefully on your own work and the work of your peers. The intention here is to help you focus on working in a more true-to-life way, as opposed to working as you think you’re expected to earn a specific number of points. I will check in with each student individually at different points in the semester as part of this assessment practice. And, if this process causes more anxiety for you than it alleviates, you can see me at any point to confer about your progress in the course so far. If you are worried about your grade, your best strategy should be to do the work necessary so that you could, if asked, present almost any of the material for the week.</p>
+<h2 id="classroom-environment">Classroom Environment</h2>
+<p>The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:</p>
+<blockquote>
+<p>The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.</p>
+</blockquote>
+<p>I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)</p>
+<h2 id="your-responsibilities">Your Responsibilities</h2>
+<p><strong>Accommodations, Conflicts, &amp; Makeup Exams.</strong> Please let me know in a timely fashion if you have an academic accommodation or a conflict with a scheduled course event. Ideally, this course&rsquo;s design will allow you to plan around your other obligations, but I&rsquo;m happy to work with you if you need additional flexibility.</p>
+<p><strong>Attendance &amp; Honor.</strong> By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, let the week coordinator know.</p>
+<p><strong>Getting Stuck.</strong> Being stumped is part of learning mathematics, and it&rsquo;s a feature of this course (not a bug!). You should spend time thinking about problems on your own before seeking help (either from another peer, your professor, or a permitted resource). That doesn&rsquo;t mean you need to solve them alone, though. Collaboration is not only encouraged in this course: <strong><em>it&rsquo;s absolutely vital that you work with each other to succeed.</em></strong></p>
+<p><strong>Allowed Resources.</strong> You may use:</p>
+<pre><code>- Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).
+- Online resources for programming help (not for mathematics).
+- Your professor and your classmates.
+- Generative AI for any purpose **in consultation with, and with the express permission of, your professor.**
+</code></pre>
+<p><strong>IMPORTANT!</strong> Please check with me before using resources other than those listed above.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/syllabus/">syllabus</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://crgibbons.github.io/post/syllabi/2025-math525/&amp;text=Math%20525:%20Computational%20Algebra,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://crgibbons.github.io/post/syllabi/2025-math525/&amp;t=Math%20525:%20Computational%20Algebra,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Math%20525:%20Computational%20Algebra,%20Fall%202025&amp;body=https://crgibbons.github.io/post/syllabi/2025-math525/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://crgibbons.github.io/post/syllabi/2025-math525/&amp;title=Math%20525:%20Computational%20Algebra,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Math%20525:%20Computational%20Algebra,%20Fall%202025%20https://crgibbons.github.io/post/syllabi/2025-math525/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://crgibbons.github.io/post/syllabi/2025-math525/&amp;title=Math%20525:%20Computational%20Algebra,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/courtney-r.-gibbons/avatar_hu72d9ec4becff8f3817ab1b2d99a0122a_55980_270x270_fill_lanczos_center_2.png" alt="Courtney R. Gibbons">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://crgibbons.github.io/">Courtney R. Gibbons</a></h5>
+        <h6 class="card-subtitle">Associate Professor of Mathematics</h6>
+        <p class="card-text">Math Professor at Hamilton College since 2013</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/virtualcourtney" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/crgibbons" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/syllabi/2025s-math325/">Math 325 (Writing Intensive): Modern Algebra, Spring 2025</a></li>
+      
+      <li><a href="/post/syllabi/2025-math498/">Math 498 (Seminar): Mathematics in Social Context, Spring 2025</a></li>
+      
+      <li><a href="/post/syllabi/2024f-math325/">Math 325 (Writing Intensive): Modern Algebra</a></li>
+      
+      <li><a href="/post/syllabi/2024-math512/">Math 512: Number Theory, Fall 2024</a></li>
+      
+      <li><a href="/post/syllabi/2022-math325/">Math 325 (Writing Intensive): Modern Algebra</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

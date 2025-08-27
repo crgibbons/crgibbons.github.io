@@ -5,12 +5,89 @@
     <link>https://crgibbons.github.io/tag/syllabus/</link>
       <atom:link href="https://crgibbons.github.io/tag/syllabus/index.xml" rel="self" type="application/rss+xml" />
     <description>syllabus</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Fri, 01 Aug 2025 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png</url>
       <title>syllabus</title>
       <link>https://crgibbons.github.io/tag/syllabus/</link>
     </image>
+    
+    <item>
+      <title>Math 525: Computational Algebra, Fall 2025</title>
+      <link>https://crgibbons.github.io/post/syllabi/2025-math525/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>https://crgibbons.github.io/post/syllabi/2025-math525/</guid>
+      <description>&lt;p&gt;Revised Fall 2025&lt;/p&gt;
+&lt;h2 id=&#34;a-computation-is-a-a-process-that-obeys-finitely-describable-rules--rudy-ruckerhttpsenwikipediaorgwikirudy_rucker&#34;&gt;&amp;ldquo;A computation is a a process that obeys finitely describable rules.&amp;rdquo; -
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Rudy_Rucker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rudy Rucker&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s all fun and games until someone introduces an $i$&amp;hellip; Have you ever wanted to take a game like sudoku and make it less fun with commutative algebra? Have you ever wondered how to do cryptology, especially cryptanalysis, with algebra? If so, you&amp;rsquo;re going to &lt;strong&gt;really&lt;/strong&gt; enjoy this class!&lt;/p&gt;
+&lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
+&lt;p&gt;There is no required course text, but you will make frequent use of the following library holdings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[&lt;em&gt;Commutative Ring Theory: An Introduction&lt;/em&gt;](https:// &amp;hellip; ), by John Watkins&lt;/li&gt;
+&lt;li&gt;[_Ideals, Varieties, and Algorithms](https:// &amp;hellip; ) by (authors)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Princeton Companion to Mathematics&lt;/em&gt;, edited by Bowers-Green, Leader, and Gowers (access the ebook via the Hamilton College library with your Hamilton SSO)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;schedule-of-topics&#34;&gt;Schedule of Topics&lt;/h2&gt;
+&lt;p&gt;Students will be (collectively) responsible for preparing and presenting materials, including definitions, examples (and nonexamples), theorems (and other results), and pseudocode (a description of an algorithm that is readily implementable in a coding language). The weekly material to cover will be available on Blackboard, and it depends on the class how far we get each week.&lt;/p&gt;
+&lt;p&gt;Generally speaking, we will pick up from modern algebra by focusing on commutative rings with unity, and very quickly we&amp;rsquo;ll restrict even further to multivariable polynomial rings with coefficients from a field. You will become good friends with $\mathbb{C}[x_1,\ldots,x_d]$, and friendly acquaintances with $\mathbb{F}_p[x_1,\ldots,x_d]$. We&amp;rsquo;ll develop additional theory about these rings, learn about algorithms that are based on that theory, and solve problems using those algorithms.&lt;/p&gt;
+&lt;p&gt;In case the notation above scared you, don&amp;rsquo;t worry! We&amp;rsquo;ll talk about it! What&amp;rsquo;s most important to know reading this syllabus is that about a third of the course will be about multivariable polynomials with coefficients from the complex numbers $\mathbb{C}$, a third of the course will be about multivariable polynomials with coefficients from an algebraically closed finite field $\mathbb{F}_p$ (where $p$ is probably an odd prime), and the end of the course will let you go deeper into some part of the course that interests you.&lt;/p&gt;
+&lt;h2 id=&#34;skills-and-practices&#34;&gt;Skills and Practices&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Speaking Intensive:&lt;/strong&gt; This class will help you develop your ability to communicate mathematics orally in both formal and informal settings, and you will have several assessments to help you keep track of your progress: two oral midterms of very different natures along with assessments of your class presentations. To support your progress as an oral communicator of mathematics, I can help you during open hours and the QSR Center and the Oral Communication Center both have peer tutors who are familiar with mathematical presentations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Educational Goals:&lt;/strong&gt; This course supports several of 
+&lt;a href=&#34;https://www.hamilton.edu/academics/catalogue/educational-goals-and-curriculum/educational-goals&#34; title=&#34;Hamilton&amp;#39;s Educational Goals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamilton&amp;rsquo;s Educational Goals&lt;/a&gt;. Much of the &lt;em&gt;Disciplinary Practice&lt;/em&gt;, &lt;em&gt;Creativity&lt;/em&gt;, and &lt;em&gt;Communication and Expression&lt;/em&gt; within mathematics comes through the process of solving a problem or proving a proposition and communicating it to others. In this class, you will put your proof writing skills to work and develop new mathematical speaking skills.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Active Learning:&lt;/strong&gt; At first, you might feel a little uncomfortable if you are used to lecture-based classes, but there&amp;rsquo;s good news! A 
+&lt;a href=&#34;https://news.harvard.edu/gazette/story/2019/09/study-shows-that-students-learn-more-when-taking-part-in-classrooms-that-employ-active-learning-strategies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harvard study&lt;/a&gt; in the Proceedings of the National Academy of Sciences recently demonstrated that students learn more in active learning classes: &amp;ldquo;[T]hough students felt as if they learned more through traditional lectures, they actually learned more when taking part in classrooms that employed so-called active-learning strategies.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;what-matters-in-this-class&#34;&gt;What Matters in this Class&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;: &lt;em&gt;Weekly roles&lt;/em&gt;. Each week, one or two students will act as &amp;ldquo;week coordinators&amp;rdquo; to figure out who will present which things in what order. Another one or two students will act as &amp;ldquo;week notetakes&amp;rdquo; to ensure that the material from the week ends up in the collaborative course notes (either by taking all the notes, or more likely delegating and taking responsibility for the final edit).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Active Attendance and Participation&lt;/strong&gt;: &lt;em&gt;Every Class&lt;/em&gt;. Get ready to work like a mathematician in this class. No more lectures! This class is active learning all-the-way, which means your attendance is critical for its success. You and your classmates will present the material in this class, and your role when not presenting is to ask questions suggest alternate solutions, and come up with additional questions about the material.&lt;/p&gt;
+&lt;p&gt;Examples of good participation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;The book I was looking at had a slightly different definition. Are they the same?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Would this work with more than one variable?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What if we tried this with $p = 2$ instead?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;(if someone has gotten stuck) &amp;ldquo;I got to this point, too, and here&amp;rsquo;s what I tried next.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I like that example! Here&amp;rsquo;s a different kind of example that&amp;rsquo;s cool, too.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Class Presentation (CP)&lt;/strong&gt;: &lt;em&gt;Frequently&lt;/em&gt;.  Everyone will present often. Want help? Visit the Oral Communication Center to practice presenting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Oral Skills Check&lt;/strong&gt;: &lt;em&gt;30-60 minutes, 1-2 times&lt;/em&gt;. You&amp;rsquo;ll come to my office, I&amp;rsquo;ll throw some questions at you, and we&amp;rsquo;ll go from there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Oral Midterm Conversation (OMC)&lt;/strong&gt;: &lt;em&gt;30 minutes, 1 time&lt;/em&gt;. You will explain, to a full-time campus employee of your choosing, how to represent a game with algebra and why that helps you win the game.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Choose Your Own Adventure (CYOA)&lt;/strong&gt;: &lt;em&gt;After Thanksgiving&lt;/em&gt;. Team-based self-guided inquiry on a number theoretic topic of your choosing. A menu of options is available, but you can also pitch your own topic. As part of this assignment, you will write a short chapter on the topic in the collaborative course notes (including homework problems and solutions).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grades&#34;&gt;Grades&lt;/h2&gt;
+&lt;p&gt;This course is &amp;ldquo;ungraded&amp;rdquo;&amp;mdash;which doesn&amp;rsquo;t mean you won&amp;rsquo;t get a grade at the end. While you will get a final letter grade at the end of the term, I will not be grading individual assignments, but rather asking questions and making comments that engage your work rather than simply evaluate it. You will also be reflecting carefully on your own work and the work of your peers. The intention here is to help you focus on working in a more true-to-life way, as opposed to working as you think you’re expected to earn a specific number of points. I will check in with each student individually at different points in the semester as part of this assessment practice. And, if this process causes more anxiety for you than it alleviates, you can see me at any point to confer about your progress in the course so far. If you are worried about your grade, your best strategy should be to do the work necessary so that you could, if asked, present almost any of the material for the week.&lt;/p&gt;
+&lt;h2 id=&#34;classroom-environment&#34;&gt;Classroom Environment&lt;/h2&gt;
+&lt;p&gt;The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&amp;hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I am committed to the same vision for our classroom environment, and I sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let me know if you feel that we have strayed from this vision at any point during the semester. (See Endnotes 2)&lt;/p&gt;
+&lt;h2 id=&#34;your-responsibilities&#34;&gt;Your Responsibilities&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Accommodations, Conflicts, &amp;amp; Makeup Exams.&lt;/strong&gt; Please let me know in a timely fashion if you have an academic accommodation or a conflict with a scheduled course event. Ideally, this course&amp;rsquo;s design will allow you to plan around your other obligations, but I&amp;rsquo;m happy to work with you if you need additional flexibility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendance &amp;amp; Honor.&lt;/strong&gt; By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&amp;rsquo;s attitude, and to encourage your fellow students to do the same. If you need to miss a class, let the week coordinator know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Stuck.&lt;/strong&gt; Being stumped is part of learning mathematics, and it&amp;rsquo;s a feature of this course (not a bug!). You should spend time thinking about problems on your own before seeking help (either from another peer, your professor, or a permitted resource). That doesn&amp;rsquo;t mean you need to solve them alone, though. Collaboration is not only encouraged in this course: &lt;strong&gt;&lt;em&gt;it&amp;rsquo;s absolutely vital that you work with each other to succeed.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Allowed Resources.&lt;/strong&gt; You may use:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Any resource, physical or digital, that is available through the Hamilton College library (including interlibrary loan or other reciprocal access agreements).
+- Online resources for programming help (not for mathematics).
+- Your professor and your classmates.
+- Generative AI for any purpose **in consultation with, and with the express permission of, your professor.**
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Math 498 (Seminar): Mathematics in Social Context, Spring 2025</title>

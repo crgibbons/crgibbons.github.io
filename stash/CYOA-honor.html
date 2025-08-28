@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>Choose your own (Homework) adventure!</title>
@@ -32,12 +32,6 @@
 	Change them to make your game have whatever mood you want, just make
 	sure it's readable!
 
-	- background  				#fffff
-	- sidebar background   		#f0f0f0
-	
-	- main text color 			#002f86
-	- main sidebar text color   #022f86
-
 	FONTS
 	
 	You can use a traditional HTML font stack, but having access to
@@ -52,9 +46,9 @@
 
 /* These are the default options for the entire browser window */
 tw-story {	
-	background-color: #ffffff; 
+	background-color: #fdf6e3; 
 	/* Color is the foreground / font color */
-	color: #002f86;
+	color: #002b36;
 	/* Make sure the first font listed is one of the fonts you imported above */
 	font-family: 'Roboto Slab', sans-serif;
 	/* This makes the font size for normal letters just a little bit bigger than default */
@@ -77,8 +71,8 @@ tw-passage {
 
 /* The sidebar with scoring and the back button */
 tw-sidebar { 
-	background: #f9f9f9;
-	color: #0286ff;
+	background: #fdf6e3;
+	color: #268bd2;
 	/* 
 		Gives the sidebar rounded corners.  Remove for no corners or make the number
 		higher for more rounded colors.
@@ -96,7 +90,7 @@ tw-sidebar {
   This covers various different kinds of links in Harlowe
 */
 .enchantment-link, tw-link, a {
-	color: #0286ff; 
+	color: #268bd2; 
 	font-weight: bold; 
 	/* Adds a glow to links.  You can make it a seperate color from the text 
 	   The numbers mean, in order: 
@@ -109,14 +103,17 @@ tw-sidebar {
 }
 /* Links that have already been visited */
 .enchantment-link:visited, tw-link:visited, .enchantment-link.visited, tw-link.visited, a:visited {
-	color: #022f86; 
+	color: #2aa198; 
 	font-weight: bold; 
 }
 /* Links when the mouse is over them */
-.enchantment-link:hover, tw-link:hover, a:hover {
-	color: #022f86; 
-	font-weight: bold; 
-	text-shadow: 0 0 5px #c0c0c0;
+.enchantment-link:hover, .enchantment-link:visited:hover, tw-link:hover, tw-link:visited:hover, a:hover,  a:visited:hover {
+	color: #6c71c4; 
+	font-weight: bold;
+}
+
+tw-icon {
+  opacity: 1;
 }
 
 
@@ -132,11 +129,11 @@ tw-sidebar {
 	appeared.
 */
 @keyframes pulsein {
-  from { color: #00fbf7; text-shadow: 0 0 1em #00fbf7; }
-  to { color: #ADC3D8; text-shadow: 0 0; }
+  from { color: #6c71c4; text-shadow: 0 0; }
+  to { color: #002b36; text-shadow: 0 0; }
 }
 .pulse-in {
-    color: #ADC3D8;
+    color: #002b36;
     font-size: 1.1em;
     animation: pulsein 1.2s linear 3;
 }
@@ -219,9 +216,11 @@ Out of the corner of your eye, you see a cat dart into the shadows. Do you [[fol
 
 They help you understand some of the big ideas you were missing and ask you questions about your problem-solving process. You get some good advice, but there are still some details you don&#39;t get.
 
-There&#39;s a long line of people waiting to see your professor, so your professor suggests that you [[review your options-&gt;options]].</tw-passagedata><tw-passagedata pid="10" name="ask the embedded tutor for help" tags="go-to-options" position="250,300" size="100,100">The embedded tutor has some good suggestions that help you figure out some of the problems you didn&#39;t know how to do. But you still aren&#39;t sure about a few. 
+There&#39;s a long line of people waiting to see your professor, so your professor suggests that you [[review your options-&gt;options]].</tw-passagedata><tw-passagedata pid="10" name="ask the embedded tutor for help" tags="go-to-options" position="250,300" size="100,100">The embedded tutor has some good suggestions that help you figure out some of the problems you didn&#39;t know how to do. They also help you join a recurring facilitated group study session.
 
-You mentally [[go through your options-&gt;options]].</tw-passagedata><tw-passagedata pid="11" name="using the online textbook" tags="branching" position="425,875" size="100,100">While you&#39;re looking at the online textbook, you see a notification pop up. It&#39;s for an online AI mathbot that will walk you through your homework solutions one step at a time. Do you [[try out the mathbot]] or [[keep looking at the online textbook]]?</tw-passagedata><tw-passagedata pid="12" name="looking at the course notes" tags="branching" position="1550,725" size="100,100">While you are looking over the course notes, you accidentally summon the ghost of Gottfried Wilhelm Leibniz(if: (visits is not 1) or (visited: &quot;investigate&quot;))[](else:)[, the 17th Century mathematician to blame for most of the mathematical content in the course]. It turns out Leibniz is a pretty friendly ghost, though, and he offers to show you the rest of the solutions for the homework(if: (visits is not 1) or (visited: &quot;investigate&quot;))[ (again)](else:)[]. 
+But you still aren&#39;t sure about a few homework problems.
+
+You [[head out-&gt;toddler]].</tw-passagedata><tw-passagedata pid="11" name="using the online textbook" tags="branching" position="425,875" size="100,100">While you&#39;re looking at the online textbook, you see a notification pop up. It&#39;s for an online AI mathbot that will walk you through your homework solutions one step at a time. Do you [[try out the mathbot]] or [[keep looking at the online textbook]]?</tw-passagedata><tw-passagedata pid="12" name="looking at the course notes" tags="branching" position="1550,725" size="100,100">While you are looking over the course notes, you accidentally summon the ghost of Gottfried Wilhelm Leibniz(if: (visits is not 1) or (visited: &quot;investigate&quot;))[](else:)[, the 17th Century mathematician to blame for most of the mathematical content in the course]. It turns out Leibniz is a pretty friendly ghost, though, and he offers to show you the rest of the solutions for the homework(if: (visits is not 1) or (visited: &quot;investigate&quot;))[ (again)](else:)[]. 
 
 (if: (visited: &quot;let Leibniz show you the answers&quot;) is false)[Do you [[let Leibniz show you the answers]] or [[ask Leibniz to hold off for now]]?
 
@@ -238,23 +237,28 @@ A ghostly blackboard appears and Leibniz furiously scribbles a solution, and you
 
 (else:)[You shake your head. Maybe you need more sleep? Anyway, you take a moment to [[recall your options-&gt;options]].]</tw-passagedata><tw-passagedata pid="16" name="keep looking at the course notes" tags="go-to-options" position="1525,975" size="100,100">There&#39;s an example in the notes similar to a problem you don&#39;t understand, and with some effort, you figure out how to adapt the solution to the problem on the homework. Hooray! But there are a few you still don&#39;t understand.
 
-You mentally [[list your options-&gt;options]].</tw-passagedata><tw-passagedata pid="17" name="Uh oh" tags="restarts" position="2475,1125" size="100,100">(set: $_a = (either: &quot;dream&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;))
+You mentally [[list your options-&gt;options]].</tw-passagedata><tw-passagedata pid="17" name="Uh oh" tags="restarts" position="2475,1125" size="100,100">{
+(set: _a = (either: &quot;dream&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;,&quot;awake&quot;))
+(set: _text = &quot;&quot;)
 
-(if: $_a is &quot;dream&quot;)[
+(if: _a is &quot;dream&quot;)[
 	(set: $hwNum = 0)This was all a bad dream... (t8n-arrive: &quot;blur&quot;)+(t8n-time: 4s)[[Start over?-&gt;start]]
 ]
 (else:)[
-    (if: (history:)&#39;s last is &quot;pay someone&quot; )[(display: &quot;paid&quot;)]
-    (else-if: (history:)&#39;s last is &quot;let Leibniz show you the answers&quot; )[(display: &quot;skibidi sus&quot;)]
-    (else-if: (history:)&#39;s last is &quot;try out the mathbot&quot;)[(display: &quot;ai is bad&quot;)]
-    (else-if: ((history:)&#39;s last is &quot;ask him to show you&quot;)
-        or ((history:)&#39;s last is &quot;visit a forum&quot;)
+    (if: ((history:)&#39;s last is &quot;ask him to show you&quot;)
+        or ((history:)&#39;s last is &quot;pay someone&quot; ))[(set: _text = &quot;paid&quot;)]
+    (else-if: (history:)&#39;s last is &quot;let Leibniz show you the answers&quot; )[(set: _text = &quot;skibidi sus&quot;)]
+    (else-if: (history:)&#39;s last is &quot;try out the mathbot&quot;)[(set: _text = &quot;ai is bad&quot;)]
+    (else-if: ((history:)&#39;s last is &quot;visit a forum&quot;)
         or ((history:)&#39;s last is &quot;watch a video&quot;)
         or ((history:)&#39;s last is &quot;click for more info&quot;)
-        )[(display: &quot;seen it before&quot;)]
-    (else-if: (history:)&#39;s last is &quot;copy a solution&quot;)[(display: &quot;friend copy&quot;)]
-    (else-if: (history:)&#39;s last is &quot;look for the answers online&quot;)[(display: &quot;creative&quot;)]
-]</tw-passagedata><tw-passagedata pid="18" name="try your best and turn in what you have" tags="good-end" position="2625,150" size="100,100">&#39;&#39;This is the way!&#39;&#39;
+        )[(set: _text = &quot;seen it before&quot;)]
+    (else-if: (history:)&#39;s last is &quot;copy a solution&quot;)[(set: _text = &quot;friend copy&quot;)]
+    (else-if: (history:)&#39;s last is &quot;look for the answers online&quot;)[(set: _text = &quot;creative&quot;)]
+]
+
+(display: (str: _text))
+}</tw-passagedata><tw-passagedata pid="18" name="try your best and turn in what you have" tags="good-end" position="2625,150" size="100,100">&#39;&#39;This is the way!&#39;&#39;
 
 Although you might not have been able to work through every problem all the way to a solution, this is the best move available to you. You&#39;ll get some great feedback on the work from your graders, and you can follow up on it with your professor in office hours.
 
@@ -280,7 +284,7 @@ Time to [[look through your options-&gt;options]].</tw-passagedata><tw-passageda
 
 [[Uh oh]].</tw-passagedata><tw-passagedata pid="28" name="ask him to show you" tags="bad-end" position="1425,1200" size="100,100">You turn in the answer he shows you. You can mostly understand it so it should be fine, right?
 
-[[Uh oh]].</tw-passagedata><tw-passagedata pid="29" name="take a break" tags="branching" position="1550,400" size="100,100">Sometimes walking away from your problems (mathematical or otherwise!) gives your mind a chance to work them over in the background. Anyway, whether you took a walk, tried out the climbing wall, (if: (visited: &quot;cat friend&quot; ))[visited your secret [[cat friend]], ]or had a healthy snack, something worked: you have some new ideas for the homework and manage to solve almost all of the problems!
+[[Uh oh]].</tw-passagedata><tw-passagedata pid="29" name="take a break" tags="branching" position="1550,400" size="100,100">Sometimes walking away from your problems (mathematical or otherwise!) gives your mind a chance to work them over in the background. Anyway, whether you took a walk, tried out the climbing wall, or had a healthy snack, something worked: you have some new ideas for the homework and manage to solve almost all of the problems!
 
 While you&#39;re heading back to your room, you hear a strange noise. You can&#39;t help yourself. You have to [[investigate]]!</tw-passagedata><tw-passagedata pid="30" name="options" tags="" position="500,350" size="100,100">(set: _text = &quot;&quot;)
  {
@@ -304,8 +308,12 @@ While you&#39;re heading back to your room, you hear a strange noise. You can&#3
     (if: (visited: &quot;keep going to the QSR&quot;))[(set: _text = _text + &quot; [[ask that math major in the QSR to show you-&gt;ask him to show you]],&quot;)]
     (if: (visited: &quot;investigate&quot;) or (visited: &quot;looking at the course notes&quot;))[(set: _text = _text + &quot; [[track down Leibniz for the answers-&gt;let Leibniz show you the answers]],&quot;
     )]
+    (if: (visited: &quot;cat friend&quot;))[(set: _text = _text+ &quot; [[visit your cat friend-&gt;visit cat]],&quot;)]
  }
-The syllabus has some suggestions for when you&#39;re stuck. You can
+
+If you&#39;ve done as much as you can do, you can [[try your best and turn in what you have&lt;-turn it in]]. 
+
+Otherwise, the syllabus has some suggestions for when you&#39;re stuck. You can
 * [[go to office hours]]
 * [[go to the QSR]]
 * [[ask the embedded tutor for help]] 
@@ -333,7 +341,7 @@ Everybody knows you can [[email your professor for an extension]] at the last mi
 
 You can also pretend you don&#39;t see him (that will really annoy him, and it serves him right for all the calculus he unleashed upon the world) and [[keep checking out the cemetery-&gt;checking out the cemetery]].]
 
-(else:)[You&#39;ve been there, done that, thank you very much. You tell him, &quot;Ich gehe jetzt besser!&quot; and [[keep checking out the cemetery-&gt;checking out the cemetery]].]
+(else:)[You&#39;ve been there, done that, thank you very much. You tell him, &lt;span lang=&quot;de&quot;&gt;&quot;Ich gehe jetzt besser!&quot;&lt;/span&gt; and [[keep checking out the cemetery-&gt;checking out the cemetery]].]
 
 //Also, how weird is it that there&#39;s a cemetery on campus?//</tw-passagedata><tw-passagedata pid="32" name="checking out the cemetery" tags="secret-polka" position="1975,1225" size="100,100">The cemetery has a mix of new plots and really old plots with names that can barely be deciphered.
 
@@ -352,9 +360,9 @@ This is getting weird. Time to go home and [[check out the syllabus for more opt
 You still have some problems left that you don&#39;t understand, and you mention this to the tutor. A math major comes over and looks over your shoulder. &quot;Calculus? Oh yeah, I know how to do that problem. Want me to show you?&quot;
 
 You think about it. You can [[ask him to show you]] or you can try something else. After all, when you [[think about your options-&gt;options]], you realize you have a lot of choices!</tw-passagedata><tw-passagedata pid="34" name="cite" tags="branching" position="2550,575" size="100,100">{
-(set: $cite = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
-(if: $cite is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, you cited your sources, so it&#39;s not plagiarism. Phew. but it&#39;s not great for anyone&#39;s learning to blindly copy down someone else&#39;s work. Your professor has a chat withyou to make sure you understand that this is not a good way to learn calculus. You get the idea that you probably shouldn&#39;t do this again if you want a letter of recommendation from this prof.&quot;)]
-(if: $cite is &quot;no&quot;)[(set: _text =_text + &quot;You didn&#39;t cite your sources, alas. Now this falls under the umbrella of plagiarism. Looks like you&#39;ll both be meeting with the Dean of Students and the Honor Court Chair to determine the next steps.&quot;)]
+(set: _cite = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
+(if: _cite is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, you cited your sources, so it&#39;s not plagiarism. Phew. but it&#39;s not great for anyone&#39;s learning to blindly copy down someone else&#39;s work. Your professor has a chat withyou to make sure you understand that this is not a good way to learn calculus. You get the idea that you probably shouldn&#39;t do this again if you want a letter of recommendation from this prof.&quot;)]
+(if: _cite is &quot;no&quot;)[(set: _text =_text + &quot;You didn&#39;t cite your sources, alas. Now this falls under the umbrella of plagiarism. Looks like you&#39;ll both be meeting with the Dean of Students and the Honor Court Chair to determine the next steps.&quot;)]
 
 [_text]
 }
@@ -382,15 +390,40 @@ You [[make your way back to the elevator-&gt;keep going to the QSR]].
 
 But there&#39;s more... Your professor has seen that solution before, and even though it&#39;s technically correct, it uses material that isn&#39;t covered in any of the class resources available to you. Did you at least [[cite your source-&gt;cite]]?</tw-passagedata><tw-passagedata pid="40" name="skibidi sus" tags="" position="3400,475" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
 
-But there&#39;s more... The graders have flagged your homework as &#39;skibidi sus&#39; and, while your professor doesn&#39;t see anything //technically// wrong with it, it&#39;s impossible not to read it in a 17th century German accent. You get a perfect score, but at a cost: Leibniz has stolen the knowledge of any mathematics---topics, notation, applications, you name it!---and you&#39;re left to rebuild your understanding of math as though //&#39;&#39;you&#39;&#39;// were a 17th Century mathematician...
+But there&#39;s more... The graders have flagged your homework as &#39;skibidi sus&#39; and, while your professor doesn&#39;t see anything //technically// wrong with it, it&#39;s impossible not to read it in a 17th century German accent. 
 
-Better (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again next week-&gt;start]].</tw-passagedata><tw-passagedata pid="41" name="friend copy" tags="" position="3100,175" size="100,100">The grader realizes that you and your friend have the same wrong answer, down to this mis-matched parentheses. Did you at least [[cite each other-&gt;cite]]?</tw-passagedata><tw-passagedata pid="42" name="ai is bad" tags="" position="2825,1125" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+You get a perfect score, but at a cost: Leibniz has stolen the knowledge of any mathematics---topics, notation, applications, you name it!---and you&#39;re left to rebuild your understanding of math as though //&#39;&#39;you&#39;&#39;// were a 17th Century mathematician...
 
-But there&#39;s more... Unfortunately, what you thought were //correct// answers were just //plausible// answers, and you&#39;ve turned in a bunch of AI-generated slop. You realize a stunning truth: all these AI chatbots have somehow taken computers and made them bad at computations.
+Better (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again next week-&gt;start]].</tw-passagedata><tw-passagedata pid="41" name="friend copy" tags="" position="3400,125" size="100,100">The grader realizes that you and your friend have the same wrong answer, down to this mis-matched parentheses. This is no longer an authorized collaboration. Whether or not you cited your sources, the next stop is a meeting with the Chair of the Honor Court and the Dean of Students.
 
-Unless you go the explicit okay from your professor to use generative AI, this is an unapproved collaboration. Did you [[ask your professor]]?</tw-passagedata><tw-passagedata pid="43" name="creative" tags="" position="3225,975" size="100,100">You manage to creatively come up with new solutions to all of the problems, which is lucky. If you had turned in what you had found online, even if you could have come up with it on your own, and even if you had cited it, you would have run afoul of your professor&#39;s policies. You vow to be more careful (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[next time-&gt;start]].</tw-passagedata><tw-passagedata pid="44" name="paid" tags="" position="3050,1050" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Hopefully, you&#39;ll never need to go through the Honor Court procedures.
 
-But there&#39;s more... Even though the solution is //technically// correct, it uses Feynman notation. Your professor knows you must have gotten your answer from a physics student who forgot the (superior) math notation(s) for all things calculus. Did you at least [[cite your source-&gt;cite]]?</tw-passagedata><tw-passagedata pid="45" name="ask your professor" tags="bad-end" position="2550,700" size="100,100">{
+      Want a Hamilton Honor Code refresher? You can review Hamilton&#39;s Honor Code &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-code&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the procedures &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-court-constitution&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.//
+	]
+
+At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday. 
+
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="42" name="ai is bad" tags="" position="2825,1125" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... Unfortunately, what you thought were //correct// answers were just //plausible// answers, and you&#39;ve turned in a combination of right answers with incorrect steps and correct steps with incorrect mathematical conclusions. You realize a stunning truth: all these AI chatbots have somehow taken computers and made them bad at computations.
+
+Unless you go the explicit okay from your professor to use generative AI, this is an unapproved collaboration. Did you [[ask your professor]]?
+
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Be wary of using AI to generate solutions or text for any writing that you are turning in; you may also find that you have plagiarized text that was in the AI&#39;s training set, even if you didn&#39;t realize that the text came from a pre-existing source.//
+]</tw-passagedata><tw-passagedata pid="43" name="creative" tags="" position="3400,650" size="100,100">You manage to creatively come up with new solutions to all of the problems, which is lucky. If you had turned in what you had found online, even if you could have come up with it on your own, and even if you had cited it, you would have run afoul of your professor&#39;s policies. 
+
+You vow to be more careful (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[next time-&gt;start]].</tw-passagedata><tw-passagedata pid="44" name="paid" tags="" position="3400,825" size="100,100">Not only have you lost the chance to learn by grappling with tough problems; you&#39;ve dinged your academic integrity.
+
+But there&#39;s more... Even though the solution is //technically// correct, it uses Feynman notation. Your professor knows you must have gotten your answer from a physics student who forgot the (superior) math notation(s) for all things calculus. This is definitely an unauthorized collaboration. Whether or not you cited your sources, the next stop is a meeting with the Chair of the Honor Court and the Dean of Students.
+
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Hopefully, you&#39;ll never need to go through the Honor Court procedures.
+
+      Want a Hamilton Honor Code refresher? You can review Hamilton&#39;s Honor Code &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-code&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the procedures &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-court-constitution&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.//
+	]
+
+At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday. 
+
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="45" name="ask your professor" tags="bad-end" position="2550,700" size="100,100">{
 (set: _ask = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
 (if: _ask is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, asked your professor, but they told you not to do this, so it&#39;s an unapproved collaboration. You&#39;ll soon meet the Dean of Students and the Honor Court chair for a meeting with your professor to determine the next step.&quot;)]
 (if: _ask is &quot;no&quot;)[(set: _text = _text + &quot;You didn&#39;t ask your professor,, alas. Now this falls under the umbrella of unapproved collaboration. Looks like you&#39;ll both be meeting with the Honor Court chair and the Dean of Faculty to see how to proceed.&quot;)]
@@ -405,7 +438,32 @@ But there&#39;s more... Even though the solution is //technically// correct, it 
 
 At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday.
 
-And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata></tw-storydata>
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="46" name="visit cat" tags="" position="475,200" size="100,100">You visit your cat friend and feel a sense of happiness and tranquility.
+
+[[Go back to your options-&gt;options]]</tw-passagedata><tw-passagedata pid="47" name="unauthorized collab" tags="" position="2550,450" size="100,100">{
+(set: _cite = (either: &quot;yes&quot;,&quot;no&quot;)) (set: _text = &quot;&quot;)
+(if: _cite is &quot;yes&quot;)[(set: _text = _text + &quot;Yes, you cited your sources, but this is still an unauthorized collaboration.&quot;)]
+(if: _cite is &quot;no&quot;)[(set: _text =_text + &quot;You didn&#39;t cite your sources, so you have now submitted someone else&#39;s work as your own. But purchasing homework solutions from someone is also an unauthorized collaboration.&quot;)]
+
+[_text]
+}
+
+(b4r: &quot;dotted&quot;)[//Author&#39;s note: Hopefully, you&#39;ll never need to go through the Honor Court procedures.
+
+      Want a Hamilton Honor Code refresher? You can review Hamilton&#39;s Honor Code &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-code&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the procedures &lt;a href=&quot;https://www.hamilton.edu/student-handbook/studentconduct/honor-court-constitution&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.//
+	]
+
+At least you can (t8n-arrive: &quot;blur&quot;)+(t8n-time: 2s)[[try again-&gt;start]] when homework is posted on Wednesday. 
+
+And remember, your professor is still rooting for you to learn Calculus!</tw-passagedata><tw-passagedata pid="48" name="toddler" tags="" position="375,425" size="100,100">{
+(set: $polygon to (prompt: [Your favorite shape, please!], &quot;star&quot;))
+}
+On your way back to your room, you encounter a toddler, the son of one of the math professors. He stops you and asks for your favorite shape.
+
+He looks at you critically. &quot;Oh, (verbatim-print:$polygon), really? **My** favorite shape is an irregular nonconvex heptadecagon.&quot; He wanders off in search of someone with more interesting taste in shapes, muttering something about polygons at a party.
+
+You feel a little judged, but you keep going and [[review your options-&gt;options]] for finishing your homework.
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim

@@ -1,0 +1,1729 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Courtney R. Gibbons">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Calculus 2 begins at the Fundamental Theorem of Calculus and ends at the brink of calculus in higher dimensions.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://crgibbons.github.io/post/syllabi/2025f-math116/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#002f86">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121170340-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-121170340-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu727322d78fe99416af87b10e570f0d63_196019_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://crgibbons.github.io/post/syllabi/2025f-math116/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@virtualcourtney">
+  <meta property="twitter:creator" content="@virtualcourtney">
+  
+  <meta property="og:site_name" content="Dr. Courtney R. Gibbons">
+  <meta property="og:url" content="https://crgibbons.github.io/post/syllabi/2025f-math116/">
+  <meta property="og:title" content="Math 116: Calculus 2, Fall 2025 | Dr. Courtney R. Gibbons">
+  <meta property="og:description" content="Calculus 2 begins at the Fundamental Theorem of Calculus and ends at the brink of calculus in higher dimensions."><meta property="og:image" content="https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2025-08-01T00:00:00-04:00">
+    
+    <meta property="article:modified_time" content="2025-08-01T00:00:00-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crgibbons.github.io/post/syllabi/2025f-math116/"
+  },
+  "headline": "Math 116: Calculus 2, Fall 2025",
+  
+  <!-- "datePublished": "2025-08-01T00:00:00-04:00",
+  "dateModified": "2025-08-01T00:00:00-04:00", -->
+  
+  "author": {
+    "@type": "Person",
+    "name": "Courtney R. Gibbons"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dr. Courtney R. Gibbons",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crgibbons.github.io/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Calculus 2 begins at the Fundamental Theorem of Calculus and ends at the brink of calculus in higher dimensions."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Math 116: Calculus 2, Fall 2025 | Dr. Courtney R. Gibbons</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_0x70_resize_lanczos_2.png" alt="Dr. Courtney R. Gibbons"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu59eb531666db2293e6941038440d3ac1_22599_0x70_resize_lanczos_2.png" alt="Dr. Courtney R. Gibbons"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="http://crgibbon.blogspot.com" target="_blank" rel="noopener"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Downloads</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/files/CV.pdf"><span>CV</span></a>
+            
+              <a class="dropdown-item" href="/files/RemoteSemesterOrientation.pdf"><span>Remote Semester Orientation</span></a>
+            
+              <a class="dropdown-item" href="/files/research/research-preliminary-tasks.pdf"><span>Research HW</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Math 116: Calculus 2, Fall 2025</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 1, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <!--
+---
+geometry: 
+  - paperwidth = 8in
+  - paperheight = 11in
+  - margin = 1cm
+  - bmargin = 1in
+fontsize: 11pt
+title: "Math 525: Computational Algebra, Fall 2025"
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{amsthm}
+  - \usepackage{graphicx}
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true}
+colorlinks: true
+---
+-->
+<h2 id="this-is-a-calculus-problem-a-calculus-problem-surely-not-its-area-under-the-curve-man">&ldquo;This is a calculus problem.&rdquo; &ldquo;A calculus problem? Surely not!&rdquo; &ldquo;It&rsquo;s area under the curve, man!&rdquo;</h2>
+<h3 id="---click-and-clack-the-tappert-brothers-on-car-talk">&mdash;Click and Clack, the Tappert Brothers, on Car Talk</h3>
+<h4 id="1045-pi-over-two-dopes-nov-06-2010">#1045: Pi Over Two Dopes, Nov 06, 2010</h4>
+<h2 id="texts">Text(s)</h2>
+<ul>
+<li><em>Calculus II</em> by Lumen, an online calculus textbook and platform where you will complete auto-graded problem sets (available from the Hamilton College Bookstore; see one of us if you have difficulty acquiring the book). For reference, you can also use 
+<a href="https://openstax.org/books/calculus-volume-2/pages/1-introduction" target="_blank" rel="noopener">OpenStax Calculus 2</a>, which the Lumen OHM system is adapted from.
+<ul>
+<li>Registration Course ID and Enrollment Key are available on Blackboard; you have two weeks of complimentary access</li>
+</ul>
+</li>
+</ul>
+<h2 id="instructors">Instructors</h2>
+<ul>
+<li>Courtney Gibbons, 
+<a href="mailto:crgibbon@hamilton.edu">crgibbon@hamilton.edu</a>; Office: CJ 109; Office Hours: usually MWF 2:30-3:45 pm
+<ul>
+<li>Section 01: 10-10:50 am
+<ul>
+<li>Monday, Wednesday, Friday in Kirner-Johnson 202;</li>
+<li>12-12:50 pm Tuesday in Kirner-Johnson 125 (Bradford Auditorium)</li>
+</ul>
+</li>
+<li>Section 02: 11-11:50 am
+<ul>
+<li>Monday, Wednesday, Friday in Kirner-Johnson 202;</li>
+<li>12-12:50 pm Tuesday in Kirner-Johnson 125 (Bradford Auditorium)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>James Burton, 
+<a href="mailto:jjburton@hamilton.edu">jjburton@hamilton.edu</a>; Office: CJ 119; Office Hours: usually MTWF 10 am - Noon
+<ul>
+<li>Section 03: 9-9:50 am
+<ul>
+<li>Monday, Tuesday, Wednesday, Friday in Christian A. Johnson 222</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="about-the-course">About the Course</h1>
+<h2 id="skills-and-practices">Skills and Practices</h2>
+<p><strong>Quantitative and Symbolic Reasoning.</strong> Students will use mathematical models (like graphs, equations, and geometric objects) to represent patterns, relationships, and data.</p>
+<p><strong>Analytical Discernment.</strong> Calculus is one of the most important achievements of modern mathematics. It has diverse applications in fields such as the natural sciences, medicine, and economics; it is also an intricate and beautiful subject in its own right. In this course, students will understand the reasoning underlying important theorems of calculus and apply abstract mathematical concepts in the solution of problems.</p>
+<p><strong>Disciplinary Practice.</strong> The techniques of calculus cannot be mastered through analytical reasoning alone; sustained, regular practice is necessary to develop understanding and fluency. Students will practice via thrice-weekly homework assignments, weekly quizzes, and four in-class midterm exams.</p>
+<p><strong>Communication and Expression.</strong> Students will document the steps they took in arriving at their solutions in a coherent, logical fashion using appropriate notation. Through in-class participation and discussion of homework problems with their peers, grader feedback on written homework, and professor feedback on quizzes and exams, students will develop their ability to communicate mathematical ideas.</p>
+<h2 id="types-of-assessments">Types of Assessments</h2>
+<ul>
+<li>
+<p><strong>Lumen Homework (LHW)</strong>: <em>Mondays and Fridays</em>. Your Lumen homework will give you a chance to try a problem a few times until you get it right, and you&rsquo;ll know immediately if your answers are right or wrong.</p>
+</li>
+<li>
+<p><strong>Written Homework (GHW)</strong>: <em>Tuesdays</em>. Your Written homework will be graded by a Hamilton student, and they will focus on your process and provide feedback to help you if you didn&rsquo;t do the problem correctly. While it&rsquo;s still important to strive for the correct answer, you won&rsquo;t earn much credit without a legible and well-justified explanation to back it up. We use Gradescope for homework submission.</p>
+</li>
+<li>
+<p><strong>Quizzes (Q)</strong>: <em>Wednesdays in class</em>. We will have weekly 10 minute quizzes on Wednesdays. The quizzes will typically give you an idea of an exam-type question we could ask over the material we’ve covered in class. We grade the quizzes as we would grade an exam so that you have a sense of what we are looking for on the exams: answers, but also justification. We don’t reschedule quizzes, but we do drop (at least) one low quiz score for everyone.</p>
+</li>
+<li>
+<p><strong>Midterm Exams (ME)</strong>: <em>Four Tuesdays in class</em>. These exams will involve questions that test your mastery of course topcis. The midterms are weighted in your final grade so that your best score counts most (20%), your worst score counts least (10%), and your middle scores each count middling amounts (15% each).</p>
+</li>
+<li>
+<p><strong>Final Exam (FE)</strong>: <em>Cumulative 3-hour exam.</em> The final exam is common among all sections of Calculus 2. The material on the final, though cumulative, will be weighted toward the material covered at the end of the course that was not tested on midterms.</p>
+</li>
+</ul>
+<h2 id="accommodations-conflicts--makeup-exams">Accommodations, Conflicts, &amp; Makeup Exams.</h2>
+<p>The only assignments that may be rescheduled are exams. Except in the case of severe illness or emergency, we need advance notice so that we can arrange a make-up midterm for you. Give us notice at least one week prior to the exam that you have an academic accommodation or a conflict due to academics, a religious observance, work, athletics, or a student organization event. The final exam is scheduled by the registrar and can be rescheduled only in very specific circumstances: travel plans home for break don’t count, but three finals on the same day do.</p>
+<h2 id="grades">Grades</h2>
+<p>Your final grade is calculated as follows.</p>
+<table>
+<thead>
+<tr>
+<th>Assignment(s)</th>
+<th>Contribution</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lumen Homework Average</td>
+<td>5%</td>
+<td></td>
+</tr>
+<tr>
+<td>Written Homework Average</td>
+<td>5%</td>
+<td>lowest score dropped</td>
+</tr>
+<tr>
+<td>Quiz Average</td>
+<td>10%</td>
+<td>lowest score dropped</td>
+</tr>
+<tr>
+<td>Lowest Midterm Score</td>
+<td>10%</td>
+<td></td>
+</tr>
+<tr>
+<td>Highest Midterm Score</td>
+<td>20%</td>
+<td></td>
+</tr>
+<tr>
+<td>Other Midterm Score</td>
+<td>15%</td>
+<td></td>
+</tr>
+<tr>
+<td>Remaining Midterm Score</td>
+<td>15%</td>
+<td></td>
+</tr>
+<tr>
+<td>Final Exam Score</td>
+<td>20%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Letter scores are assigned based on the following intervals.</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>A+</th>
+<th>A</th>
+<th>A-</th>
+<th>B+</th>
+<th>B</th>
+<th>B-</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>[98,100]</td>
+<td>[94,98)</td>
+<td>[90,94)</td>
+<td>[87,90)</td>
+<td>[84,87)</td>
+<td>[80,84)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>C+</th>
+<th>C</th>
+<th>C-</th>
+<th>D+</th>
+<th>D</th>
+<th>D-</th>
+<th>F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[77,80)</td>
+<td>[73, 77)</td>
+<td>[70,73)</td>
+<td>[66,70)</td>
+<td>[62,66)</td>
+<td>[60,62)</td>
+<td>[0,60)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="classroom-environment">Classroom Environment</h2>
+<p>The American Mathematical Society (the largest professional society for mathematicians) outlines its vision for a welcoming environment as follows:</p>
+<blockquote>
+<p>The AMS strives to ensure that participants in its activities enjoy a welcoming environment. In all its activities, the AMS seeks to foster an atmosphere that encourages the free expression and exchange of ideas. The AMS supports equality of opportunity and treatment for all participants, regardless of gender, gender identity or expression, race, color, national or ethnic origin, religion or religious belief, age, marital status, sexual orientation, disabilities, veteran status, or immigration status&hellip;. A commitment to a welcoming environment is expected of all attendees at AMS activities, including mathematicians, students, guests, staff, contractors and exhibitors, and participants in scientific sessions and social events.</p>
+</blockquote>
+<p>We are committed to the same vision for our classroom environment, and we sincerely thank you for your contributions toward making our classroom (and office hours) a lively and respectful community of thinkers. Please let your professor know if you feel that your section has strayed from this vision at any point during the semester.</p>
+<h2 id="your-responsibilites">Your Responsibilites</h2>
+<h3 id="or-how-to-be-a-good-mathematics-learner-and-uphold-the-honor-code">(or, How to Be a Good Mathematics Learner and Uphold the Honor Code)</h3>
+<p><strong>Work Ethic.</strong> One time estimate for succeeding in a college course is that 2 or 3 hours of work are required for each hour of class. For this class, that translates to 8-12 hours of work (like doing homework and studying for quizzes and exams) outside of class each week. (If you’re spending more time than this on Calc, let’s talk!)</p>
+<p><strong>Attendance.</strong> By enrolling in this class, you are agreeing to be an engaged student, to come to class with a learner&rsquo;s attitude, and to encourage your fellow students to do the same. If you miss a class, it’s your responsibility to make up the material you missed by getting the notes from a classmate and reading the textbook. We don&rsquo;t provide one-on-one sessions to catch up students who miss class, but you can come ask questions after you&rsquo;ve reviewed the material.</p>
+<p><strong>Reading.</strong> This course is more fast-paced than a high school calculus course. Some of the homework that you do will go above and beyond what is covered in lecture, and the lectures will not cover everything in the textbook. This means that we expect you to read the textbook on your own and fill in details that we don’t discuss in class.</p>
+<p><strong>Honor Code, Getting Stuck, and More.</strong> You should be familiar with Hamilton&rsquo;s 
+<a href="https://www.hamilton.edu/student-handbook/studentconduct/honor-code" target="_blank" rel="noopener">Honor Code</a>. Plagiarism (Section II.1) in mathematics happens when you look up a solution and use any part of it without attribution in your writing, even if you could have thought of the ideas on your own. This is one reason that we prohibit using unofficial online resources, including generative AI (which now includes most search engines with AI summaries). The other reason is that it’s bad for your mathematical development. If you slip up and do use a resource other than our textbook or course notes, don&rsquo;t plagiarize: cite your source!</p>
+<p>Being stumped is part of learning mathematics, so please attempt to solve homework problems on your own before asking for help on them. After you’ve given them a shot, we encourage you to seek help from appropriate resources. These include office hours, your embedded tutor, the QSR, your classmates, your textbook, and the course notes. However, we repeat that finding and copying an answer (online, in a solutions manual, or on someone else’s paper) is plagiarism, and that’s not allowed (it also doesn’t count as getting help).</p>
+<p>We love when you work together: it&rsquo;s one of the best parts of math! We ask that you write up your own solutions and that when working together, you make sure everyone is able to (and encouraged to) contribute.</p>
+<p>What about AI? The line you may not cross is this one: <em>You may not use AI&mdash;or any other resource, including calculators, people, solutions manuals, etc!&mdash;to circumvent the thinking and problem-solving you are doing in order to learn the course material.</em> If you would like to use generative AI to try to come up with practice problems, that&rsquo;s okay, but beware: genAI is still not very good at producing reliable math problems and is error-prone in both its solutions to problems and the creation of new problems. In fact, 
+<a href="https://arxiv.org/abs/2502.11574" target="_blank" rel="noopener">here&rsquo;s a paper from February 2025 with details about AI and its problems with math problems</a>. Using AI to complete your homework is considered unauthorized collaboration (Section II.5).</p>
+<p>The Honor Code (Section III) also commits you to report cheating that you witness to your professor or a member of the honor court (preferably at the moment you witness it), or giving a warning to your peer by tapping your pencil several times. We expect you to honor these commitments as Hamilton community members.</p>
+<p><strong>IMPORTANT!</strong> <em>If in doubt, check with your professor before using resources other than your classmates, tutors at the Academic Resource Centers, or any resource online. For example, check with us before asking other professors, students not currently enrolled in Math 325, your parents, the internet, a magic eight ball, the ghost of Leibniz, etc! It&rsquo;s getting easier and easier to accidentally commit mathematical plagiarism or unauthorized collaboration, especially in the era of AI summaries in search engine results.</em></p>
+<h2 id="office-hours">Office Hours</h2>
+<p>Office are times set aside during the week for professors to meet with students. In this class, you don’t need an appointment to come to office hours. Just drop by! You can see either one of us for help during our office hours (and we encourage you to do so).</p>
+<p>Since there are a lot of students in our sections of calculus, we recommend a few things for making office hours productive and fun:</p>
+<ul>
+<li>
+<p>If there are other people waiting to see us, say hi, introduce yourself, and see if you have the same questions. You can work together (and we encourage you to work together!) and then your professor can talk to a bunch of you at once.</p>
+</li>
+<li>
+<p>Bring your professor to you. We like to go where you (and your collaborators) are working on problems together.</p>
+</li>
+<li>
+<p>Know the difference between collaboration (good) and copying someone else&rsquo;s solution (bad). Active collaboration can take many forms: asking &ldquo;Why?&rdquo; a lot; explaining your thinking to someone else; passing the chalk around a group of people and taking turns at the blackboard working on a problem.</p>
+</li>
+<li>
+<p>Collaboration is one of the best parts of being a mathematician. Enjoy it! Make friends! Solve problems! Get stuck! Get unstuck!</p>
+</li>
+</ul>
+<h1 id="fall-2025-tentative-schedule-of-topics-may-be-revised-as-we-go">Fall 2025 Tentative Schedule of Topics (may be revised as we go)</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8/25/2025</td>
+<td></td>
+<td>New Student Orientation</td>
+<td>New Student Orientation</td>
+<td>Classes Start</td>
+<td>First Day of Class</td>
+</tr>
+<tr>
+<td>topic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Overview of Class</td>
+<td></td>
+</tr>
+<tr>
+<td>due</td>
+<td></td>
+<td></td>
+<td></td>
+<td>math autobio</td>
+<td></td>
+</tr>
+<tr>
+<td>9/1/2025</td>
+<td>9/1/2025</td>
+<td>9/2/2025</td>
+<td>9/3/2025</td>
+<td>Add Deadline (2pm)</td>
+<td>9/5/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Review</td>
+<td>u-substitution</td>
+<td>Exp/Logs</td>
+<td></td>
+<td>Inverse Trig</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 1</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>9/8/2025</td>
+<td>9/8/2025</td>
+<td>9/9/2025</td>
+<td>9/10/2025</td>
+<td>9/11/2025</td>
+<td>9/12/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Areas between curves</td>
+<td>Volumes</td>
+<td>Volumes</td>
+<td></td>
+<td>Volumes</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 2</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>9/15/2025</td>
+<td>9/15/2025</td>
+<td>9/16/2025</td>
+<td>9/17/2025</td>
+<td>9/18/2025</td>
+<td>9/19/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Review</td>
+<td></td>
+<td>Arc length</td>
+<td></td>
+<td>Surface Area</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>EXAM 1</td>
+<td>no quiz</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>9/22/2025</td>
+<td>9/22/2025</td>
+<td>9/23/2025</td>
+<td>9/24/2025</td>
+<td>Fallcoming</td>
+<td>Fallcoming</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Integration by parts</td>
+<td>Trig Integrals</td>
+<td>Trig Sub</td>
+<td></td>
+<td>Partial Fractions</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 3</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>9/29/2025</td>
+<td>9/29/2025</td>
+<td>9/30/2025</td>
+<td>10/1/2025</td>
+<td>10/2/2025</td>
+<td>CR/NC &amp; Drop Deadline</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Partial Fractions</td>
+<td>Selecting Techniques</td>
+<td>L&rsquo;Hospital</td>
+<td></td>
+<td>L&rsquo;Hospital</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 4</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>10/6/2025</td>
+<td>10/6/2025</td>
+<td>10/7/2025</td>
+<td>10/8/2025</td>
+<td>10/9/2025</td>
+<td>10/10/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Improper Integrals</td>
+<td>Improper Integrals</td>
+<td>Sequences</td>
+<td></td>
+<td>Sequences</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 5</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>10/13/2025</td>
+<td>10/13/2025</td>
+<td>10/14/2025</td>
+<td>Fall Recess</td>
+<td>Fall Recess</td>
+<td>Fall Recess</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Review</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>EXAM 2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10/20/2025</td>
+<td>10/20/2025</td>
+<td>10/21/2025</td>
+<td>10/22/2025</td>
+<td>10/23/2025</td>
+<td>10/24/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Seq/Series transition</td>
+<td>Series</td>
+<td>Geometric, Telescoping</td>
+<td></td>
+<td>Divergence and Int Test</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 6</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>10/27/2025</td>
+<td>10/27/2025</td>
+<td>10/28/2025</td>
+<td>10/29/2025</td>
+<td>10/30/2025</td>
+<td>10/31/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Comparison Tests</td>
+<td>Comparison Tests</td>
+<td>Alternating Series</td>
+<td></td>
+<td>Alternating Series</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 7</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>11/3/2025</td>
+<td>11/3/2025</td>
+<td>11/4/2025</td>
+<td>11/5/2025</td>
+<td>11/6/2025</td>
+<td>11/7/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Absolute v Conditional</td>
+<td>Ratio/Root</td>
+<td>Ratio/Root</td>
+<td></td>
+<td>Series catch up day</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 8</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>11/10/2025</td>
+<td>11/10/2025</td>
+<td>11/11/2025</td>
+<td>11/12/2025</td>
+<td>11/13/2025</td>
+<td>11/14/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Review</td>
+<td></td>
+<td>Power Series</td>
+<td></td>
+<td>Power Series</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>EXAM 3</td>
+<td>no quiz</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>11/17/2025</td>
+<td>11/17/2025</td>
+<td>11/18/2025</td>
+<td>11/19/2025</td>
+<td>11/20/2025</td>
+<td>11/21/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Series Reps</td>
+<td>Taylor Maclaurin</td>
+<td>Taylor Maclaurin</td>
+<td></td>
+<td>Taylor Maclaurin</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 9</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>11/24/2025</td>
+<td>Thanksgiving Recess</td>
+<td>Thanksgiving Recess</td>
+<td>Thanksgiving Recess</td>
+<td>Thanksgiving Recess</td>
+<td>Thanksgiving Recess</td>
+</tr>
+<tr>
+<td>12/1/2025</td>
+<td>12/1/2025</td>
+<td>12/2/2025</td>
+<td>12/3/2025</td>
+<td>12/4/2025</td>
+<td>12/5/2025</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Review</td>
+<td></td>
+<td>Parametric Eqns</td>
+<td></td>
+<td>Polar Eqns</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>EXAM 4</td>
+<td>no quiz</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>12/8/2025</td>
+<td>12/8/2025</td>
+<td>12/9/2025</td>
+<td>12/10/2025</td>
+<td>12/11/2025</td>
+<td>Last Day of Class</td>
+</tr>
+<tr>
+<td>topic</td>
+<td>Area and Arc Length</td>
+<td>Area and Arc Length</td>
+<td>Taste of 2D/3D</td>
+<td></td>
+<td>Taste of 2D/3D</td>
+</tr>
+<tr>
+<td>due</td>
+<td>LHW</td>
+<td>GHW</td>
+<td>QUIZ 10</td>
+<td></td>
+<td>LHW</td>
+</tr>
+<tr>
+<td>12/15/2025</td>
+<td>Exam Week</td>
+<td>Exam Week</td>
+<td>Final Exam: 9 am - noon</td>
+<td>Exam Week</td>
+<td>Exam Week</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/syllabus/">syllabus</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://crgibbons.github.io/post/syllabi/2025f-math116/&amp;text=Math%20116:%20Calculus%202,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://crgibbons.github.io/post/syllabi/2025f-math116/&amp;t=Math%20116:%20Calculus%202,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Math%20116:%20Calculus%202,%20Fall%202025&amp;body=https://crgibbons.github.io/post/syllabi/2025f-math116/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://crgibbons.github.io/post/syllabi/2025f-math116/&amp;title=Math%20116:%20Calculus%202,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Math%20116:%20Calculus%202,%20Fall%202025%20https://crgibbons.github.io/post/syllabi/2025f-math116/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://crgibbons.github.io/post/syllabi/2025f-math116/&amp;title=Math%20116:%20Calculus%202,%20Fall%202025" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/courtney-r.-gibbons/avatar_hu72d9ec4becff8f3817ab1b2d99a0122a_55980_270x270_fill_lanczos_center_2.png" alt="Courtney R. Gibbons">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://crgibbons.github.io/">Courtney R. Gibbons</a></h5>
+        <h6 class="card-subtitle">Associate Professor of Mathematics</h6>
+        <p class="card-text">Math Professor at Hamilton College since 2013</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/virtualcourtney" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/crgibbons" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/syllabi/2025-math525/">Math 525: Computational Algebra, Fall 2025</a></li>
+      
+      <li><a href="/post/syllabi/2025s-math325/">Math 325 (Writing Intensive): Modern Algebra, Spring 2025</a></li>
+      
+      <li><a href="/post/syllabi/2025-math498/">Math 498 (Seminar): Mathematics in Social Context, Spring 2025</a></li>
+      
+      <li><a href="/post/syllabi/2024f-math325/">Math 325 (Writing Intensive): Modern Algebra</a></li>
+      
+      <li><a href="/post/syllabi/2024-math512/">Math 512: Number Theory, Fall 2024</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

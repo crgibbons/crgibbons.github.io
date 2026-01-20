@@ -737,43 +737,8 @@ colorlinks: true
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt; Please check with me before using resources other than those listed above.  &lt;strong&gt;You may not use generative AI for any purpose without consulting and obtaining the explicit permission of your professor.&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;weekly-topics&#34;&gt;Weekly Topics&lt;/h1&gt;
-&lt;p&gt;The class is responsible for presenting (and recording in a collaborative notes LaTeX document) specific content each week.&lt;/p&gt;
-&lt;h2 id=&#34;week-one&#34;&gt;Week One&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Definitions to present:
-&lt;ul&gt;
-&lt;li&gt;Commutative Ring with Unity,&lt;/li&gt;
-&lt;li&gt;Integral Domain,&lt;/li&gt;
-&lt;li&gt;Field,&lt;/li&gt;
-&lt;li&gt;Subring of a Commutative Ring with Unity,&lt;/li&gt;
-&lt;li&gt;Homomorphism of rings (and kernel and image thereof),&lt;/li&gt;
-&lt;li&gt;Ideal,&lt;/li&gt;
-&lt;li&gt;Principal Ideal,&lt;/li&gt;
-&lt;li&gt;Prime Ideal,&lt;/li&gt;
-&lt;li&gt;Maximal Ideal,&lt;/li&gt;
-&lt;li&gt;Coset of an Ideal&lt;/li&gt;
-&lt;li&gt;Quotient Ring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Examples to Construct:
-&lt;ul&gt;
-&lt;li&gt;Polynomial ring $R$ in two variables with coefficients from a field&lt;/li&gt;
-&lt;li&gt;A principal ideal $(f)$ of $R$&lt;/li&gt;
-&lt;li&gt;An ideal $I$ of $R$ that is not principal&lt;/li&gt;
-&lt;li&gt;An ideal $\mathfrak{p}$ of $R$ that is prime but not maximal&lt;/li&gt;
-&lt;li&gt;An ideal $\mathfrak{m}$ of $R$ that is maximal&lt;/li&gt;
-&lt;li&gt;The quotient rings $R/(f)$, $R/I$, $R/\mathfrak{p}$, $R/\mathfrak{m}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Results to prove:
-&lt;ul&gt;
-&lt;li&gt;Given a homomorphism of commutative rings $\phi: R \to S$, $\mathrm{im}(\phi)$ is a subring of $S$ and $\ker(\phi)$ is an ideal of $R$&lt;/li&gt;
-&lt;li&gt;Given an ideal $I$ of a ring $R$, there is a ring homomorphism with domain $R$ for which $I$ is the kernel. (You have to figure out what the codomain is and what the ring homomorphism is.)&lt;/li&gt;
-&lt;li&gt;For a commutative ring $R$ and a prime ideal $\mathfrak{p}$, $R/\mathfrak{p}$ is an integral domain&lt;/li&gt;
-&lt;li&gt;For a commutative ring $R$ and a maximal ideal $\mathfrak{m}$, $R/\mathfrak{m}$ is a field&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The class is responsible for presenting (and recording in a collaborative notes LaTeX document) specific content each week. 
+&lt;a href=&#34;https://www.overleaf.com/read/pjmgpndnzspc#24f065&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The list of topics is described in this (evolving) overleaf document&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
